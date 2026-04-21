@@ -68,6 +68,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Why-choose dropdowns
+  document.querySelectorAll('.why-dropdown-header').forEach(h => {
+    h.addEventListener('click', () => h.parentElement.classList.toggle('open'));
+  });
+
   // Smooth scroll for anchor links (Read More buttons)
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
