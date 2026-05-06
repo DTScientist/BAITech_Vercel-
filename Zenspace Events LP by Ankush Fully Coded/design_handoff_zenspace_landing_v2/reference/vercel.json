@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/landing-d%20v2.html" }
+  ]
+}
