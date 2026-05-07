@@ -357,30 +357,48 @@
 
   /* E-Glass live demo */
   .eg-glass{
-    width:80%; aspect-ratio:.85;
-    border-radius:8px;
-    border:2px solid var(--navy);
-    background:linear-gradient(180deg, rgba(160,205,249,.5), rgba(160,205,249,.15));
+    width:90%; aspect-ratio:.85;
+    border-radius:12px;
+    border:2px solid rgba(160,205,249,.45);
+    background-image:url('assets/pod-front.png');
+    background-size:cover;
+    background-position:center;
     position:relative;
-    transition:all .9s var(--ease);
     overflow:hidden;
+    transition:border-color .9s var(--ease), box-shadow .9s var(--ease);
+    box-shadow:0 8px 28px rgba(13,30,69,.4);
+    cursor:pointer;
   }
   .eg-glass::before{
-    content:''; position:absolute; inset:8px;
-    border:1px solid rgba(28,63,146,.25); border-radius:4px;
+    content:''; position:absolute; inset:0; z-index:1;
+    background:linear-gradient(180deg, rgba(160,205,249,.07) 0%, transparent 55%);
+    pointer-events:none; border-radius:inherit;
+  }
+  /* Frosted privacy layer */
+  .eg-frost{
+    position:absolute; inset:0; z-index:2;
+    background:rgba(13,30,69,.82);
+    backdrop-filter:blur(18px) saturate(.3);
+    -webkit-backdrop-filter:blur(18px) saturate(.3);
+    border-radius:inherit;
+    opacity:0;
+    transition:opacity .9s var(--ease);
+  }
+  .eg-glass.opaque .eg-frost{opacity:1}
+  .eg-glass.opaque{
+    border-color:rgba(13,30,69,.65);
+    box-shadow:0 8px 32px rgba(13,30,69,.65);
   }
   .eg-glass__lbl{
-    position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
-    font:600 10px var(--f-body); letter-spacing:.24em; text-transform:uppercase;
-    color:var(--navy); transition:color .9s;
-    white-space:nowrap;
+    position:absolute; left:50%; bottom:14px; transform:translateX(-50%);
+    font:600 9px var(--f-body); letter-spacing:.22em; text-transform:uppercase;
+    color:rgba(255,255,255,.92); background:rgba(0,0,0,.5);
+    padding:5px 12px; border-radius:20px;
+    white-space:nowrap; z-index:3;
+    transition:color .9s var(--ease), background .9s var(--ease);
+    backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
   }
-  .eg-glass.opaque{
-    background:linear-gradient(180deg, rgba(13,30,69,.96), rgba(13,30,69,.85));
-    border-color:#070607;
-  }
-  .eg-glass.opaque::before{border-color:rgba(255,255,255,.2)}
-  .eg-glass.opaque .eg-glass__lbl{color:var(--mint)}
+  .eg-glass.opaque .eg-glass__lbl{color:var(--mint); background:rgba(13,30,69,.65)}
   .eg-toggle{
     display:inline-flex; padding:4px;
     background:var(--canvas-deep); border-radius:var(--r-pill);
@@ -978,12 +996,15 @@
           <p class="tile__d" style="color:rgba(255,255,255,.78); max-width:none">Electrochromic glass goes from transparent to fully opaque in under a second — instant on-demand privacy, no curtains, no partitions, no fuss. Try the demo →</p>
         </div>
         <div class="tile__media">
-          <div class="eg-glass" id="egGlass"><div class="eg-glass__lbl" id="egLbl">Transparent</div></div>
+          <div class="eg-glass" id="egGlass" onclick="setEG(this.classList.contains('opaque')?'clear':'opaque')" title="Click to toggle privacy">
+            <div class="eg-frost" id="egFrost"></div>
+            <div class="eg-glass__lbl" id="egLbl">Transparent</div>
+          </div>
           <div class="eg-toggle" role="tablist">
             <button type="button" class="active" data-state="clear" onclick="setEG('clear')">Transparent</button>
             <button type="button" data-state="opaque" onclick="setEG('opaque')">Frosted</button>
           </div>
-          <div style="font:500 11px var(--f-body); letter-spacing:.04em; color:var(--gray-dk); text-align:center">Real pods transition in &lt;1s.</div>
+          <div style="font:500 11px var(--f-body); letter-spacing:.04em; color:var(--gray-dk); text-align:center">Real pods transition in &lt;1s. &nbsp;·&nbsp; Click the glass or use the buttons.</div>
         </div>
       </div>
 
@@ -1611,17 +1632,19 @@
 <script>
   /* E-Glass demo (both hero card + main feature tile) */
   function setEG(state){
-    const g = document.getElementById('egGlass');
-    const l = document.getElementById('egLbl');
+    const g  = document.getElementById('egGlass');
+    const l  = document.getElementById('egLbl');
     const hg = document.getElementById('heroGlass');
     document.querySelectorAll('.eg-toggle button').forEach(b => {
       b.classList.toggle('active', b.dataset.state === state);
     });
     if(state === 'opaque'){
-      g.classList.add('opaque'); l.textContent = 'Frosted (private)';
+      g.classList.add('opaque');
+      l.textContent = 'Frosted · Private';
       if(hg) hg.classList.replace('clear','opaque');
     } else {
-      g.classList.remove('opaque'); l.textContent = 'Transparent';
+      g.classList.remove('opaque');
+      l.textContent = 'Transparent';
       if(hg) hg.classList.replace('opaque','clear');
     }
   }
