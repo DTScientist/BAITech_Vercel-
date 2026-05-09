@@ -1,0 +1,84 @@
+{
+  "generated": "2026-04-02",
+  "target_keyword": "event pod vs trade show booth",
+  "page_type": "blog",
+  "target_word_count": 1500,
+  "url_slug": "/event-pod-vs-trade-show-booth",
+  "seo_title": "Event Pod Vs Trade Show Booth \u2014 [Benefit/Year] | ZenSpace Event Solutions",
+  "seo_title_notes": "50-60 characters. Include primary keyword near the start. Add year or benefit.",
+  "meta_description": "[Write 150-160 chars about event pod vs trade show booth. Include a CTA like 'Get a free quote' or 'Learn more'.]",
+  "h1": "Event Pod Vs Trade Show Booth \u2014 [Compelling Angle]",
+  "h1_notes": "Exactly one H1. Include primary keyword. Make it specific and benefit-driven.",
+  "suggested_h2_structure": [
+    "Why Event Pod Vs Trade Show Booth matters for event organizers",
+    "The current landscape",
+    "Key benefits you should know",
+    "Real-world examples",
+    "How to get started",
+    "What to look for when choosing a provider"
+  ],
+  "primary_keyword": "event pod vs trade show booth",
+  "secondary_keywords": [],
+  "lsi_keywords": [],
+  "content_guidelines": {
+    "opening": "Start with a clear definition or value statement in the first paragraph. AI systems extract this for citations.",
+    "proof_points": "Include specific numbers: events served (250+), pod types (6), setup time (under 30 min), acoustic privacy (-29dB).",
+    "cta": "Include at least 2 CTAs \u2014 one mid-content, one at the end. Link to /contacts for quote requests.",
+    "internal_links": "Link to 5-8 internal pages naturally within the content.",
+    "images": "Include 3-5 images with descriptive alt text containing the target keyword.",
+    "readability": "Short paragraphs (3-4 sentences). Use subheadings every 200-300 words."
+  },
+  "internal_link_targets": [
+    {
+      "url": "https://www.zenspaceevents.com/",
+      "anchor_suggestion": "Zenspace Event Solutions | Meeting Pods | United S"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/4-seater",
+      "anchor_suggestion": "Event 4-seater Pod | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/booking-software",
+      "anchor_suggestion": "Booking Software | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/other-products",
+      "anchor_suggestion": "Other Products for Events | ZenSpace Event Solutio"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/1-seater",
+      "anchor_suggestion": "1-seater Event Pod | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/6-seater",
+      "anchor_suggestion": "6-seater Event Pod | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/aura-gather",
+      "anchor_suggestion": "Aura Gather | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/ada-pod",
+      "anchor_suggestion": "ADA Event Pod | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/digital-kiosk",
+      "anchor_suggestion": "Digital Kiosk | ZenSpace Event Solutions"
+    },
+    {
+      "url": "https://www.zenspaceevents.com/our-process",
+      "anchor_suggestion": "Our Process | ZenSpace Event Solutions"
+    }
+  ],
+  "schema_markup": {
+    "type": "Article",
+    "note": "Add the appropriate schema type after publishing. See the schema implementation guide."
+  },
+  "aieo_optimization": {
+    "definitional_sentence": "Write one clear sentence defining event pod vs trade show booth in the first paragraph. Format: '[Topic] is [definition] that [benefit] for [audience].'",
+    "faq_section": "Add 3-5 FAQ questions at the end with FAQPage schema markup.",
+    "data_points": "Include at least 3 specific statistics or data points that AI systems can cite.",
+    "authoritative_framing": "Position ZenSpace as the expert source. Reference 250+ events delivered, founded 2017, nationwide service."
+  },
+  "competitor_notes": "Check what currently ranks for this keyword. Match or exceed their content depth. Add what they're missing: specific data, real case studies, interactive elements."
+}

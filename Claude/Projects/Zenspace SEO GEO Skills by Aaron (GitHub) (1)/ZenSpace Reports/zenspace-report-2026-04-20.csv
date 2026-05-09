@@ -1,0 +1,47 @@
+Date,Task Name,Status,Category,Due Date,Needs Mayank,Mayank Input Needed,Priority
+2026-04-20,Crawl + audit ZenSpace (33 pages) vs Nook (13 pages),Done,Technical SEO,2026-04-05,NO,,DONE
+2026-04-20,Deploy Cloudflare Worker middleware,Done,Infrastructure,2026-04-05,NO,,DONE
+2026-04-20,Run 16-fix deployment via middleware,Done,Technical SEO,2026-04-05,NO,,DONE
+2026-04-20,Run verification engine on live site,Done,Technical SEO,2026-04-05,NO,,DONE
+2026-04-20,Build Notion Command Center (8 databases),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-20,Build SEO Agent Toolkit (4284 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-20,Build SEO Ecosystem scripts (2021 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-20,Paste Organization schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-04-20,Paste LocalBusiness schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-04-20,Wix: Fix homepage H1 — change 250+ and 15+ from H1 to H2,Done,On-Page SEO,2026-04-06,NO,,DONE
+2026-04-20,Wix: Add AI bot rules to robots.txt,Done,Technical SEO,2026-04-06,NO,,DONE
+2026-04-20,Wix: Paste FAQPage schema on /faq page,Done,Schema Markup,2026-04-06,NO,,DONE
+2026-04-20,Wix: Paste meta descriptions on 9 pages,Done,On-Page SEO,2026-04-07,NO,,DONE
+2026-04-20,Wix: Paste Product schema on 6 pod pages,Done,Schema Markup,2026-04-07,NO,,DONE
+2026-04-20,Wix: Add H1 to privacy-policy + terms-conditions,Done,On-Page SEO,2026-04-08,NO,,DONE
+2026-04-20,Re-run verification engine after manual fixes (change delay to 3s),Done,Technical SEO,2026-04-13,NO,,DONE
+2026-04-20,Wix: Investigate homepage schema missing,Done,Schema Markup,2026-04-13,NO,,DONE
+2026-04-20,Day 8 (Apr 13) — Cowork: Auto-write SF Bay Area city page,Done,Local SEO,2026-04-13,NO,,DONE
+2026-04-20,Review + edit pillar page draft (3200 words),In progress,Content Review,2026-04-14,NO,,ACTIVE
+2026-04-20,Day 1 (Apr 6) — Manual Wix fixes: Product schema on 6 pod pages,Not started,Schema Markup,2026-04-06,NO,,PIPELINE
+2026-04-20,Day 1 (Apr 6) — Manual Wix fixes: robots.txt + H1 + FAQPage schema,Not started,Technical SEO,2026-04-06,NO,,PIPELINE
+2026-04-20,Day 1 (Apr 6) — Manual Wix fixes: 9 meta descriptions + legal H1s,Not started,On-Page SEO,2026-04-06,NO,,PIPELINE
+2026-04-20,Day 3 (Apr 8) — Publish approved pillar + AIEO pages to Wix,Not started,Content Publishing,2026-04-08,NO,,PIPELINE
+2026-04-20,Day 3 (Apr 8) — Cowork: Auto-write Event Pod Rental Cost pricing page,Not started,Content Writing,2026-04-08,NO,,PIPELINE
+2026-04-20,Day 4 (Apr 9) — Cowork: Auto-write SmartPods vs Traditional Booths blog,Not started,Content Writing,2026-04-09,NO,,PIPELINE
+2026-04-20,Download SEO ecosystem package + install on local machine,Not started,Infrastructure,2026-04-09,NO,,PIPELINE
+2026-04-20,Day 5 (Apr 10) — Cowork: Auto-write IoT Pods Lead Capture blog,Not started,Content Writing,2026-04-10,NO,,PIPELINE
+2026-04-20,Day 5 (Apr 10) — Review SmartPods blog. Publish pricing page to Wix,Not started,Content Review,2026-04-10,NO,,PIPELINE
+2026-04-20,Install crontab for automated daily/weekly monitoring,Not started,Infrastructure,2026-04-10,NO,,PIPELINE
+2026-04-20,Day 6 (Apr 11) — Cowork: Auto-write What to Expect from Rental blog,Not started,Content Writing,2026-04-11,NO,,PIPELINE
+2026-04-20,Day 6 (Apr 11) — Review IoT blog. Publish SmartPods blog,Not started,Content Review,2026-04-11,NO,,PIPELINE
+2026-04-20,Image alt text — homepage + pod pages first (50 images),Not started,On-Page SEO,2026-04-12,NO,,PIPELINE
+2026-04-20,Day 7 (Apr 12) — Review What to Expect blog. Publish IoT blog,Not started,Content Review,2026-04-12,NO,,PIPELINE
+2026-04-20,Day 8 (Apr 13) — Review Las Vegas page. Publish What to Expect blog,Not started,Content Review,2026-04-13,NO,,PIPELINE
+2026-04-20,Publish pillar page to Wix at /event-pod-rental,Not started,Content Publishing,2026-04-14,NO,,PIPELINE
+2026-04-20,Day 9 (Apr 14) — Review Chicago page. Publish Las Vegas + remaining,Not started,Content Review,2026-04-14,NO,,PIPELINE
+2026-04-20,Review /event-pod-rental page v2 → approve & publish to Wix,Not started,Content Review,2026-04-14,YES,Review the /event-pod-rental landing page v2 — GEO+CORE-EEAT optimized (82/100). Ready to publish. Follow Wix publish checklist + fix 3 homepage issues.,CRITICAL
+2026-04-20,Day 7 (Apr 15) — Cowork: Auto-write Event Pod Rental Las Vegas city page,Not started,Local SEO,2026-04-15,NO,,PIPELINE
+2026-04-20,Write 2 city pages (Las Vegas + SF Bay Area),Not started,Local SEO,2026-04-15,NO,,PIPELINE
+2026-04-20,Day 10 (Apr 15) — Add schema to all new published pages. Re-run verification,Not started,Schema Markup,2026-04-15,NO,,PIPELINE
+2026-04-20,Write + publish AIEO page: What Is an Event Pod?,Not started,Content Writing,2026-04-15,NO,,PIPELINE
+2026-04-20,Day 9 (Apr 16) — Cowork: Auto-write Event Pod Rental Orlando city page,Not started,Local SEO,2026-04-16,NO,,PIPELINE
+2026-04-20,Day 10 (Apr 17) — Cowork: Auto-write Event Pod Rental New York city page,Not started,Local SEO,2026-04-17,NO,,PIPELINE
+2026-04-20,Write + publish pricing page: Event Pod Rental Cost,Not started,Content Writing,2026-04-19,NO,,PIPELINE
+2026-04-20,Image alt text — case studies + remaining (397 images),Not started,On-Page SEO,2026-04-20,NO,,PIPELINE
+2026-04-20,Write 3 blog posts (SmartPods vs Booths, IoT Lead Capture, What to Expect),Not started,Content Writing,2026-04-26,NO,,PIPELINE

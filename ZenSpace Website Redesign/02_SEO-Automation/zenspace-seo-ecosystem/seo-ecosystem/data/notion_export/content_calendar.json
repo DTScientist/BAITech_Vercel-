@@ -1,0 +1,514 @@
+[
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "The Complete Guide to Event Pod Rentals in 2026"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Pillar Page"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "event pod rental"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "transactional"
+        }
+      },
+      "Word Count": {
+        "number": 3000
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-09"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/event-pod-rental"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Main landing page. Cluster 1 pillar. Target featured snippet with definition."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "What Is an Event Pod? Everything You Need to Know"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "AIEO Page"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "what is an event pod"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "informational"
+        }
+      },
+      "Word Count": {
+        "number": 2000
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-12"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/what-is-an-event-pod"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Critical for AI citations. Clear definition in first paragraph. Add FAQPage schema."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Event Pod Rental Cost: Pricing Guide for 2026"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Landing Page"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "event pod rental cost"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "commercial"
+        }
+      },
+      "Word Count": {
+        "number": 1500
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-16"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/event-pod-rental-cost"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Pricing transparency page. Include ranges, factors, ROI calculator reference."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "5 Ways SmartPods Outperform Traditional Booths on ROI"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Blog Post"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "event pod vs trade show booth"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "commercial"
+        }
+      },
+      "Word Count": {
+        "number": 1500
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-19"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/blog/smartpods-vs-traditional-booths"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Comparison content. Include real data from case studies. Link to /event-pod-rental."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "How IoT-Enabled Pods Capture Lead Data at Scale"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Blog Post"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "IoT event technology"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "informational"
+        }
+      },
+      "Word Count": {
+        "number": 1200
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-23"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/blog/iot-pods-lead-capture"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Top-of-funnel authority content. Link to booking software page."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Event Pod Rental: What to Expect from Pricing to Setup"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Blog Post"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "rent event pod"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "transactional"
+        }
+      },
+      "Word Count": {
+        "number": 1500
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-26"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/blog/event-pod-rental-what-to-expect"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Process walkthrough. Great for featured snippets. Link to /our-process."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "How Event Technology Directors Evaluate IoT Rental Solutions"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "Pillar Page"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "event technology solutions"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "commercial"
+        }
+      },
+      "Word Count": {
+        "number": 2500
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-04-30"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/event-technology-buyers-guide"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Cluster 2 pillar. Target decision-makers. Include evaluation framework."
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Event Pod Rental Las Vegas \u2014 Trade Show Pod Solutions"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Write"
+        }
+      },
+      "Type": {
+        "select": {
+          "name": "City Page"
+        }
+      },
+      "Target Keyword": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "event pod rental las vegas"
+            }
+          }
+        ]
+      },
+      "Intent": {
+        "select": {
+          "name": "local"
+        }
+      },
+      "Word Count": {
+        "number": 1000
+      },
+      "Due Date": {
+        "date": {
+          "start": "2026-05-02"
+        }
+      },
+      "URL Slug": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "/event-pod-rental-las-vegas"
+            }
+          }
+        ]
+      },
+      "Notes": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Local landing page. Mention specific venues (LVCC, Mandalay Bay). Add LocalBusiness schema."
+            }
+          }
+        ]
+      }
+    }
+  }
+]

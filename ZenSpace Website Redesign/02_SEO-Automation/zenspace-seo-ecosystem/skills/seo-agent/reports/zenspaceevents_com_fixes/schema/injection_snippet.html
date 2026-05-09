@@ -1,0 +1,235 @@
+<!-- SCHEMA MARKUP — Add to <head> section -->
+<!-- Organization (all pages) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "[COMPANY_NAME]",
+  "url": "https://www.zenspaceevents.com",
+  "logo": "https://www.zenspaceevents.com/logo.png",
+  "description": "[Company description \u2014 what you do, for whom]",
+  "foundingDate": "[YYYY]",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": "[NUMBER]"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[STREET]",
+    "addressLocality": "[CITY]",
+    "addressRegion": "[STATE]",
+    "postalCode": "[ZIP]",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "[PHONE]",
+    "contactType": "sales",
+    "email": "[EMAIL]"
+  },
+  "sameAs": [
+    "[LINKEDIN_URL]",
+    "[INSTAGRAM_URL]",
+    "[FACEBOOK_URL]",
+    "[TWITTER_URL]"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  }
+}
+</script>
+
+<!-- LocalBusiness (homepage + contact page) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "[COMPANY_NAME]",
+  "url": "https://www.zenspaceevents.com",
+  "image": "https://www.zenspaceevents.com/images/hero.jpg",
+  "description": "[Short description of services]",
+  "telephone": "[PHONE]",
+  "priceRange": "$$-$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[STREET]",
+    "addressLocality": "[CITY]",
+    "addressRegion": "[STATE]",
+    "postalCode": "[ZIP]",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "[LAT]",
+    "longitude": "[LNG]"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Las Vegas"
+    },
+    {
+      "@type": "City",
+      "name": "Chicago"
+    },
+    {
+      "@type": "City",
+      "name": "Orlando"
+    },
+    {
+      "@type": "City",
+      "name": "New York"
+    }
+  ]
+}
+</script>
+
+<!-- WebSite (homepage only) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "[COMPANY_NAME]",
+  "url": "https://www.zenspaceevents.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.zenspaceevents.com/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- FAQPage (FAQ page and any page with FAQ content) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to rent an event pod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Specific pricing information with ranges, factors that affect cost]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the event pod rental?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Delivery, setup, teardown, IoT features, branding options, technical support]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far in advance should I book event pods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Booking timeline, peak seasons, rush availability]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of events are pods suitable for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Trade shows, conferences, corporate events, brand activations, etc.]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does pod setup take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Setup time, requirements, what's included in the service]"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Product (each product/pod page) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[POD_MODEL_NAME]",
+  "description": "[Pod description with capacity, features, use case]",
+  "brand": {
+    "@type": "Brand",
+    "name": "[COMPANY_NAME]"
+  },
+  "image": "https://www.zenspaceevents.com/images/[pod-image].jpg",
+  "category": "Event Equipment Rental",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "[DAILY_RATE]",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.zenspaceevents.com/[product-page]/"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Capacity",
+      "value": "[X] persons"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Setup Time",
+      "value": "Under 30 minutes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IoT Enabled",
+      "value": "Yes"
+    }
+  ]
+}
+</script>
+
+<!-- BreadcrumbList (all pages except homepage) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.zenspaceevents.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "[PAGE_CATEGORY]",
+      "item": "https://www.zenspaceevents.com/[category]/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[PAGE_TITLE]",
+      "item": "https://www.zenspaceevents.com/[category]/[page]/"
+    }
+  ]
+}
+</script>

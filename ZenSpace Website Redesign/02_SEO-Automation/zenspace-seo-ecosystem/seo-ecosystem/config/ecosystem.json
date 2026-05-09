@@ -1,0 +1,76 @@
+{
+  "domain": "zenspaceevents.com",
+  "site_url": "https://www.zenspaceevents.com",
+  "company_name": "ZenSpace Event Solutions",
+  "competitors": [
+    {
+      "domain": "nookeventpods.us",
+      "name": "Nook Event Pods",
+      "url": "https://nookeventpods.us"
+    }
+  ],
+  "telegram": {
+    "bot_token": "",
+    "chat_id": "",
+    "enabled": true
+  },
+  "apis": {
+    "google_search_console": {
+      "credentials_file": "",
+      "property": "https://www.zenspaceevents.com",
+      "note": "Download credentials JSON from Google Cloud Console → APIs → Credentials"
+    },
+    "pagespeed_insights": {
+      "api_key": "",
+      "note": "Free — get from Google Cloud Console → APIs → PageSpeed Insights API → Create credentials"
+    }
+  },
+  "tracked_keywords": [
+    {"keyword": "event pod rental", "priority": 1, "intent": "transactional"},
+    {"keyword": "meeting pod rental for events", "priority": 1, "intent": "transactional"},
+    {"keyword": "trade show pod rental", "priority": 1, "intent": "transactional"},
+    {"keyword": "conference meeting pod", "priority": 1, "intent": "transactional"},
+    {"keyword": "privacy pod rental events", "priority": 2, "intent": "transactional"},
+    {"keyword": "event pod rental cost", "priority": 1, "intent": "commercial"},
+    {"keyword": "event pod rental pricing", "priority": 2, "intent": "commercial"},
+    {"keyword": "best event pod rental companies", "priority": 2, "intent": "commercial"},
+    {"keyword": "nook event pods", "priority": 2, "intent": "commercial"},
+    {"keyword": "trade show booth alternative", "priority": 2, "intent": "commercial"},
+    {"keyword": "what is an event pod", "priority": 2, "intent": "informational"},
+    {"keyword": "event pod vs trade show booth", "priority": 2, "intent": "informational"},
+    {"keyword": "IoT event technology", "priority": 3, "intent": "informational"},
+    {"keyword": "meeting pod for conferences", "priority": 2, "intent": "transactional"},
+    {"keyword": "smart pod rental trade show", "priority": 2, "intent": "transactional"},
+    {"keyword": "event pod rental las vegas", "priority": 2, "intent": "local"},
+    {"keyword": "event pod rental chicago", "priority": 2, "intent": "local"},
+    {"keyword": "event pod rental orlando", "priority": 2, "intent": "local"},
+    {"keyword": "mobile meeting space events", "priority": 2, "intent": "transactional"},
+    {"keyword": "soundproof pod rental events", "priority": 3, "intent": "transactional"}
+  ],
+  "schedule": {
+    "serp_tracking": "daily",
+    "site_audit": "weekly_monday",
+    "cwv_check": "weekly_wednesday",
+    "competitor_scan": "weekly_friday",
+    "weekly_report": "sunday",
+    "monthly_report": "1st_of_month"
+  },
+  "scoring_weights": {
+    "schema_markup": 0.20,
+    "meta_tags": 0.15,
+    "content_depth": 0.15,
+    "headings": 0.10,
+    "images": 0.08,
+    "internal_linking": 0.07,
+    "performance": 0.10,
+    "aieo_geo": 0.15
+  },
+  "alert_thresholds": {
+    "ranking_drop_positions": 5,
+    "cwv_lcp_ms": 2500,
+    "cwv_cls": 0.1,
+    "cwv_inp_ms": 200,
+    "new_competitor_page_alert": true,
+    "schema_validation_errors": true
+  }
+}

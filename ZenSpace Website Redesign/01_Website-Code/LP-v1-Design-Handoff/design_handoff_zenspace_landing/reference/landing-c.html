@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenSpace — Smart Meeting Pods for Trade Shows & Conferences</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1c3f92; --navy-dark:#0d1e45; --navy-mid:#183477; --navy-deep:#133153;
+    --blue:#4099f2; --sky:#a0cdf9; --sky-mid:#79b8f6;
+    --green:#89c46e; --green-mid:#a1d08b; --mint:#c8efb5;
+    --white:#fbfcff; --off:#f4f8ff; --gray:#e6e6e6; --gray-mid:#c8cdd8; --gray-dk:#5a6070;
+    --t:.28s; --ease:cubic-bezier(.4,0,.2,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Poppins',sans-serif;background:var(--white);color:var(--navy-dark);font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 6%}
+  .eyebrow{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--blue);display:inline-flex;align-items:center;gap:10px}
+  .eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--blue)}
+  h1,h2,h3{font-family:'Poppins',sans-serif;font-weight:700;letter-spacing:-.01em;color:var(--navy-dark);line-height:1.08}
+  .center{text-align:center}
+
+  /* ---------- NAV ---------- */
+  .nav{position:sticky;top:0;z-index:100;background:rgba(251,252,255,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--gray)}
+  .nav__inner{display:flex;align-items:center;justify-content:space-between;height:73px}
+  .nav__logo img{height:38px}
+  .nav__links{display:flex;gap:36px}
+  .nav__links a{font-size:14px;font-weight:500;color:var(--gray-dk);transition:color .2s}
+  .nav__links a:hover{color:var(--navy-dark)}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:10px;font-weight:600;font-size:14px;font-family:'Poppins',sans-serif;cursor:pointer;border:0;transition:all var(--t) var(--ease);white-space:nowrap}
+  .btn-green{background:var(--green);color:var(--navy-dark)}
+  .btn-green:hover{background:var(--green-mid);transform:translateY(-2px);box-shadow:0 10px 24px rgba(137,196,110,.35)}
+  .btn-navy{background:var(--navy-dark);color:#fff}
+  .btn-navy:hover{background:var(--navy);transform:translateY(-2px)}
+  .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+  .btn-outline:hover{background:rgba(255,255,255,.08);border-color:#fff}
+  .btn-ghost{background:transparent;color:var(--navy-dark);border:1px solid var(--gray)}
+  .btn-ghost:hover{border-color:var(--navy-dark);transform:translateY(-2px)}
+
+  /* ---------- HERO — CENTERED FOCAL POINT ---------- */
+  .hero{position:relative;min-height:780px;background:var(--navy-dark);color:#fff;overflow:hidden;padding:80px 0 0}
+  .hero::before{content:'';position:absolute;inset:0;background:
+    radial-gradient(ellipse 60% 50% at 50% 100%, rgba(64,153,242,.28) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 50% 0%, rgba(28,63,146,.4) 0%, transparent 70%);
+    pointer-events:none}
+  .hero::after{content:'';position:absolute;inset:0;opacity:.12;background-image:repeating-linear-gradient(45deg,transparent 0 24px,rgba(255,255,255,.06) 24px 25px);pointer-events:none}
+  .hero__inner{position:relative;z-index:2;text-align:center;max-width:980px;margin:0 auto;padding:0 6%}
+  .hero__chip{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:30px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mint);margin-bottom:32px;backdrop-filter:blur(10px)}
+  .hero__chip span{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+  .hero__h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(56px,8vw,128px);line-height:1.0;letter-spacing:-.02em;text-transform:uppercase;color:#fff;margin-bottom:40px}
+  .hero__h em{font-style:normal;background:linear-gradient(135deg,var(--blue) 0%,var(--mint) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;display:block;padding-bottom:.12em}
+  .hero__sub{font-size:19px;line-height:1.6;color:rgba(255,255,255,.72);max-width:640px;margin:0 auto 40px;font-weight:300}
+  .hero__sub strong{color:#fff;font-weight:500}
+  .hero__cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:80px}
+
+  /* split visual band below hero */
+  .hero__split{position:relative;z-index:2;display:grid;grid-template-columns:1fr auto 1fr;gap:0;align-items:stretch;border-top:1px solid rgba(255,255,255,.1)}
+  .hero__side{padding:36px 6%;text-align:left}
+  .hero__side--r{text-align:right;background:rgba(255,255,255,.03)}
+  .hero__side__lbl{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:8px}
+  .hero__side__txt{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:22px;line-height:1.15;color:rgba(255,255,255,.9);text-transform:uppercase;letter-spacing:-.005em}
+  .hero__side--r .hero__side__txt{color:var(--mint)}
+  .hero__door{display:flex;align-items:center;justify-content:center;padding:0 28px;border-left:1px solid rgba(255,255,255,.1);border-right:1px solid rgba(255,255,255,.1)}
+  .hero__door span{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--mint);writing-mode:vertical-rl;transform:rotate(180deg);padding:8px 0}
+
+  /* ---------- TICKER ---------- */
+  .ticker{background:var(--white);border-bottom:1px solid var(--gray);padding:0;overflow:hidden;position:relative}
+  .ticker::before,.ticker::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none}
+  .ticker::before{left:0;background:linear-gradient(90deg,var(--white),transparent)}
+  .ticker::after{right:0;background:linear-gradient(270deg,var(--white),transparent)}
+  .ticker__track{display:flex;gap:64px;padding:24px 0;animation:scroll 30s linear infinite;width:max-content}
+  @keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  .ticker__item{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:20px;color:var(--navy-deep);letter-spacing:.04em;display:flex;align-items:center;gap:64px;white-space:nowrap}
+  .ticker__item::after{content:'●';color:var(--blue);font-size:8px}
+  .ticker__item:last-child::after{display:none}
+
+  /* ---------- STATS BAR ---------- */
+  .stats{background:var(--white);padding:80px 0;border-bottom:1px solid var(--gray)}
+  .stats__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center}
+  .stats__i{padding:20px;border-right:1px solid var(--gray);position:relative}
+  .stats__i:last-child{border-right:0}
+  .stats__big{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(56px,7vw,96px);line-height:1;letter-spacing:-.03em;background:linear-gradient(135deg,var(--navy-dark) 0%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:8px}
+  .stats__t{font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-dk)}
+
+  /* ---------- SECTION SHELL ---------- */
+  .sec{padding:130px 0;position:relative}
+  .sec--dark{background:var(--navy-dark);color:#fff}
+  .sec--off{background:var(--off)}
+  .sec--off2{background:linear-gradient(180deg,var(--white) 0%,var(--off) 100%)}
+  .sec__head{margin-bottom:80px;text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
+  .sec--dark .sec__head .eyebrow{color:var(--mint)}
+  .sec--dark .sec__head .eyebrow::before{background:var(--mint)}
+  .sec__h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(40px,5vw,72px);line-height:.98;letter-spacing:-.015em;text-transform:uppercase;margin-top:20px;margin-bottom:20px}
+  .sec--dark .sec__h{color:#fff}
+  .sec__h em{font-style:normal;color:var(--blue)}
+  .sec--dark .sec__h em{background:linear-gradient(135deg,var(--mint),var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec__lede{font-size:17px;line-height:1.65;color:var(--gray-dk);max-width:580px;margin:0 auto}
+  .sec--dark .sec__lede{color:rgba(255,255,255,.7)}
+
+  /* ---------- FEATURES — ASYMMETRIC HERO + GRID ---------- */
+  .feat{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-bottom:24px}
+  .feat__hero{padding:56px 48px;background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 100%);color:#fff;border-radius:20px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;min-height:420px}
+  .feat__hero::after{content:'';position:absolute;top:-50%;right:-30%;width:500px;height:500px;background:radial-gradient(circle,rgba(64,153,242,.3) 0%,transparent 60%)}
+  .feat__hero__num{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:14px;letter-spacing:.2em;color:var(--mint);position:relative}
+  .feat__hero__t{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(36px,4vw,56px);line-height:1;text-transform:uppercase;letter-spacing:-.015em;color:#fff;position:relative;margin:auto 0 14px}
+  .feat__hero__d{font-size:15px;line-height:1.65;color:rgba(255,255,255,.7);max-width:380px;position:relative}
+  .feat__demo{padding:36px 32px;background:#fff;border:1px solid var(--gray);border-radius:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;min-height:420px;position:relative}
+  .glass{width:170px;height:200px;border-radius:8px;border:2px solid var(--navy);background:linear-gradient(180deg,rgba(160,205,249,.4) 0%,rgba(160,205,249,.15) 100%);position:relative;margin-bottom:22px;transition:all .8s var(--ease);overflow:hidden}
+  .glass::before{content:'';position:absolute;inset:8px;border:1px solid rgba(28,63,146,.3);border-radius:4px}
+  .glass.opaque{background:linear-gradient(180deg,rgba(13,30,69,.95) 0%,rgba(13,30,69,.85) 100%);border-color:var(--navy-dark)}
+  .glass.opaque::before{border-color:rgba(255,255,255,.15)}
+  .glass__lbl{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--navy);transition:color .8s;white-space:nowrap}
+  .glass.opaque .glass__lbl{color:var(--mint)}
+  .glass__toggle{display:inline-flex;background:var(--off);border:1px solid var(--gray);border-radius:30px;padding:4px;margin-bottom:14px;gap:2px}
+  .glass__toggle button{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gray-dk);background:transparent;border:0;padding:8px 18px;border-radius:24px;cursor:pointer;transition:all .25s var(--ease)}
+  .glass__toggle button.active{background:var(--navy-dark);color:#fff;box-shadow:0 4px 10px rgba(13,30,69,.18)}
+  .feat__demo__lbl{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--blue);margin-bottom:6px}
+  .feat__demo__d{font-size:13px;color:var(--gray-dk);max-width:260px}
+
+  .feat__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .feat__card{padding:36px 28px;background:#fff;border:1px solid var(--gray);border-radius:20px;transition:all var(--t) var(--ease)}
+  .feat__card:hover{border-color:var(--navy);transform:translateY(-4px);box-shadow:0 16px 40px rgba(13,30,69,.08)}
+  .feat__card__num{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.18em;color:var(--gray-dk);margin-bottom:24px}
+  .feat__card__t{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;line-height:1.1;text-transform:uppercase;letter-spacing:-.005em;margin-bottom:10px;color:var(--navy-dark)}
+  .feat__card__d{font-size:14px;line-height:1.65;color:var(--gray-dk)}
+
+  /* ---------- AUDIENCES — ALTERNATING ---------- */
+  .aud{display:flex;flex-direction:column;gap:0}
+  .aud__row{display:grid;grid-template-columns:120px 1fr 1fr;gap:48px;align-items:center;padding:64px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+  .aud__row:last-child{border-bottom:0}
+  .aud__row:nth-child(even){grid-template-columns:1fr 1fr 120px}
+  .aud__row:nth-child(even) .aud__num{order:3;text-align:right}
+  .aud__row:nth-child(even) .aud__main{order:2;text-align:right}
+  .aud__row:nth-child(even) .aud__side{order:1}
+  .aud__num{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:80px;line-height:.85;color:rgba(255,255,255,.15);letter-spacing:-.04em}
+  .aud__lbl{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--mint);margin-bottom:14px}
+  .aud__t{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(32px,3.6vw,52px);line-height:1;letter-spacing:-.01em;text-transform:uppercase;color:#fff;margin-bottom:16px}
+  .aud__t em{font-style:normal;color:var(--blue)}
+  .aud__q{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:18px;color:var(--sky);line-height:1.3}
+  .aud__d{font-size:15px;line-height:1.7;color:rgba(255,255,255,.7);margin-bottom:20px}
+  .aud__tag{display:flex;flex-wrap:wrap;gap:8px}
+  .aud__row:nth-child(even) .aud__tag{justify-content:flex-end}
+  .aud__tag span{font-family:'Barlow Condensed',sans-serif;font-weight:500;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.7);padding:6px 12px;border:1px solid rgba(255,255,255,.2);border-radius:20px}
+
+  /* ---------- PROCESS — VERTICAL TIMELINE ---------- */
+  .proc{position:relative;max-width:920px;margin:0 auto}
+  .proc::before{content:'';position:absolute;left:60px;top:24px;bottom:24px;width:2px;background:linear-gradient(180deg,var(--blue) 0%,var(--green) 100%)}
+  .proc__phase{padding:18px 0 18px 96px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--blue);position:relative}
+  .proc__phase::before{content:'';position:absolute;left:54px;top:50%;width:14px;height:14px;border-radius:50%;background:var(--blue);border:3px solid var(--white)}
+  .proc__i{display:grid;grid-template-columns:120px 1fr;gap:40px;padding:32px 0;align-items:start;position:relative}
+  .proc__sq{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:48px;color:var(--navy-dark);text-align:right;line-height:1;background:var(--white);padding:0 12px 0 0;position:relative;z-index:2;letter-spacing:-.03em}
+  .proc__sq::after{content:'';position:absolute;right:-22px;top:14px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--navy-dark);z-index:3}
+  .proc__c{padding-top:6px}
+  .proc__t{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:28px;line-height:1.1;text-transform:uppercase;letter-spacing:-.005em;margin-bottom:10px;color:var(--navy-dark)}
+  .proc__d{font-size:15px;line-height:1.65;color:var(--gray-dk);max-width:560px}
+
+  /* ---------- BEFORE/AFTER ---------- */
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+  .ba__c{padding:56px 44px;border-radius:24px;display:flex;flex-direction:column;justify-content:space-between;min-height:480px}
+  .ba__c--b{background:linear-gradient(180deg,#0d1e45 0%,#1c3f92 100%);color:#fff;position:relative;overflow:hidden}
+  .ba__c--b::after{content:'';position:absolute;inset:0;opacity:.1;background-image:repeating-linear-gradient(45deg,transparent 0 18px,rgba(255,255,255,.1) 18px 19px);pointer-events:none}
+  .ba__c--a{background:#fff;border:1px solid var(--gray);box-shadow:0 24px 64px rgba(13,30,69,.08)}
+  .ba__lbl{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:18px;position:relative}
+  .ba__c--b .ba__lbl{color:rgba(255,255,255,.5)}
+  .ba__c--a .ba__lbl{color:var(--green)}
+  .ba__t{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:36px;line-height:1.05;text-transform:uppercase;letter-spacing:-.01em;margin-bottom:32px;position:relative}
+  .ba__c--b .ba__t{color:#fff}
+  .ba__list{display:flex;flex-direction:column;gap:14px;position:relative}
+  .ba__list li{list-style:none;padding-left:32px;position:relative;font-size:15px;line-height:1.55}
+  .ba__c--b .ba__list li{color:rgba(255,255,255,.75)}
+  .ba__c--a .ba__list li{color:var(--navy-dark)}
+  .ba__c--b .ba__list li::before{content:'×';position:absolute;left:0;top:-2px;width:20px;height:20px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.4);font-size:18px}
+  .ba__c--a .ba__list li::before{content:'✓';position:absolute;left:0;top:0;width:20px;height:20px;display:flex;align-items:center;justify-content:center;background:var(--green);color:var(--navy-dark);border-radius:50%;font-size:11px;font-weight:700}
+
+  /* ---------- RESULTS — BENTO GRID ---------- */
+  .res{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+  .res__i{padding:40px 36px;background:#fff;border:1px solid var(--gray);border-radius:20px;position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:280px;transition:all var(--t) var(--ease);overflow:hidden}
+  .res__i:hover{border-color:var(--navy);transform:translateY(-4px);box-shadow:0 24px 60px rgba(13,30,69,.1)}
+  .res__i:nth-child(1){grid-column:span 7;background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 100%);color:#fff;border:0;min-height:340px}
+  .res__i:nth-child(1)::after{content:'';position:absolute;top:-30%;right:-20%;width:500px;height:500px;background:radial-gradient(circle,rgba(137,196,110,.2) 0%,transparent 60%)}
+  .res__i:nth-child(2){grid-column:span 5}
+  .res__i:nth-child(3){grid-column:span 4}
+  .res__i:nth-child(4){grid-column:span 4}
+  .res__i:nth-child(5){grid-column:span 4}
+  .res__big{font-family:'Barlow Condensed',sans-serif;font-weight:700;line-height:1;letter-spacing:-.03em;margin-bottom:8px;position:relative}
+  .res__i:nth-child(1) .res__big{font-size:120px;background:linear-gradient(135deg,#fff 0%,var(--mint) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .res__i:not(:nth-child(1)) .res__big{font-size:64px;background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .res__big sup{font-size:.45em;font-weight:600;margin-left:4px;-webkit-text-fill-color:currentColor;color:inherit}
+  .res__i:nth-child(1) .res__big sup{color:var(--mint)}
+  .res__i:not(:nth-child(1)) .res__big sup{color:var(--blue)}
+  .res__t{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gray-dk);margin-bottom:18px;position:relative}
+  .res__i:nth-child(1) .res__t{color:rgba(255,255,255,.5)}
+  .res__h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:24px;line-height:1.15;text-transform:uppercase;color:var(--navy-dark);letter-spacing:-.005em;position:relative}
+  .res__i:nth-child(1) .res__h{color:#fff;font-size:32px}
+  .res__d{font-size:13px;color:var(--gray-dk);margin-top:8px;line-height:1.55;position:relative}
+  .res__i:nth-child(1) .res__d{color:rgba(255,255,255,.7);font-size:15px}
+
+  /* ---------- CTA BAND ---------- */
+  .cta{padding:100px 0;background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 50%,var(--navy-deep) 100%);position:relative;overflow:hidden;text-align:center}
+  .cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 50% 50%,rgba(137,196,110,.15) 0%,transparent 70%)}
+  .cta__inner{position:relative;max-width:760px;margin:0 auto;padding:0 6%}
+  .cta__h{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(40px,5vw,72px);line-height:1;text-transform:uppercase;letter-spacing:-.015em;color:#fff;margin:18px 0 20px}
+  .cta__h em{font-style:normal;background:linear-gradient(135deg,var(--mint) 0%,var(--green) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .cta__sub{font-size:17px;color:rgba(255,255,255,.7);margin-bottom:36px;max-width:540px;margin-left:auto;margin-right:auto}
+  .cta__btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+  /* ---------- QUOTE FORM ---------- */
+  .form{display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:start}
+  .form__col h2{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(40px,4.8vw,64px);line-height:.98;text-transform:uppercase;letter-spacing:-.015em;margin:18px 0 20px}
+  .form__col p{font-size:16px;color:var(--gray-dk);line-height:1.65;margin-bottom:36px;max-width:480px}
+  .form__reasons{list-style:none;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--gray)}
+  .form__reasons li{padding:18px 0;border-bottom:1px solid var(--gray);font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:15px;letter-spacing:.04em;color:var(--navy-dark);display:flex;align-items:center;gap:14px;cursor:pointer;transition:padding .2s}
+  .form__reasons li:hover{padding-left:8px;color:var(--navy)}
+  .form__reasons li::before{content:'→';color:var(--blue);font-size:18px;transition:transform .2s}
+  .form__reasons li:hover::before{transform:translateX(4px)}
+  .form__box{background:#fff;border:1px solid var(--gray);padding:48px;border-radius:20px;box-shadow:0 24px 60px rgba(13,30,69,.06)}
+  .form__row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .form__field{margin-bottom:18px}
+  .form__field label{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-dk);margin-bottom:8px}
+  .form__field input,.form__field select,.form__field textarea{width:100%;padding:14px 16px;border:1px solid var(--gray);background:var(--off);font-family:'Poppins',sans-serif;font-size:14px;color:var(--navy-dark);border-radius:8px;transition:all .2s}
+  .form__field input:focus,.form__field select:focus,.form__field textarea:focus{outline:0;border-color:var(--navy);background:#fff}
+  .form__field textarea{resize:vertical;min-height:96px}
+  .form__sla{font-size:12px;color:var(--gray-dk);margin-top:14px;display:flex;align-items:center;gap:8px;justify-content:center}
+  .form__sla::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--navy-dark);color:#fff;padding:80px 0 32px}
+  .foot{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px;margin-bottom:64px}
+  .foot__brand img{height:42px;margin-bottom:24px;filter:brightness(0) invert(1)}
+  .foot__brand p{font-size:14px;color:rgba(255,255,255,.55);max-width:280px;line-height:1.65;margin-bottom:24px}
+  .foot__col h4{font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--mint);margin-bottom:18px}
+  .foot__col a{display:block;font-size:14px;color:rgba(255,255,255,.7);margin-bottom:12px;transition:color .2s}
+  .foot__col a:hover{color:#fff}
+  .foot__bot{padding-top:32px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.4);font-family:'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase}
+
+  /* ---------- ANIMATIONS ---------- */
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+    .reveal.in{opacity:1;transform:none}
+    .reveal-l{opacity:0;transform:translateX(-32px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+    .reveal-l.in{opacity:1;transform:none}
+    .reveal-r{opacity:0;transform:translateX(32px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+    .reveal-r.in{opacity:1;transform:none}
+    .reveal-scale{opacity:0;transform:scale(.96);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+    .reveal-scale.in{opacity:1;transform:none}
+    .stagger > *{opacity:0;transform:translateY(20px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+    .stagger.in > *{opacity:1;transform:none}
+    .stagger.in > *:nth-child(1){transition-delay:.05s}
+    .stagger.in > *:nth-child(2){transition-delay:.13s}
+    .stagger.in > *:nth-child(3){transition-delay:.21s}
+    .stagger.in > *:nth-child(4){transition-delay:.29s}
+    .stagger.in > *:nth-child(5){transition-delay:.37s}
+    .stagger.in > *:nth-child(6){transition-delay:.45s}
+    .stagger.in > *:nth-child(7){transition-delay:.53s}
+    /* hero entrance */
+    .hero__chip,.hero__h,.hero__sub,.hero__cta,.hero__split{opacity:0;transform:translateY(18px);animation:heroIn .9s var(--ease) forwards}
+    .hero__h{animation-delay:.12s}
+    .hero__sub{animation-delay:.24s}
+    .hero__cta{animation-delay:.34s}
+    .hero__split{animation-delay:.5s;transform:translateY(0);opacity:0;animation-name:heroFade}
+    @keyframes heroIn{to{opacity:1;transform:none}}
+    @keyframes heroFade{to{opacity:1}}
+    /* count-up baseline */
+    .count{display:inline-block}
+    /* card hover lift micro */
+    .feat__card,.res__i{will-change:transform}
+    /* shimmer underline on links in nav */
+    .nav__links a{position:relative}
+    .nav__links a::after{content:'';position:absolute;left:0;right:0;bottom:-6px;height:2px;background:linear-gradient(90deg,var(--blue),var(--green));transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+    .nav__links a:hover::after{transform:scaleX(1)}
+    /* button shine */
+    .btn-green{position:relative;overflow:hidden}
+    .btn-green::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);transition:left .6s var(--ease)}
+    .btn-green:hover::before{left:100%}
+    /* hero floating chip pulse already exists; add door label glow */
+    .hero__door span{animation:doorGlow 3.6s ease-in-out infinite}
+    @keyframes doorGlow{0%,100%{opacity:.6}50%{opacity:1}}
+    /* parallax-ish hero gradient */
+    .hero::before{animation:heroBgDrift 14s ease-in-out infinite alternate}
+    @keyframes heroBgDrift{0%{transform:translate3d(0,0,0)}100%{transform:translate3d(0,-2%,0)}}
+    /* timeline dot grow on reveal */
+    .proc__i .proc__sq::after{transition:transform .5s var(--ease) .2s,background .3s var(--ease)}
+    .proc__i.in .proc__sq::after{transform:scale(1.25);background:var(--green)}
+    /* glass demo subtle idle */
+    .glass{box-shadow:0 0 0 0 rgba(64,153,242,0)}
+    .glass:not(.opaque){animation:glassPulse 4s ease-in-out infinite}
+    @keyframes glassPulse{0%,100%{box-shadow:0 0 0 0 rgba(64,153,242,0)}50%{box-shadow:0 0 32px 0 rgba(64,153,242,.25)}}
+    /* form reasons hover already; add focus ring on focus */
+    .form__field input:focus,.form__field select:focus,.form__field textarea:focus{box-shadow:0 0 0 3px rgba(64,153,242,.15)}
+  }
+
+  /* ---------- BACK LINK ---------- */
+  .back{position:fixed;top:90px;left:24px;z-index:200;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:rgba(13,30,69,.85);backdrop-filter:blur(8px);padding:8px 14px;border:1px solid rgba(255,255,255,.2);border-radius:20px}
+  .back:hover{color:#fff;border-color:#fff;background:var(--navy-dark)}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:1024px){
+    .hero{padding-top:64px;min-height:auto}
+    .hero__split{grid-template-columns:1fr;gap:0}
+    .hero__door{display:none}
+    .hero__side,.hero__side--r{text-align:center;padding:24px 6%}
+    .stats__grid{grid-template-columns:repeat(2,1fr)}
+    .stats__i:nth-child(2){border-right:0}
+    .stats__i:nth-child(1),.stats__i:nth-child(2){border-bottom:1px solid var(--gray)}
+    .sec{padding:80px 0}
+    .feat{grid-template-columns:1fr}
+    .feat__hero,.feat__demo{min-height:auto}
+    .feat__grid{grid-template-columns:1fr}
+    .aud__row,.aud__row:nth-child(even){grid-template-columns:1fr;gap:20px;text-align:left;padding:48px 0}
+    .aud__row:nth-child(even) .aud__num,.aud__row:nth-child(even) .aud__main,.aud__row:nth-child(even) .aud__side{order:initial;text-align:left}
+    .aud__row:nth-child(even) .aud__tag{justify-content:flex-start}
+    .aud__num{font-size:60px}
+    .proc{max-width:none}
+    .proc::before{left:24px}
+    .proc__phase{padding-left:60px}
+    .proc__phase::before{left:18px}
+    .proc__i{grid-template-columns:60px 1fr;gap:20px}
+    .proc__sq{font-size:32px}
+    .proc__sq::after{right:-12px}
+    .ba{grid-template-columns:1fr}
+    .res{grid-template-columns:1fr}
+    .res__i{grid-column:span 1!important;min-height:auto!important}
+    .res__i:nth-child(1) .res__big{font-size:80px}
+    .form{grid-template-columns:1fr;gap:48px}
+    .foot{grid-template-columns:1fr 1fr;gap:32px}
+    .nav__links{display:none}
+  }
+  @media (max-width:600px){
+    .form__row{grid-template-columns:1fr}
+    .foot{grid-template-columns:1fr}
+    .foot__bot{flex-direction:column;gap:8px}
+    .back{display:none}
+    .form__box{padding:28px}
+  }
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back">← Back to overview</a>
+
+<nav class="nav">
+  <div class="wrap nav__inner">
+    <a href="#top" class="nav__logo"><img src="assets/logo-horizontal-dark.png" alt="ZenSpace Event Solutions"></a>
+    <div class="nav__links">
+      <a href="#pods">Pods</a>
+      <a href="#software">Software</a>
+      <a href="#process">Process</a>
+      <a href="#results">Results</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="btn btn-green">Get a Quote</a>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="hero__inner">
+    <div class="hero__chip"><span></span>250+ events delivered since 2017</div>
+    <h1 class="hero__h">On-demand workspace.<em>Anytime. Anyplace.</em></h1>
+    <p class="hero__sub">Smart, soundproof, <strong>UL-certified</strong> meeting pods for trade shows, conferences, and corporate events. Refined by experience — and one 5 Amp outlet is the only thing we'll ever ask of you.</p>
+    <div class="hero__cta">
+      <a href="#contact" class="btn btn-green">Get a Quote</a>
+      <a href="#pods" class="btn btn-outline">Explore Pods</a>
+    </div>
+  </div>
+  <div class="hero__split">
+    <div class="hero__side">
+      <div class="hero__side__lbl">Outside</div>
+      <div class="hero__side__txt">Crowded floors.<br>Constant noise.<br>Conversations that<br>never quite happen.</div>
+    </div>
+    <div class="hero__door"><span>The Door</span></div>
+    <div class="hero__side hero__side--r">
+      <div class="hero__side__lbl">Inside</div>
+      <div class="hero__side__txt">Soundproof rooms.<br>Real conversations.<br>Qualified leads —<br>captured automatically.</div>
+    </div>
+  </div>
+</section>
+
+<section class="ticker">
+  <div class="ticker__track">
+    <span class="ticker__item">IAEE</span><span class="ticker__item">IMEX Group</span><span class="ticker__item">MPI</span><span class="ticker__item">SISO</span><span class="ticker__item">IAVM</span><span class="ticker__item">Questex</span><span class="ticker__item">Hospitality Show</span><span class="ticker__item">VenueConnect</span><span class="ticker__item">Expo! Expo!</span><span class="ticker__item">ILHA Inspire</span>
+    <span class="ticker__item">IAEE</span><span class="ticker__item">IMEX Group</span><span class="ticker__item">MPI</span><span class="ticker__item">SISO</span><span class="ticker__item">IAVM</span><span class="ticker__item">Questex</span><span class="ticker__item">Hospitality Show</span><span class="ticker__item">VenueConnect</span><span class="ticker__item">Expo! Expo!</span><span class="ticker__item">ILHA Inspire</span>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap">
+    <div class="stats__grid">
+      <div class="stats__i"><div class="stats__big">250<sup style="font-size:.5em;color:var(--blue)">+</sup></div><div class="stats__t">Events delivered</div></div>
+      <div class="stats__i"><div class="stats__big">93<sup style="font-size:.5em;color:var(--blue)">%</sup></div><div class="stats__t">IMEX peak utilization</div></div>
+      <div class="stats__i"><div class="stats__big">600<sup style="font-size:.5em;color:var(--blue)">+</sup></div><div class="stats__t">IMEX users registered</div></div>
+      <div class="stats__i"><div class="stats__big">5<sup style="font-size:.5em;color:var(--blue)">A</sup></div><div class="stats__t">Only client requirement</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--off2" id="pods">
+  <div class="wrap">
+    <div class="sec__head">
+      <span class="eyebrow">Smart Meeting Pods · 01</span>
+      <h2 class="sec__h">15+ smart features.<br>One <em>5 Amp</em> outlet.</h2>
+      <p class="sec__lede">The ZenSpace 4-Seater Pod is fully enclosed, soundproof, and UL-certified — built for trade show floors and conference venues. Deploy a single unit or a fleet of 30+. We handle everything. You provide power.</p>
+    </div>
+
+    <div class="feat">
+      <div class="feat__hero">
+        <div class="feat__hero__num">— Feature 01</div>
+        <div>
+          <h3 class="feat__hero__t">Smart E-Glass.<br>Privacy in 1<br>second.</h3>
+          <p class="feat__hero__d">Electrochromic glass goes from transparent to fully opaque in under a second — instant on-demand privacy, no curtains, no partitions, no fuss.</p>
+        </div>
+      </div>
+      <div class="feat__demo">
+        <div class="glass" id="egGlass"><div class="glass__lbl" id="egLbl">Transparent</div></div>
+        <div class="glass__toggle" role="tablist">
+          <button type="button" class="active" data-state="clear" onclick="setEG('clear')">Transparent</button>
+          <button type="button" data-state="opaque" onclick="setEG('opaque')">Frosted</button>
+        </div>
+        <div class="feat__demo__lbl">Smart E-Glass · Live demo</div>
+        <div class="feat__demo__d">Switch the state — real pods transition in under one second.</div>
+      </div>
+      <script>
+        function setEG(state){
+          var g=document.getElementById('egGlass'),l=document.getElementById('egLbl');
+          var btns=document.querySelectorAll('.glass__toggle button');
+          btns.forEach(function(b){b.classList.toggle('active',b.dataset.state===state)});
+          if(state==='opaque'){g.classList.add('opaque');l.textContent='Frosted (private)'}
+          else{g.classList.remove('opaque');l.textContent='Transparent'}
+        }
+      </script>
+    </div>
+
+    <div class="feat__grid">
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 02</div>
+        <h3 class="feat__card__t">AI Remote<br>Monitoring</h3>
+        <p class="feat__card__d">Real-time alerts for occupancy, open doors, loitering, and lost items — visible on the organizer dashboard, zero extra staff.</p>
+      </div>
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 03</div>
+        <h3 class="feat__card__t">Built-in<br>Connectivity</h3>
+        <p class="feat__card__d">Dedicated WiFi, Airtame wireless screen sharing, and a USB-C power hub — ready the moment the door closes.</p>
+      </div>
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 04</div>
+        <h3 class="feat__card__t">Soundproof<br>Acoustics</h3>
+        <p class="feat__card__d">Industry-grade acoustic panels and floor system — completely private regardless of surrounding floor noise.</p>
+      </div>
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 05</div>
+        <h3 class="feat__card__t">Self-serve<br>QR Booking</h3>
+        <p class="feat__card__d">10" on-site displays, real-time utilization dashboard, post-event lead reports — pods that manage themselves.</p>
+      </div>
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 06</div>
+        <h3 class="feat__card__t">Brand<br>Surfaces</h3>
+        <p class="feat__card__d">Full exterior wraps and dynamic digital screens — updateable in real time, even mid-event.</p>
+      </div>
+      <div class="feat__card">
+        <div class="feat__card__num">— Feature 07</div>
+        <h3 class="feat__card__t">Lead Data,<br>Captured</h3>
+        <p class="feat__card__d">Names, companies, emails, phone numbers — collected at booking, delivered post-event with full utilization context.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--dark" id="who">
+  <div class="wrap">
+    <div class="sec__head">
+      <span class="eyebrow">Built for · 02</span>
+      <h2 class="sec__h">Three audiences.<br>One <em>full-service</em> solution.</h2>
+      <p class="sec__lede">Whether you run the event, exhibit on the floor, or spec the solution for your clients — ZenSpace integrates into the way you already work.</p>
+    </div>
+
+    <div class="aud">
+      <div class="aud__row">
+        <div class="aud__num">01</div>
+        <div class="aud__main">
+          <div class="aud__lbl">Event Runners</div>
+          <h3 class="aud__t">You control<br>the <em>event</em> itself.</h3>
+          <p class="aud__q">"Private space at scale — without adding headcount."</p>
+        </div>
+        <div class="aud__side">
+          <p class="aud__d">For trade show & conference organizers and corporate event planners responsible for the full attendee experience: floor layout, scheduling, and on-site operations.</p>
+          <div class="aud__tag"><span>Organizers</span><span>Planners</span></div>
+        </div>
+      </div>
+
+      <div class="aud__row">
+        <div class="aud__num">02</div>
+        <div class="aud__main">
+          <div class="aud__lbl">Floor Participants</div>
+          <h3 class="aud__t">You compete for<br><em>attention</em> on the floor.</h3>
+          <p class="aud__q">"Turn footprint into qualified meetings."</p>
+        </div>
+        <div class="aud__side">
+          <p class="aud__d">For exhibitors, sponsors, and industry partners investing in floor presence. ZenSpace turns your footprint into a destination for real conversations — and captured leads.</p>
+          <div class="aud__tag"><span>Exhibitors</span><span>Sponsors</span><span>Partners</span></div>
+        </div>
+      </div>
+
+      <div class="aud__row">
+        <div class="aud__num">03</div>
+        <div class="aud__main">
+          <div class="aud__lbl">Industry Partners</div>
+          <h3 class="aud__t">You spec & procure<br>for <em>clients</em>.</h3>
+          <p class="aud__q">"A turnkey pod you can confidently recommend."</p>
+        </div>
+        <div class="aud__side">
+          <p class="aud__d">For GSCs, exhibit design houses, agencies, and venues who shape the physical environment. ZenSpace is a spec-ready option that integrates into your existing workflow.</p>
+          <div class="aud__tag"><span>GSCs</span><span>Designers</span><span>Venues</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="process">
+  <div class="wrap">
+    <div class="sec__head">
+      <span class="eyebrow">The process · 03</span>
+      <h2 class="sec__h">Five steps.<br><em>Zero burden</em> on your team.</h2>
+      <p class="sec__lede">From onboarding to removal — we handle every detail. The only decision you make is the one you want to make.</p>
+    </div>
+
+    <div class="proc">
+      <div class="proc__phase">— Before the event</div>
+      <div class="proc__i">
+        <div class="proc__sq">01</div>
+        <div class="proc__c">
+          <h3 class="proc__t">Alignment & onboarding</h3>
+          <p class="proc__d">A specialist guides you through pod count, schedule, floor plan, and branding. Returning clients use saved preferences for faster setup.</p>
+        </div>
+      </div>
+      <div class="proc__i">
+        <div class="proc__sq">02</div>
+        <div class="proc__c">
+          <h3 class="proc__t">Design & booking setup</h3>
+          <p class="proc__d">Pod branding reviewed and approved. Booking page configured with your logos, colors, and time slots. Branded QR code ready before event day.</p>
+        </div>
+      </div>
+      <div class="proc__i">
+        <div class="proc__sq">03</div>
+        <div class="proc__c">
+          <h3 class="proc__t">Logistics & install</h3>
+          <p class="proc__d">We coordinate delivery, venue load-in, and full pod assembly. You provide one 5 Amp outlet per pod — we handle everything else.</p>
+        </div>
+      </div>
+      <div class="proc__phase">— During & after</div>
+      <div class="proc__i">
+        <div class="proc__sq">04</div>
+        <div class="proc__c">
+          <h3 class="proc__t">Live support + dashboard</h3>
+          <p class="proc__d">Real-time dashboard shows occupancy, alerts, and bookings. Remote updates pushed to pods instantly. Live support throughout.</p>
+        </div>
+      </div>
+      <div class="proc__i">
+        <div class="proc__sq">05</div>
+        <div class="proc__c">
+          <h3 class="proc__t">Removal & lead report</h3>
+          <p class="proc__d">Complete pod removal post-event. You receive a detailed utilization report — bookings, occupancy, and full lead data: names, companies, emails, phones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--off">
+  <div class="wrap">
+    <div class="sec__head">
+      <span class="eyebrow">Before / after · 04</span>
+      <h2 class="sec__h">From operational headache<br>to <em>quiet confidence</em>.</h2>
+      <p class="sec__lede">A side-by-side look at what changes when you bring private meeting pods onto the floor — and let us run them.</p>
+    </div>
+
+    <div class="ba">
+      <div class="ba__c ba__c--b">
+        <div>
+          <div class="ba__lbl">Without ZenSpace</div>
+          <h3 class="ba__t">Open floor space.<br>Loud rooms. No data.</h3>
+        </div>
+        <ul class="ba__list">
+          <li>Meetings in the open — competing with floor noise</li>
+          <li>No private surface to close confidential conversations</li>
+          <li>Manual lead capture by floor staff — incomplete and lossy</li>
+          <li>Setup, staffing, and teardown owned by your team</li>
+          <li>No occupancy visibility or post-event utilization data</li>
+        </ul>
+      </div>
+      <div class="ba__c ba__c--a">
+        <div>
+          <div class="ba__lbl">With ZenSpace</div>
+          <h3 class="ba__t">Soundproof rooms.<br>Real conversations.<br>Full lead data.</h3>
+        </div>
+        <ul class="ba__list">
+          <li>UL-certified soundproof pods — Smart E-Glass for instant privacy</li>
+          <li>QR self-serve booking — qualified attendees, not floor-walkers</li>
+          <li>Names, companies, emails, phones captured automatically</li>
+          <li>Full-service: delivery, assembly, support, and removal handled</li>
+          <li>Real-time dashboard + post-event utilization & lead report</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="results">
+  <div class="wrap">
+    <div class="sec__head">
+      <span class="eyebrow">Real events · 05</span>
+      <h2 class="sec__h">Real events.<br><em>Real results.</em></h2>
+      <p class="sec__lede">A snapshot of utilization and meetings from the last 18 months. Numbers from organizer dashboards — not estimates.</p>
+    </div>
+
+    <div class="res">
+      <div class="res__i">
+        <div>
+          <div class="res__big">600<sup>+</sup></div>
+          <div class="res__t">Registered users · 93% peak utilization</div>
+        </div>
+        <div>
+          <h3 class="res__h">IMEX</h3>
+          <p class="res__d">The largest single-event booking volume on record. Sustained back-to-back utilization across all deployed pods over the full show.</p>
+        </div>
+      </div>
+      <div class="res__i">
+        <div>
+          <div class="res__big">120<sup>+</sup></div>
+          <div class="res__t">Meetings · 1.5 days</div>
+        </div>
+        <div>
+          <h3 class="res__h">The Hospitality Show</h3>
+          <p class="res__d">Sustained back-to-back booking velocity over a compressed event window.</p>
+        </div>
+      </div>
+      <div class="res__i">
+        <div>
+          <div class="res__big">92<sup>%</sup></div>
+          <div class="res__t">Utilization · 6 pods</div>
+        </div>
+        <div>
+          <h3 class="res__h">IAVM VenueConnect</h3>
+          <p class="res__d">200+ registered users across a six-pod fleet deployment.</p>
+        </div>
+      </div>
+      <div class="res__i">
+        <div>
+          <div class="res__big">110<sup>+</sup></div>
+          <div class="res__t">Meetings booked</div>
+        </div>
+        <div>
+          <h3 class="res__h">Expo! Expo!</h3>
+          <p class="res__d">High engagement on the IAEE annual gathering — exhibitor-driven utilization.</p>
+        </div>
+      </div>
+      <div class="res__i">
+        <div>
+          <div class="res__big">55<sup>+</sup></div>
+          <div class="res__t">Meetings · boutique event</div>
+        </div>
+        <div>
+          <h3 class="res__h">ILHA Inspire</h3>
+          <p class="res__d">A 1.5-day boutique hospitality event — proof the format works at any scale.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta__inner">
+    <span class="eyebrow" style="color:var(--mint)">Ready when you are</span>
+    <h2 class="cta__h">Open the door<br>to a <em>better event</em>.</h2>
+    <p class="cta__sub">Two business hours to first response. One specialist owns your event from onboarding to lead report.</p>
+    <div class="cta__btns">
+      <a href="#contact" class="btn btn-green">Get a Quote</a>
+      <a href="mailto:hello@zenspaceevents.com" class="btn btn-outline">hello@zenspaceevents.com</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="form">
+      <div class="form__col">
+        <span class="eyebrow">Get a quote · 06</span>
+        <h2>Tell us about<br>your event.</h2>
+        <p>We respond within two business hours. A specialist will follow up to align on dates, pod count, branding, and the right configuration for your floor.</p>
+
+        <ul class="form__reasons">
+          <li>I have an upcoming event I could use pods for</li>
+          <li>I want to explore this as a sponsorship asset</li>
+          <li>I'd like to discuss pricing or a custom proposal</li>
+          <li>I have a unique activation idea to discuss</li>
+          <li>I'm a GSC / exhibit designer exploring options</li>
+          <li>Just exploring — keep me in the loop</li>
+        </ul>
+      </div>
+
+      <form class="form__box" onsubmit="event.preventDefault();this.querySelector('button[type=submit]').textContent='Sent — we\u0027ll be in touch';this.querySelector('button[type=submit]').disabled=true;">
+        <div class="form__row">
+          <div class="form__field">
+            <label>First name</label>
+            <input type="text" required>
+          </div>
+          <div class="form__field">
+            <label>Last name</label>
+            <input type="text" required>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__field">
+            <label>Work email</label>
+            <input type="email" required>
+          </div>
+          <div class="form__field">
+            <label>Company</label>
+            <input type="text" required>
+          </div>
+        </div>
+        <div class="form__field">
+          <label>I'm reaching out because</label>
+          <select required>
+            <option value="">Select a reason</option>
+            <option>I have an upcoming event I could use pods for</option>
+            <option>I want to explore this as a sponsorship asset</option>
+            <option>I'd like to discuss pricing or a custom proposal</option>
+            <option>I have a unique activation idea to discuss</option>
+            <option>I'm a GSC / exhibit designer exploring options</option>
+            <option>Just exploring — keep me in the loop</option>
+          </select>
+        </div>
+        <div class="form__field">
+          <label>Tell us about the event</label>
+          <textarea placeholder="Dates, venue, expected attendance, pod count if known…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-green" style="width:100%;justify-content:center">Send request</button>
+        <div class="form__sla">Response within 2 business hours · hello@zenspaceevents.com</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="foot__brand">
+        <img src="assets/logo-horizontal-white.png" alt="ZenSpace Event Solutions">
+        <p>On-demand workspace for trade shows, conferences, and corporate events. Refined by 250+ deployments since 2017.</p>
+        <a href="#contact" class="btn btn-green">Get a Quote</a>
+      </div>
+      <div class="foot__col">
+        <h4>Product</h4>
+        <a href="#pods">Smart Meeting Pods</a>
+        <a href="#pods">Booking Software</a>
+        <a href="#pods">Features</a>
+        <a href="#process">Process</a>
+      </div>
+      <div class="foot__col">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#results">Case Studies</a>
+        <a href="#">Press & Events</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="foot__col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@zenspaceevents.com">hello@zenspaceevents.com</a>
+        <a href="#contact">Get a quote</a>
+        <a href="#">Partner program</a>
+        <a href="#">Press inquiries</a>
+      </div>
+    </div>
+    <div class="foot__bot">
+      <span>© 2017–2026 ZenSpace Event Solutions</span>
+      <span>UL-certified · Refined by experience</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  // Auto-tag common elements with reveal classes
+  var revealSel = '.sec__head, .feat__hero, .feat__demo, .feat__card, .aud__row, .proc__phase, .proc__i, .ba__c, .res__i, .cta__inner > *, .form__col, .form__box, .stats__i, .ticker';
+  document.querySelectorAll(revealSel).forEach(function(el){
+    if(!el.classList.contains('reveal')&&!el.classList.contains('reveal-l')&&!el.classList.contains('reveal-r')&&!el.classList.contains('reveal-scale')) el.classList.add('reveal');
+  });
+  // Stagger groups
+  document.querySelectorAll('.feat__grid, .res, .stats__grid, .form__reasons, .ticker__track').forEach(function(g){g.classList.add('stagger')});
+  // Alternating directional reveal for audience rows
+  document.querySelectorAll('.aud__row').forEach(function(r,i){
+    r.classList.remove('reveal');
+    r.classList.add(i%2===0?'reveal-l':'reveal-r');
+  });
+  // Before/after directional
+  var ba=document.querySelectorAll('.ba__c');
+  if(ba[0]){ba[0].classList.remove('reveal');ba[0].classList.add('reveal-l')}
+  if(ba[1]){ba[1].classList.remove('reveal');ba[1].classList.add('reveal-r')}
+
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}
+    });
+  },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal,.reveal-l,.reveal-r,.reveal-scale,.stagger').forEach(function(el){io.observe(el)});
+
+  // Count-up for stats
+  document.querySelectorAll('.stats__big').forEach(function(el){
+    var raw=el.textContent.trim();
+    var m=raw.match(/^(\d+)/);
+    if(!m) return;
+    var target=parseInt(m[1],10);
+    var rest=raw.slice(m[1].length);
+    el.dataset.final=raw;
+    el.textContent='0'+rest;
+    var started=false;
+    var co=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(e.isIntersecting&&!started){
+          started=true;
+          var dur=1400, t0=performance.now();
+          function step(now){
+            var p=Math.min((now-t0)/dur,1);
+            var eased=1-Math.pow(1-p,3);
+            el.textContent=Math.round(target*eased)+rest;
+            if(p<1) requestAnimationFrame(step);
+            else el.textContent=raw;
+          }
+          requestAnimationFrame(step);
+          co.unobserve(el);
+        }
+      });
+    },{threshold:.5});
+    co.observe(el);
+  });
+
+  // Magnetic button micro-interaction (very subtle)
+  document.querySelectorAll('.btn-green').forEach(function(b){
+    b.addEventListener('mousemove',function(e){
+      var r=b.getBoundingClientRect();
+      var x=(e.clientX-r.left-r.width/2)/r.width;
+      var y=(e.clientY-r.top-r.height/2)/r.height;
+      b.style.transform='translate('+(x*4)+'px,'+(y*4-2)+'px)';
+    });
+    b.addEventListener('mouseleave',function(){b.style.transform=''});
+  });
+})();
+</script>
+</body>
+</html>

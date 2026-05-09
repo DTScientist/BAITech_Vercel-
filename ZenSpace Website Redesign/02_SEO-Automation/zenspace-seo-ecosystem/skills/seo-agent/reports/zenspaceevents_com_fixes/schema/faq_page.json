@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to rent an event pod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Specific pricing information with ranges, factors that affect cost]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the event pod rental?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Delivery, setup, teardown, IoT features, branding options, technical support]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far in advance should I book event pods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Booking timeline, peak seasons, rush availability]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of events are pods suitable for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Trade shows, conferences, corporate events, brand activations, etc.]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does pod setup take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Setup time, requirements, what's included in the service]"
+      }
+    }
+  ]
+}

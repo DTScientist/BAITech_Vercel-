@@ -1,0 +1,29 @@
+# zenspaceevents.com
+
+> [COMPANY_NAME] provides premium event pod and meeting pod rentals for trade shows, conferences, and corporate events. Our IoT-enabled SmartPods offer private, bookable workspaces with built-in lead capture, digital branding, and real-time analytics.
+
+## Key Pages
+
+- [https://www.zenspaceevents.com/](https://www.zenspaceevents.com/): Homepage — overview of event pod rental services
+- [https://www.zenspaceevents.com/event-pod-rental/](https://www.zenspaceevents.com/event-pod-rental/): Event pod rental services and pricing
+- [https://www.zenspaceevents.com/trade-show-pods/](https://www.zenspaceevents.com/trade-show-pods/): Trade show specific pod solutions
+- [https://www.zenspaceevents.com/about/](https://www.zenspaceevents.com/about/): Company background and team
+- [https://www.zenspaceevents.com/faq/](https://www.zenspaceevents.com/faq/): Frequently asked questions about pod rentals
+- [https://www.zenspaceevents.com/blog/](https://www.zenspaceevents.com/blog/): Industry insights and event technology articles
+
+## Quick Facts
+
+- **Service**: Event pod and meeting pod rentals
+- **Coverage**: Nationwide (United States)
+- **Pod Types**: Privacy pods, meeting pods, conference pods, phone booths
+- **Capacity**: 1-person to 6-person configurations
+- **Features**: IoT-enabled, digital branding, lead capture, booking software
+- **Setup**: Under 30 minutes, includes delivery and teardown
+- **Events Served**: [X]+ events
+- **Key Markets**: Trade shows, conferences, corporate events, brand activations
+
+## Contact
+
+- Website: https://www.zenspaceevents.com
+- Email: [EMAIL]
+- Phone: [PHONE]

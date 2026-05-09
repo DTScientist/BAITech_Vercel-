@@ -1,0 +1,37 @@
+Date,Task Name,Status,Category,Due Date,Needs Mayank,Mayank Input Needed,Priority
+2026-05-02,Crawl + audit ZenSpace (33 pages) vs Nook (13 pages),Done,Technical SEO,2026-04-05,NO,,DONE
+2026-05-02,Deploy Cloudflare Worker middleware,Done,Infrastructure,2026-04-05,NO,,DONE
+2026-05-02,Build Notion Command Center (8 databases),Done,Infrastructure,2026-04-05,NO,,DONE
+2026-05-02,Run 16-fix deployment via middleware,Done,Technical SEO,2026-04-05,NO,,DONE
+2026-05-02,Run verification engine on live site,Done,Technical SEO,2026-04-05,NO,,DONE
+2026-05-02,Build SEO Ecosystem scripts (2021 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-05-02,Build SEO Agent Toolkit (4284 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-05-02,Wix: Fix homepage H1 — change 250+ and 15+ from H1 to H2,Done,On-Page SEO,2026-04-06,NO,,DONE
+2026-05-02,Wix: Paste meta descriptions on 9 pages,Done,On-Page SEO,2026-04-07,NO,,DONE
+2026-05-02,Wix: Add AI bot rules to robots.txt,Done,Technical SEO,2026-04-06,NO,,DONE
+2026-05-02,Re-run verification engine after manual fixes (change delay to 3s),Done,Technical SEO,2026-04-13,NO,,DONE
+2026-05-02,Wix: Investigate homepage schema missing,Done,Schema Markup,2026-04-13,NO,,DONE
+2026-05-02,Paste LocalBusiness schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-05-02,Wix: Paste FAQPage schema on /faq page,Done,Schema Markup,2026-04-06,NO,,DONE
+2026-05-02,Wix: Add H1 to privacy-policy + terms-conditions,Done,On-Page SEO,2026-04-08,NO,,DONE
+2026-05-02,Paste Organization schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-05-02,Wix: Paste Product schema on 6 pod pages,Done,Schema Markup,2026-04-07,NO,,DONE
+2026-05-02,Review /event-pod-rental page v2 - approve & publish to Wix,Done,Content Review,2026-04-14,YES,Review the /event-pod-rental landing page v2 — fully written and SEO-audited. Once approved: follow Wix publish checklist + fix 3 homepage issues.,DONE
+2026-05-02,Review + edit pillar page draft (3200 words),In progress,Content Review,2026-04-14,NO,,ACTIVE
+2026-05-02,Download SEO ecosystem package + install on local machine,Not started,Infrastructure,2026-04-09,NO,,PIPELINE
+2026-05-02,Install crontab for automated daily/weekly monitoring,Not started,Infrastructure,2026-04-10,NO,,PIPELINE
+2026-05-02,Publish pillar page to Wix at /event-pod-rental,Not started,Content Publishing,2026-04-14,NO,,PIPELINE
+2026-05-02,Write + publish AIEO page: What Is an Event Pod?,Not started,Content Writing,2026-04-15,NO,,PIPELINE
+2026-05-02,Write 2 city pages (Las Vegas + SF Bay Area),Not started,Content Writing,2026-04-15,NO,,PIPELINE
+2026-05-02,Write + publish pricing page: Event Pod Rental Cost,Not started,Content Writing,2026-04-19,NO,,PIPELINE
+2026-05-02,Image alt text — case studies + remaining (397 images),Not started,On-Page SEO,2026-04-20,NO,,PIPELINE
+2026-05-02,Fix 3 Wix homepage issues BEFORE any publish (schema cities /home canonical title tag),Not started,Technical SEO,2026-04-21,NO,,PIPELINE
+2026-05-02,Forward /event-pod-rental page v2 draft to Mayank for review + approval,Not started,Content Review,2026-04-21,YES,Approve the /event-pod-rental v2 page so it can be published to Wix. Gmail draft already saved.,CRITICAL
+2026-05-02,Review + approve Las Vegas city page in Notion then publish to Wix,Not started,Content Publishing,2026-04-22,NO,,PIPELINE
+2026-05-02,Review + approve SF Bay Area city page in Notion then publish to Wix,Not started,Content Publishing,2026-04-22,NO,,PIPELINE
+2026-05-02,Review + approve New York city page in Notion then publish to Wix,Not started,Content Publishing,2026-04-22,NO,,PIPELINE
+2026-05-02,Review + approve Orlando city page in Notion then publish to Wix,Not started,Content Publishing,2026-04-22,NO,,PIPELINE
+2026-05-02,Write: ZenSpace vs Nook comparison page (1400 words),Not started,Content Writing,2026-04-23,NO,,PIPELINE
+2026-05-02,Write: SmartPods vs Traditional Trade Show Booths blog (1400 words),Not started,Content Writing,2026-04-26,NO,,PIPELINE
+2026-05-02,Write 3 blog posts (SmartPods vs Booths IoT Lead Capture What to Expect),Not started,Content Writing,2026-04-26,NO,,PIPELINE
+2026-05-02,Write: How Event Sponsors Generate Revenue from Meeting Pods blog (1400 words),Not started,Content Writing,2026-04-28,NO,,PIPELINE

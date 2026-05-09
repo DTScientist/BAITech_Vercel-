@@ -1,0 +1,12 @@
+{
+  "date": "2026-04-02",
+  "seeds": [
+    "event pod rental",
+    "meeting pod for events",
+    "trade show pod"
+  ],
+  "total_keywords": 0,
+  "keywords": [],
+  "clusters": {},
+  "intent_distribution": {}
+}

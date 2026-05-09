@@ -1,0 +1,17 @@
+{
+  "type": "weekly",
+  "date": "2026-04-02",
+  "generated": "2026-04-02T20:31:36.390750",
+  "sections": {
+    "rankings": {
+      "note": "No ranking data yet. Run: python3 collectors/serp_tracker.py"
+    },
+    "cwv": {
+      "note": "No CWV data yet. Run: python3 collectors/pagespeed.py"
+    },
+    "competitors": {
+      "note": "No competitor data yet. Run: python3 collectors/competitor_monitor.py"
+    }
+  },
+  "markdown": "# ZenSpace SEO Weekly Report \u2014 2026-04-02\n\n## Rankings\nNo ranking data yet. Run: python3 collectors/serp_tracker.py\n\n## Core Web Vitals\nNo CWV data yet. Run: python3 collectors/pagespeed.py\n\n---\n*Generated 2026-04-02T20:31*\n"
+}

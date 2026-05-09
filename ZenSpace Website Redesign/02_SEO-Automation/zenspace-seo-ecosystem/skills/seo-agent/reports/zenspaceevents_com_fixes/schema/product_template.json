@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "[POD_MODEL_NAME]",
+  "description": "[Pod description with capacity, features, use case]",
+  "brand": {
+    "@type": "Brand",
+    "name": "[COMPANY_NAME]"
+  },
+  "image": "https://www.zenspaceevents.com/images/[pod-image].jpg",
+  "category": "Event Equipment Rental",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "[DAILY_RATE]",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.zenspaceevents.com/[product-page]/"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Capacity",
+      "value": "[X] persons"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Setup Time",
+      "value": "Under 30 minutes"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IoT Enabled",
+      "value": "Yes"
+    }
+  ]
+}

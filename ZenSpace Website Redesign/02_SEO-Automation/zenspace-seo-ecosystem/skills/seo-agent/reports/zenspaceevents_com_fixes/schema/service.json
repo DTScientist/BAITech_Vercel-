@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Event Pod Rental",
+  "provider": {
+    "@type": "Organization",
+    "name": "[COMPANY_NAME]"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "description": "[Service description]",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "[STARTING_PRICE]"
+  }
+}

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<script type="application/json" id="cowork-artifact-meta">
+{
+  "name": "Zenspace Seo Audit 2026",
+  "schemaVersion": 1,
+  "description": "Comprehensive SEO & GEO audit for zenspaceevents.com with prioritized action plan for ranking on Google and AI search engines."
+}
+</script>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenSpace SEO Audit 2026</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fb; color: #1a1a2e; font-size: 14px; line-height: 1.6; }
+
+  .header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #fff; padding: 36px 40px 28px; }
+  .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.3px; }
+  .header p { color: rgba(255,255,255,0.7); margin-top: 6px; font-size: 13px; }
+  .header .meta { display: flex; gap: 24px; margin-top: 18px; }
+  .header .meta span { background: rgba(255,255,255,0.12); border-radius: 20px; padding: 4px 14px; font-size: 12px; font-weight: 500; }
+
+  .score-strip { background: #fff; border-bottom: 1px solid #e8eaf0; padding: 20px 40px; display: flex; gap: 24px; overflow-x: auto; }
+  .score-card { min-width: 130px; text-align: center; padding: 14px 16px; border-radius: 12px; }
+  .score-card.critical { background: #fff1f0; border: 1px solid #ffccc7; }
+  .score-card.warn { background: #fffbe6; border: 1px solid #ffe58f; }
+  .score-card.good { background: #f6ffed; border: 1px solid #b7eb8f; }
+  .score-card .num { font-size: 28px; font-weight: 800; }
+  .score-card.critical .num { color: #cf1322; }
+  .score-card.warn .num { color: #ad6800; }
+  .score-card.good .num { color: #389e0d; }
+  .score-card .label { font-size: 11px; color: #666; margin-top: 2px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+  .section { background: #fff; border-radius: 16px; padding: 28px 32px; margin-bottom: 24px; border: 1px solid #e8eaf0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+  .section h2 { font-size: 18px; font-weight: 700; color: #1a1a2e; margin-bottom: 18px; display: flex; align-items: center; gap: 10px; }
+  .section h2 .icon { font-size: 20px; }
+  .section h3 { font-size: 14px; font-weight: 700; color: #333; margin: 20px 0 10px; }
+
+  .exec-summary { background: linear-gradient(135deg, #667eea08, #764ba208); border: 1px solid #667eea30; border-radius: 16px; padding: 24px 28px; margin-bottom: 24px; }
+  .exec-summary h2 { color: #4338ca; }
+  .exec-summary p { color: #374151; margin-bottom: 10px; }
+  .exec-summary .top3 { display: flex; gap: 16px; margin-top: 16px; }
+  .priority-pill { flex: 1; background: #fff; border: 1px solid #e8eaf0; border-radius: 12px; padding: 14px 16px; }
+  .priority-pill .rank { font-size: 11px; color: #667eea; font-weight: 700; text-transform: uppercase; }
+  .priority-pill .title { font-size: 13px; font-weight: 700; color: #1a1a2e; margin-top: 4px; }
+  .priority-pill .desc { font-size: 12px; color: #666; margin-top: 4px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f5f6fa; text-align: left; padding: 10px 14px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #555; border-bottom: 2px solid #e8eaf0; }
+  td { padding: 11px 14px; border-bottom: 1px solid #f0f1f5; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fafbff; }
+
+  .badge { display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: 11px; font-weight: 700; }
+  .badge.critical { background: #fff1f0; color: #cf1322; border: 1px solid #ffccc7; }
+  .badge.high { background: #fff7e6; color: #d46b08; border: 1px solid #ffd591; }
+  .badge.medium { background: #e6f7ff; color: #096dd9; border: 1px solid #91d5ff; }
+  .badge.low { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+  .badge.pass { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+  .badge.fail { background: #fff1f0; color: #cf1322; border: 1px solid #ffccc7; }
+  .badge.warn { background: #fffbe6; color: #ad6800; border: 1px solid #ffe58f; }
+
+  .badge.hard { background: #fff1f0; color: #cf1322; border: 1px solid #ffccc7; }
+  .badge.moderate { background: #fff7e6; color: #d46b08; border: 1px solid #ffd591; }
+  .badge.easy { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+
+  .badge.bhigh { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+  .badge.bmedium { background: #e6f7ff; color: #096dd9; border: 1px solid #91d5ff; }
+  .badge.blow { background: #f5f6fa; color: #666; border: 1px solid #d9d9d9; }
+
+  .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .action-col { }
+  .action-col h3 { font-size: 14px; font-weight: 800; padding: 10px 14px; border-radius: 10px 10px 0 0; margin: 0; }
+  .action-col.quick h3 { background: #389e0d; color: #fff; }
+  .action-col.strategic h3 { background: #1a1a2e; color: #fff; }
+  .action-item { border: 1px solid #e8eaf0; border-top: none; padding: 14px 16px; }
+  .action-item:last-child { border-radius: 0 0 10px 10px; }
+  .action-item .atitle { font-weight: 700; font-size: 13px; color: #1a1a2e; margin-bottom: 6px; }
+  .action-item .adesc { font-size: 12px; color: #555; margin-bottom: 8px; line-height: 1.5; }
+  .action-item .ameta { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tag { display: inline-block; background: #f0f1f5; border-radius: 6px; padding: 2px 8px; font-size: 11px; color: #444; font-weight: 500; }
+  .tag.impact-high { background: #f6ffed; color: #389e0d; }
+  .tag.effort-low { background: #e6f7ff; color: #096dd9; }
+
+  .comp-table td:first-child { font-weight: 600; }
+  .winner { color: #389e0d; font-weight: 700; }
+  .loser { color: #cf1322; }
+
+  .geo-box { background: linear-gradient(135deg, #667eea15, #764ba215); border: 1px solid #667eea40; border-radius: 12px; padding: 18px 20px; margin-top: 16px; }
+  .geo-box h4 { font-size: 13px; font-weight: 700; color: #4338ca; margin-bottom: 10px; }
+  .geo-item { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid #667eea20; }
+  .geo-item:last-child { border-bottom: none; }
+  .geo-item .gi-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .geo-item .gi-content { font-size: 12px; color: #374151; }
+  .geo-item .gi-content strong { display: block; font-size: 13px; color: #1a1a2e; margin-bottom: 2px; }
+
+  code { background: #f0f1f5; padding: 2px 6px; border-radius: 4px; font-size: 12px; font-family: monospace; color: #c41d7f; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 700px) { .two-col, .action-grid { grid-template-columns: 1fr; } .exec-summary .top3 { flex-direction: column; } .score-strip { flex-wrap: wrap; } }
+
+  .divider { height: 1px; background: #e8eaf0; margin: 20px 0; }
+
+  .tip { background: #e6f7ff; border-left: 3px solid #1890ff; border-radius: 0 8px 8px 0; padding: 10px 14px; margin: 12px 0; font-size: 12px; color: #333; }
+  .tip strong { color: #1890ff; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🔍 SEO & GEO Audit — ZenSpace Events</h1>
+  <p>www.zenspaceevents.com · Full Site Audit · April 2026</p>
+  <div class="meta">
+    <span>Platform: Wix</span>
+    <span>Market: US Trade Shows & Conferences</span>
+    <span>Product: Event Pod Rental + Booking Software</span>
+    <span>Status: Needs Significant Work</span>
+  </div>
+</div>
+
+<div class="score-strip">
+  <div class="score-card critical">
+    <div class="num">3</div>
+    <div class="label">Critical Issues</div>
+  </div>
+  <div class="score-card critical">
+    <div class="num">7</div>
+    <div class="label">High Priority</div>
+  </div>
+  <div class="score-card warn">
+    <div class="num">6</div>
+    <div class="label">Medium Issues</div>
+  </div>
+  <div class="score-card warn">
+    <div class="num">4</div>
+    <div class="label">Blog Posts Total</div>
+  </div>
+  <div class="score-card critical">
+    <div class="num">0</div>
+    <div class="label">Schema Markup</div>
+  </div>
+  <div class="score-card good">
+    <div class="num">250+</div>
+    <div class="label">Events Delivered</div>
+  </div>
+  <div class="score-card warn">
+    <div class="num">~2</div>
+    <div class="label">AI Visibility Score /10</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="exec-summary section">
+    <h2><span class="icon">📋</span> Executive Summary</h2>
+    <p>ZenSpace Events has a <strong>strong product</strong> (UL-certified, 15+ smart features, 250+ events, $4,500/pod) and credible case studies — but the website is <strong>nearly invisible to search engines and AI assistants</strong>. The core problem is a combination of: near-zero content authority (4 thin blog posts), no structured data, broken internal links, and URL structures with no keyword value. Competitors like Skyline, The Deondo Company (NOOK Pods), and Camelback Displays are dominating search because they have content depth and domain authority that ZenSpace currently lacks.</p>
+    <p>The good news: ZenSpace has a <strong>genuinely differentiated product</strong> (smart e-glass, AI monitoring, full-service delivery, booking software bundled for 6+ pods) that competitors can't match. The strategy is to build authority rapidly through targeted content, fix the technical foundation, and position ZenSpace as the definitive expert voice on event pods — the way AI systems and Google decide who to surface.</p>
+    <div class="top3">
+      <div class="priority-pill">
+        <div class="rank">🚨 Priority #1</div>
+        <div class="title">Add Schema Markup & Fix Broken Links This Week</div>
+        <div class="desc">Schema markup is a zero-cost, high-ROI win. Broken nav links are silently hurting authority and UX right now.</div>
+      </div>
+      <div class="priority-pill">
+        <div class="rank">🔥 Priority #2</div>
+        <div class="title">Build 10 High-Intent SEO Articles in 60 Days</div>
+        <div class="desc">You have 4 posts. Competitors have 50–200. Content is the single biggest gap between you and page 1.</div>
+      </div>
+      <div class="priority-pill">
+        <div class="rank">📈 Priority #3</div>
+        <div class="title">Create City/Venue Landing Pages</div>
+        <div class="desc">People search "event pod rental Las Vegas" or "trade show pods Orlando." No competitor has fully covered this. First-mover advantage available now.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEYWORD OPPORTUNITIES -->
+  <div class="section">
+    <h2><span class="icon">🎯</span> Keyword Opportunity Table</h2>
+    <p style="color:#666; font-size:12px; margin-bottom:16px;">Keywords ZenSpace should be targeting. Currently ranking for almost none of these. Sorted by opportunity score.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Keyword</th>
+          <th>Difficulty</th>
+          <th>Volume Signal</th>
+          <th>Opportunity</th>
+          <th>Intent</th>
+          <th>Recommended Page</th>
+          <th>Fix</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>event pod rental</strong></td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>High</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>Homepage + /event-pod-rental</td>
+          <td>Create dedicated landing page — this is your #1 money keyword</td>
+        </tr>
+        <tr>
+          <td><strong>meeting pod rental trade show</strong></td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>High</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>/meeting-pod-rental-trade-show</td>
+          <td>New dedicated page with specs, pricing, use cases</td>
+        </tr>
+        <tr>
+          <td><strong>trade show meeting room rental</strong></td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>High</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>/trade-show-meeting-room</td>
+          <td>New page — exhibitor-focused angle</td>
+        </tr>
+        <tr>
+          <td><strong>soundproof event pod</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Commercial</td>
+          <td>/4-seater (update H1 + content)</td>
+          <td>Add "soundproof" to H1, first paragraph, and title tag on /4-seater</td>
+        </tr>
+        <tr>
+          <td><strong>conference pod rental</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>/conference-pod-rental</td>
+          <td>New landing page with conference-specific content</td>
+        </tr>
+        <tr>
+          <td><strong>private meeting space trade show</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Commercial</td>
+          <td>/exhibitors (rewrite + optimize)</td>
+          <td>Rewrite exhibitors page around this keyword cluster</td>
+        </tr>
+        <tr>
+          <td><strong>event pod rental Las Vegas</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>/event-pod-rental-las-vegas</td>
+          <td>Create city page. First-mover advantage available.</td>
+        </tr>
+        <tr>
+          <td><strong>event pod rental Orlando</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Transactional</td>
+          <td>/event-pod-rental-orlando</td>
+          <td>Create city page. Orlando Convention Center = major opportunity.</td>
+        </tr>
+        <tr>
+          <td><strong>trade show pod booth</strong></td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>Medium</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Commercial</td>
+          <td>/exhibitors or new page</td>
+          <td>Create content targeting exhibitors with booth-centric angle</td>
+        </tr>
+        <tr>
+          <td><strong>how to add private meeting space to trade show booth</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Informational</td>
+          <td>Blog article</td>
+          <td>Write 1,500+ word how-to guide. AI will cite this.</td>
+        </tr>
+        <tr>
+          <td><strong>event networking pod</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Low-Medium</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Commercial</td>
+          <td>Blog + product pages</td>
+          <td>Use this term across blog and product pages</td>
+        </tr>
+        <tr>
+          <td><strong>trade show meeting pod cost</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Commercial</td>
+          <td>/pricing or blog</td>
+          <td>Write transparent pricing guide article — drives high-intent traffic</td>
+        </tr>
+        <tr>
+          <td><strong>event pod vs trade show booth</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Low-Medium</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Informational</td>
+          <td>Blog comparison article</td>
+          <td>AI search loves comparison content. Write 1,000+ words.</td>
+        </tr>
+        <tr>
+          <td><strong>ADA compliant event pod</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Low</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Commercial</td>
+          <td>/ada-pod (rewrite URL + content)</td>
+          <td>Change URL to /ada-compliant-event-pod, rewrite page with full ADA angle</td>
+        </tr>
+        <tr>
+          <td><strong>what is a meeting pod</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Medium</td>
+          <td><span class="badge high">High</span></td>
+          <td>Informational</td>
+          <td>Blog article</td>
+          <td>Critical for AI search. Write definitive 2,000-word explainer. ZenSpace should own this term.</td>
+        </tr>
+        <tr>
+          <td><strong>smart meeting pod features</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Low-Medium</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Informational</td>
+          <td>Blog article</td>
+          <td>Showcase your 15+ smart features. Unique content competitors can't match.</td>
+        </tr>
+        <tr>
+          <td><strong>sponsorship pods at events</strong></td>
+          <td><span class="badge easy">Easy</span></td>
+          <td>Low</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Commercial</td>
+          <td>/sponsors (rewrite)</td>
+          <td>Rewrite sponsors page with this keyword + revenue generation angle</td>
+        </tr>
+        <tr>
+          <td><strong>exhibitor meeting space conference</strong></td>
+          <td><span class="badge moderate">Moderate</span></td>
+          <td>Medium</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Commercial</td>
+          <td>/exhibitors</td>
+          <td>Use this exact phrase in H1, first paragraph of exhibitors page</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="tip">
+      <strong>💡 Quick Win:</strong> Run a search for "event pod rental trade show" right now. You'll see Skyline, Camelback Displays, and Nook Pods — but not ZenSpace. Each of those competitors has a dedicated, keyword-rich landing page for this query. ZenSpace does not. Creating one page alone could drive meaningful qualified traffic within 8–12 weeks.
+    </div>
+  </div>
+
+  <!-- ON-PAGE ISSUES -->
+  <div class="section">
+    <h2><span class="icon">📄</span> On-Page SEO Issues (with Exact Fixes)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Page</th>
+          <th>Issue Found</th>
+          <th>Severity</th>
+          <th>Exact Fix</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>All Pages (Nav)</strong></td>
+          <td>Typo: "Convension Centers" in navigation menu</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Fix to "Convention Centers" immediately. Typos in navigation damage trust and credibility signals that Google measures.</td>
+        </tr>
+        <tr>
+          <td><strong>Navigation (Industry Partners)</strong></td>
+          <td>3 broken internal links: "GSC," "Exhibit Design Houses," "Event Planning Agencies" all point to /exhibitors or /event-organizers instead of /gsc, /exhibit-design, /event-planning</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Fix each nav link to point to its correct destination page. Verify all 3 pages exist and have proper content. This silently redistributes link equity to wrong pages.</td>
+        </tr>
+        <tr>
+          <td><strong>Homepage CTAs</strong></td>
+          <td>"Contact Us" and "Explore Solutions" buttons link to zenspaceevents.com (homepage itself), not to /contacts or specific solution pages</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Fix "Contact Us" → /contacts, "Explore Solutions" → /our-process or product page. Self-referential links dilute crawl budget and confuse Googlebot.</td>
+        </tr>
+        <tr>
+          <td><strong>Homepage</strong></td>
+          <td>Title tag: "Event Pod Rental | Smart Meeting Pods for Trade Shows | ZenSpace" — misses "conference" and "soundproof" in 60 char limit</td>
+          <td><span class="badge high">High</span></td>
+          <td>Rewrite to: "Soundproof Event Pod Rental | Trade Shows & Conferences | ZenSpace" (62 chars — trim if needed)</td>
+        </tr>
+        <tr>
+          <td><strong>/4-seater</strong></td>
+          <td>Page title: "Event 4-seater Pod | ZenSpace Event Solutions" — no rental keyword, no soundproof, weak intent signal</td>
+          <td><span class="badge high">High</span></td>
+          <td>Change to: "4-Seater Soundproof Meeting Pod Rental for Trade Shows | ZenSpace"</td>
+        </tr>
+        <tr>
+          <td><strong>/4-seater</strong></td>
+          <td>H1: "ZenSpace 4-seater Event Pod" — brand name in H1 wastes keyword opportunity. Google uses H1 heavily for topic classification.</td>
+          <td><span class="badge high">High</span></td>
+          <td>Change H1 to: "4-Seater Soundproof Event Pod Rental for Trade Shows & Conferences"</td>
+        </tr>
+        <tr>
+          <td><strong>/ada-pod</strong></td>
+          <td>URL slug "/ada-pod" has zero keyword context for search engines</td>
+          <td><span class="badge high">High</span></td>
+          <td>Rename to /ada-compliant-event-pod. Set a 301 redirect from /ada-pod. Rewrite page to target "ADA compliant event pod rental" and "accessible meeting pod trade show."</td>
+        </tr>
+        <tr>
+          <td><strong>/aura-gather</strong></td>
+          <td>URL slug "/aura-gather" is a brand name — no search volume. Nobody searches for "aura gather."</td>
+          <td><span class="badge high">High</span></td>
+          <td>Rename to /networking-lounge-pod or /event-lounge-pod. Keep a 301 from /aura-gather. This product deserves a keyword-rich URL.</td>
+        </tr>
+        <tr>
+          <td><strong>All Blog Posts</strong></td>
+          <td>Blog posts are 1-2 min reads (300–500 words). Google classifies these as thin content. They won't rank for competitive queries.</td>
+          <td><span class="badge high">High</span></td>
+          <td>All new blog posts must be minimum 1,200 words. Priority posts (keyword guides, how-tos) should be 1,800–2,500 words. Expand existing posts retroactively.</td>
+        </tr>
+        <tr>
+          <td><strong>All Product Pages</strong></td>
+          <td>No meta descriptions visible on any product page. Wix may be auto-generating these — which is always weaker than custom-written descriptions.</td>
+          <td><span class="badge high">High</span></td>
+          <td>Write a custom meta description for every key page. Formula: [Primary Keyword] + [Unique Differentiator] + [CTA]. Max 155 characters each.</td>
+        </tr>
+        <tr>
+          <td><strong>All Pages</strong></td>
+          <td>Zero schema markup detected. No Product, FAQ, Organization, or Review schema anywhere on the site.</td>
+          <td><span class="badge critical">Critical</span></td>
+          <td>Add 4 schema types immediately (see Technical section below for exact JSON-LD to implement).</td>
+        </tr>
+        <tr>
+          <td><strong>/faq</strong></td>
+          <td>FAQ page exists but has no FAQ schema — means Google can't show rich FAQ snippets in search results, and AI assistants can't easily extract answers.</td>
+          <td><span class="badge high">High</span></td>
+          <td>Add FAQ schema to every Q&amp;A on the FAQ page. Also add FAQ schema blocks to /4-seater, /booking-software, and /event-organizers pages.</td>
+        </tr>
+        <tr>
+          <td><strong>/case-studies</strong></td>
+          <td>Case studies exist (IMEX, Hospitality Show, IAVM) but don't appear to be individually indexed with keyword-rich URLs or unique meta data. The numbers (92% utilization, 600+ users) are gold for SEO but buried.</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Give each case study its own SEO-optimized page and title. E.g., "IMEX 2025: 600 Users, 93% Pod Utilization | ZenSpace Case Study." Add a table of quantitative results to each.</td>
+        </tr>
+        <tr>
+          <td><strong>Images (All Pages)</strong></td>
+          <td>Images served from Wix CDN with auto-generated filenames (7ed973_...). While alt text appears present on some images, filename SEO is completely lost.</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>In Wix, always upload images with descriptive filenames before uploading (e.g., "zenspace-4-seater-soundproof-event-pod.jpg"). Audit and fix alt text for all product and hero images.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CONTENT GAP ANALYSIS -->
+  <div class="section">
+    <h2><span class="icon">📚</span> Content Gap Analysis — Missing Pages & Articles</h2>
+    <p style="color:#666; font-size:12px; margin-bottom:16px;">ZenSpace currently has 4 blog posts. Competitors like Skyline and Nook Pod have 50–200+ pieces of content. This is the single largest SEO gap. Every row below is a page that should exist.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Missing Content</th>
+          <th>Why It Matters</th>
+          <th>Format</th>
+          <th>Priority</th>
+          <th>Effort</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>"What Is a Meeting Pod?" — The Definitive Guide</strong></td>
+          <td>When someone asks ChatGPT or Google "what is a meeting pod," there's no ZenSpace content to cite. Own this foundational term and become the reference source.</td>
+          <td>Long-form article (2,000+ words)</td>
+          <td><span class="badge high">High</span></td>
+          <td>1 day</td>
+        </tr>
+        <tr>
+          <td><strong>"How Much Does Event Pod Rental Cost?" (Pricing Guide)</strong></td>
+          <td>Highest-converting content type. People searching this are ready to buy. ZenSpace has pricing ($4,500/pod) — being transparent builds trust and captures commercial intent traffic.</td>
+          <td>Article + pricing table</td>
+          <td><span class="badge high">High</span></td>
+          <td>Half day</td>
+        </tr>
+        <tr>
+          <td><strong>"How to Add Private Meeting Space to Your Trade Show Booth"</strong></td>
+          <td>Targets exhibitors at the consideration stage. Captures "how to" queries that appear in AI Overviews and People Also Ask. Competitors have thin content here.</td>
+          <td>How-to guide (1,500 words)</td>
+          <td><span class="badge high">High</span></td>
+          <td>Half day</td>
+        </tr>
+        <tr>
+          <td><strong>"Event Pod Rental Las Vegas" Landing Page</strong></td>
+          <td>Las Vegas (CES, NAB Show, MJBizCon) is the #1 trade show city in the US. Local search for pods in LV has zero strong incumbent. City pages rank in 4–8 weeks for mid-volume terms.</td>
+          <td>Landing page</td>
+          <td><span class="badge high">High</span></td>
+          <td>2–3 hours</td>
+        </tr>
+        <tr>
+          <td><strong>"Event Pod Rental Orlando" Landing Page</strong></td>
+          <td>Orlando Convention Center hosts 200+ annual events. Same opportunity as Vegas — competitor vacuum exists.</td>
+          <td>Landing page</td>
+          <td><span class="badge high">High</span></td>
+          <td>2–3 hours</td>
+        </tr>
+        <tr>
+          <td><strong>"Event Pod Rental Chicago" Landing Page</strong></td>
+          <td>McCormick Place is the largest convention center in North America. High-value target.</td>
+          <td>Landing page</td>
+          <td><span class="badge high">High</span></td>
+          <td>2–3 hours</td>
+        </tr>
+        <tr>
+          <td><strong>"ZenSpace vs NOOK Pods vs Skyline" Comparison</strong></td>
+          <td>Buyers compare options before purchasing. If ZenSpace doesn't write the comparison, competitors will — and they'll win. Targets high-intent "alternative to" and "vs" searches.</td>
+          <td>Comparison article</td>
+          <td><span class="badge high">High</span></td>
+          <td>Half day</td>
+        </tr>
+        <tr>
+          <td><strong>"Best Trade Show Meeting Pod Solutions in 2026"</strong></td>
+          <td>Ranking yourself within a listicle you write is legitimate and effective. Also captures "best event pod" queries that AI systems frequently cite.</td>
+          <td>Listicle article (1,500 words)</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Half day</td>
+        </tr>
+        <tr>
+          <td><strong>"ROI of Event Pods for Sponsors" Guide</strong></td>
+          <td>Targets sponsor decision-makers with business-case content. No competitor has a strong ROI calculator or sponsor-centric guide. This supports the /sponsors page.</td>
+          <td>Guide + calculator</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>1 day</td>
+        </tr>
+        <tr>
+          <td><strong>"Event Technology Trends 2026" Roundup</strong></td>
+          <td>High-authority content that earns backlinks from event industry publications. Positions ZenSpace as a thought leader, not just a vendor.</td>
+          <td>Long-form article</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>1 day</td>
+        </tr>
+        <tr>
+          <td><strong>"How ZenSpace Booking Software Works" Explainer</strong></td>
+          <td>Software buyers do deep research. A 1,000+ word explainer of the booking software with screenshots earns informational traffic and supports sales conversations.</td>
+          <td>Long-form landing page</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>Half day</td>
+        </tr>
+        <tr>
+          <td><strong>Industry-Specific Pages: Healthcare Conferences, Tech Summits, Hospitality Shows</strong></td>
+          <td>Vertical-specific pages capture long-tail queries ("meeting pods for medical conferences") with almost zero competition. Highly qualified leads.</td>
+          <td>Industry landing pages (×3)</td>
+          <td><span class="badge medium">Medium</span></td>
+          <td>3–4 hours each</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TECHNICAL SEO -->
+  <div class="section">
+    <h2><span class="icon">⚙️</span> Technical SEO Checklist</h2>
+    <div class="two-col">
+      <div>
+        <table>
+          <thead>
+            <tr><th>Check</th><th>Status</th><th>Action Required</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>HTTPS</strong></td>
+              <td><span class="badge pass">Pass</span></td>
+              <td>SSL certificate active. No action needed.</td>
+            </tr>
+            <tr>
+              <td><strong>Mobile-Friendly</strong></td>
+              <td><span class="badge pass">Pass</span></td>
+              <td>Wix sites are responsive by default. Monitor mobile page speed separately.</td>
+            </tr>
+            <tr>
+              <td><strong>Schema Markup — Product</strong></td>
+              <td><span class="badge fail">FAIL</span></td>
+              <td>Add Product schema to /4-seater, /1-seater, /6-seater with name, description, offers (price: $4,500), brand, image.</td>
+            </tr>
+            <tr>
+              <td><strong>Schema Markup — FAQ</strong></td>
+              <td><span class="badge fail">FAIL</span></td>
+              <td>Add FAQPage schema to /faq page AND add inline FAQ blocks with schema to /4-seater and /event-organizers.</td>
+            </tr>
+            <tr>
+              <td><strong>Schema Markup — Organization</strong></td>
+              <td><span class="badge fail">FAIL</span></td>
+              <td>Add Organization schema to homepage: name, URL, logo, contactPoint, foundingDate: 2017, sameAs (LinkedIn, social profiles).</td>
+            </tr>
+            <tr>
+              <td><strong>Schema Markup — LocalBusiness/Event</strong></td>
+              <td><span class="badge fail">FAIL</span></td>
+              <td>Add Event or Service schema for city-specific rental services once landing pages are built.</td>
+            </tr>
+            <tr>
+              <td><strong>XML Sitemap</strong></td>
+              <td><span class="badge warn">Warning</span></td>
+              <td>Wix generates a sitemap but verify it's submitted to Google Search Console and includes all key pages (not blocked by robots.txt).</td>
+            </tr>
+            <tr>
+              <td><strong>Canonical Tags</strong></td>
+              <td><span class="badge warn">Warning</span></td>
+              <td>Wix adds canonical tags but verify there's no duplicate content between /home and / (root). Check Google Search Console coverage report.</td>
+            </tr>
+            <tr>
+              <td><strong>Internal Broken Links</strong></td>
+              <td><span class="badge fail">FAIL</span></td>
+              <td>At least 5 internal links in navigation confirmed pointing to wrong pages. Fix immediately (see On-Page section).</td>
+            </tr>
+            <tr>
+              <td><strong>Page Speed — Wix</strong></td>
+              <td><span class="badge warn">Warning</span></td>
+              <td>Wix JavaScript-heavy rendering often scores 50–65 on mobile PageSpeed. Mitigate by: compressing all images before upload, avoiding unnecessary Wix apps, using WebP images (Wix now supports avif — good). Check PageSpeed Insights for your actual scores.</td>
+            </tr>
+            <tr>
+              <td><strong>Google Search Console</strong></td>
+              <td><span class="badge warn">Warning</span></td>
+              <td>Confirm GSC is connected and active. Check for: Index Coverage errors, Core Web Vitals failures, Manual Actions. If not connected — do this today, it's free.</td>
+            </tr>
+            <tr>
+              <td><strong>Google Business Profile</strong></td>
+              <td><span class="badge warn">Warning</span></td>
+              <td>No GBP signals found in search. Claim and optimize your Google Business Profile with category "Event Technology Supplier," photos of pods at events, and service areas. Critical for AI search citation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3 style="margin-top:0">🧩 Schema Markup — Copy-Paste Starter</h3>
+        <p style="font-size:12px; color:#666; margin-bottom:10px;">Add this to your homepage <code>&lt;head&gt;</code> in Wix's Custom Code section (Settings → Advanced → Custom Code):</p>
+        <div style="background:#1a1a2e; border-radius:10px; padding:16px; overflow-x:auto;">
+<pre style="color:#e8e8e8; font-size:11px; line-height:1.7; font-family:monospace; white-space:pre-wrap;">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "ZenSpace Event Solutions",
+      "url": "https://www.zenspaceevents.com",
+      "logo": "https://www.zenspaceevents.com/logo.png",
+      "foundingDate": "2017",
+      "description": "Smart soundproof event pod rentals
+        for trade shows, conferences, and
+        corporate events across the US.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Sales",
+        "url": "https://www.zenspaceevents.com/contacts"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ZenSpace 4-Seater Event Pod",
+      "description": "UL-certified soundproof meeting pod
+        for trade show and conference rentals.
+        15+ smart features including e-glass,
+        32\" monitor, booking software.",
+      "brand": { "@type": "Brand", "name": "ZenSpace" },
+      "offers": {
+        "@type": "Offer",
+        "price": "4500",
+        "priceCurrency": "USD",
+        "availability": "InStock"
+      }
+    }
+  ]
+}
+&lt;/script&gt;</pre>
+        </div>
+        <div class="tip" style="margin-top:12px">
+          <strong>💡 Wix Tip:</strong> In Wix, go to Settings → Advanced → Custom Code → Add Code. Paste schema in the &lt;head&gt; section. Do this for each product page with the relevant product details.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI / GEO SECTION -->
+  <div class="section">
+    <h2><span class="icon">🤖</span> AI Search (GEO) — Why ZenSpace Isn't Being Cited</h2>
+    <p style="color:#666; font-size:12px; margin-bottom:14px;">When someone asks ChatGPT, Perplexity, Claude, or Google's AI Overviews "what are the best event pod rental companies," ZenSpace does not appear. Here's why — and exactly what to do about it.</p>
+    <div class="geo-box">
+      <h4>🔍 How AI Systems Decide Who to Cite</h4>
+      <div class="geo-item">
+        <div class="gi-icon">📝</div>
+        <div class="gi-content">
+          <strong>1. Content Depth & Authority (ZenSpace: 2/10)</strong>
+          AI models are trained on and retrieve from sites with substantial content. With 4 thin blog posts, ZenSpace is essentially invisible. Need: 30+ substantive articles before AI systems reliably cite you.
+        </div>
+      </div>
+      <div class="geo-item">
+        <div class="gi-icon">❓</div>
+        <div class="gi-content">
+          <strong>2. Direct Answers to Specific Questions (ZenSpace: 1/10)</strong>
+          AI systems love content that answers questions directly. ZenSpace has no "What is an event pod?", "How do event pods work?", "How much does event pod rental cost?" pages. <em>Fix: Write FAQ-style content with direct, crisp answers in the first paragraph of every article.</em>
+        </div>
+      </div>
+      <div class="geo-item">
+        <div class="gi-icon">🔗</div>
+        <div class="gi-content">
+          <strong>3. Third-Party Mentions & Backlinks (ZenSpace: ~2/10)</strong>
+          AI systems trust sites that are cited by others. No event industry publications, trade show media, or directories appear to link to ZenSpace. <em>Fix: Get listed in Eventex, EXHIBITORLIVE, Trade Show News Network, and MeetingsNet. Pitch a guest article or data study.</em>
+        </div>
+      </div>
+      <div class="geo-item">
+        <div class="gi-icon">📊</div>
+        <div class="gi-content">
+          <strong>4. Structured Data (ZenSpace: 0/10)</strong>
+          AI systems parse structured data to extract facts. Zero schema markup means AI has to guess at ZenSpace's product details, pricing, and positioning. <em>Fix: Implement the schema markup template above today.</em>
+        </div>
+      </div>
+      <div class="geo-item">
+        <div class="gi-icon">🏆</div>
+        <div class="gi-content">
+          <strong>5. Entity Recognition (ZenSpace: Low)</strong>
+          AI systems have a concept of "known entities." ZenSpace isn't strongly established as an entity in the event tech space yet. <em>Fix: Create a Crunchbase profile, Wikipedia-style "about" content, LinkedIn company page, and get mentioned in 3+ industry publications within 90 days.</em>
+        </div>
+      </div>
+    </div>
+    <h3 style="margin-top:20px">🎯 GEO Quick Wins — Do These in the Next 30 Days</h3>
+    <table>
+      <thead>
+        <tr><th>Action</th><th>Why It Works for AI</th><th>Effort</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Write "What is a Meeting Pod?" — 2,000 words with clear, direct answer in first 2 sentences</td>
+          <td>AI models extract the first clear definition they find. You want that to be yours.</td>
+          <td>1 day</td>
+        </tr>
+        <tr>
+          <td>Add FAQ schema to every major page (see Technical section)</td>
+          <td>FAQ schema tells AI exactly what questions each page answers and what the answers are</td>
+          <td>2–3 hours</td>
+        </tr>
+        <tr>
+          <td>Create Crunchbase company profile with full product description</td>
+          <td>Crunchbase is a high-trust source that AI systems regularly cite for company information</td>
+          <td>1 hour</td>
+        </tr>
+        <tr>
+          <td>Write a data study: "Event Pod Utilization Data from 250+ Events" (use your own stats)</td>
+          <td>Original data studies are the #1 most-cited content type by AI systems. Your 93% utilization rate at IMEX is gold.</td>
+          <td>1–2 days</td>
+        </tr>
+        <tr>
+          <td>Pitch Trade Show News Network (tsnn.com) for a contributor piece on meeting pods</td>
+          <td>Industry publication mentions are among the most powerful AI citation signals</td>
+          <td>3–4 hours</td>
+        </tr>
+        <tr>
+          <td>Claim and fill out your Google Business Profile completely</td>
+          <td>Google's AI Overview heavily weights its own GBP data for local and brand queries</td>
+          <td>1 hour</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- COMPETITOR COMPARISON -->
+  <div class="section">
+    <h2><span class="icon">🏁</span> Competitor SEO Comparison</h2>
+    <table class="comp-table">
+      <thead>
+        <tr>
+          <th>Dimension</th>
+          <th>ZenSpace</th>
+          <th>The Deondo Co. (NOOK)</th>
+          <th>Skyline</th>
+          <th>Camelback Displays</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Platform</td>
+          <td>Wix</td>
+          <td>Custom/WordPress</td>
+          <td>Custom Enterprise</td>
+          <td>Magento/Custom</td>
+        </tr>
+        <tr>
+          <td>Estimated Domain Authority</td>
+          <td class="loser">Low (new domain)</td>
+          <td>Medium</td>
+          <td class="winner">Very High (35+ years)</td>
+          <td>Medium-High</td>
+        </tr>
+        <tr>
+          <td>Content Volume (est.)</td>
+          <td class="loser">~4 blog posts</td>
+          <td>~20–40 pages</td>
+          <td class="winner">200+ pages</td>
+          <td>50+ pages</td>
+        </tr>
+        <tr>
+          <td>Schema Markup</td>
+          <td class="loser">None detected</td>
+          <td>Partial</td>
+          <td class="winner">Product, Organization, FAQ</td>
+          <td>Partial</td>
+        </tr>
+        <tr>
+          <td>City/Venue Pages</td>
+          <td class="loser">None</td>
+          <td>"Key trade show cities" mention</td>
+          <td>Multiple city pages</td>
+          <td class="loser">None</td>
+        </tr>
+        <tr>
+          <td>Keyword-Rich URLs</td>
+          <td class="loser">Weak (/ada-pod, /aura-gather)</td>
+          <td>Moderate</td>
+          <td class="winner">Strong</td>
+          <td>Moderate</td>
+        </tr>
+        <tr>
+          <td>Pricing Transparency</td>
+          <td class="winner">Yes ($4,500 listed)</td>
+          <td class="loser">No</td>
+          <td class="loser">No</td>
+          <td class="loser">No</td>
+        </tr>
+        <tr>
+          <td>Case Studies (quantified)</td>
+          <td class="winner">Yes (IMEX, IAVM, etc.)</td>
+          <td>Limited</td>
+          <td>Yes, many</td>
+          <td>Few</td>
+        </tr>
+        <tr>
+          <td>Smart Technology Story</td>
+          <td class="winner">Yes (e-glass, AI, booking)</td>
+          <td class="loser">No</td>
+          <td class="loser">No</td>
+          <td class="loser">No</td>
+        </tr>
+        <tr>
+          <td>AI Search Visibility</td>
+          <td class="loser">Very Low</td>
+          <td>Low</td>
+          <td>Medium</td>
+          <td>Low</td>
+        </tr>
+        <tr>
+          <td>Biggest SEO Advantage</td>
+          <td>Pricing + Smart Tech</td>
+          <td>Brand recognition in niche</td>
+          <td>Domain authority + scale</td>
+          <td>Breadth of display products</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="tip" style="margin-top:16px">
+      <strong>💡 Strategic Opportunity:</strong> ZenSpace is the only competitor with transparent pricing, verified utilization data (93% at IMEX), and genuinely advanced smart features. These are massive content differentiation advantages — currently buried. Build content around what makes ZenSpace factually better, and Google (and AI) will start surfacing that content.
+    </div>
+  </div>
+
+  <!-- ACTION PLAN -->
+  <div class="section">
+    <h2><span class="icon">🚀</span> Prioritized Action Plan</h2>
+    <div class="action-grid">
+      <div class="action-col quick">
+        <h3>⚡ Quick Wins — Do This Week (Under 4 Hours Total)</h3>
+        <div class="action-item">
+          <div class="atitle">1. Fix the 5 broken internal links in navigation</div>
+          <div class="adesc">GSC, Exhibit Design, Event Planning Agency, Venues nav links all point to wrong pages. Fix in Wix editor in 20 minutes. Also fix the typo "Convension" → "Convention."</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High</span><span class="tag effort-low">Effort: 20 min</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">2. Fix homepage CTA button links</div>
+          <div class="adesc">"Contact Us" should go to /contacts. "Explore Solutions" should go to a product or solutions page. Not to the homepage itself. Fix in Wix in 5 minutes.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High</span><span class="tag effort-low">Effort: 5 min</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">3. Add Organization + Product schema to homepage & /4-seater</div>
+          <div class="adesc">Copy the JSON-LD template from the Technical section above. Paste into Wix Custom Code (Settings → Advanced → Custom Code → &lt;head&gt;). This is the single highest-ROI technical fix on the site.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Very High</span><span class="tag effort-low">Effort: 1 hour</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">4. Rewrite title tags and meta descriptions for 5 key pages</div>
+          <div class="adesc">Homepage, /4-seater, /event-organizers, /exhibitors, /booking-software. Use the keyword-rich formulas provided in the On-Page section above. Do in Wix SEO settings per page.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High</span><span class="tag effort-low">Effort: 1 hour</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">5. Claim Google Business Profile + Crunchbase</div>
+          <div class="adesc">Go to business.google.com and claim your profile. Category: "Event Technology Supplier" or "Trade Show Services." Upload 10 high-res pod photos. Fill all fields. Then create a Crunchbase company page.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High (AI visibility)</span><span class="tag effort-low">Effort: 2 hours</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">6. Connect Google Search Console if not already done</div>
+          <div class="adesc">Go to search.google.com/search-console → Add property → Verify via Wix (HTML tag method). Submit sitemap. This is your free window into what Google sees — check Index Coverage and Core Web Vitals.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High</span><span class="tag effort-low">Effort: 30 min</span></div>
+        </div>
+      </div>
+      <div class="action-col strategic">
+        <h3>📈 Strategic Investments — This Quarter</h3>
+        <div class="action-item">
+          <div class="atitle">7. Write 12 High-Intent SEO Articles Over 60 Days</div>
+          <div class="adesc">Publish 2 articles/week minimum, each 1,200–2,000+ words. Priority order: (1) What is a Meeting Pod, (2) Event Pod Rental Cost Guide, (3) How to Add Private Space to Your Booth, (4) Best Trade Show Meeting Pod Solutions 2026, (5) ZenSpace vs NOOK vs Skyline, then city guides. Each article must directly answer its target question in the opening paragraph.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Very High (long-term)</span><span class="tag">Effort: 2–4 hrs/article</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">8. Build City/Venue Landing Pages (Start with Las Vegas, Orlando, Chicago)</div>
+          <div class="adesc">Each page should: target "[event pod rental] + [city]", mention specific convention centers (LVCC, Orange County CC, McCormick Place), include local event calendar references, and have a specific contact form. These rank in 4–8 weeks with minimal competition. Add 5 new cities every quarter.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: High</span><span class="tag">Effort: 3 hrs/page</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">9. Rename/Redirect Weak URLs with Proper 301 Redirects</div>
+          <div class="adesc">/ada-pod → /ada-compliant-event-pod, /aura-gather → /event-lounge-pod, consider /4-seater → /4-seater-event-pod-rental. In Wix: Settings → SEO → URL Redirect Manager. This is a one-time task with permanent SEO benefit.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Medium-High</span><span class="tag">Effort: 2 hours</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">10. Write a Data Study: "Event Pod Utilization Data from 250+ Events"</div>
+          <div class="adesc">You have real data: 120 meetings in 1.5 days (Hospitality Show), 93% utilization (IMEX), 200+ users (IAVM). Synthesize this into a "State of Event Pods" report. This earns backlinks from industry blogs, gets cited by AI, and positions ZenSpace as THE data authority on event pod performance.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Very High (AI + backlinks)</span><span class="tag">Effort: 1–2 days</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">11. Expand All Existing Blog Posts to 1,200+ Words</div>
+          <div class="adesc">The current 4 posts are 300–500 words (thin). Google's Helpful Content system suppresses thin content. Expand each post with: more specific use cases, FAQs, comparisons, data points. This also helps AI models extract more structured information. Can be done in batches over 2 weeks.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Medium</span><span class="tag">Effort: 1–2 hrs/post</span></div>
+        </div>
+        <div class="action-item">
+          <div class="atitle">12. Earn 5 Industry Backlinks in 90 Days</div>
+          <div class="adesc">Target: Trade Show News Network (tsnn.com), Exhibitor Magazine, MeetingsNet, EXHIBITORLIVE, Eventex. Strategy: (a) Pitch a guest op-ed on "The Future of Private Meeting Spaces at Trade Shows," (b) Submit your data study for coverage, (c) Sponsor or speak at an industry webinar for a mention. Even 5 high-quality backlinks can significantly move domain authority for a new site.</div>
+          <div class="ameta"><span class="tag impact-high">Impact: Very High</span><span class="tag">Effort: Ongoing outreach</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="text-align:center; color:#999; font-size:12px; padding: 16px 0 32px;">
+    ZenSpace SEO Audit · April 2026 · Generated by Claude in Cowork Mode<br>
+    <span style="font-size:11px; margin-top:4px; display:block;">Reconnect SEO tools (Ahrefs/Semrush) for live keyword volume and ranking position data</span>
+  </div>
+
+</div>
+</body>
+</html>

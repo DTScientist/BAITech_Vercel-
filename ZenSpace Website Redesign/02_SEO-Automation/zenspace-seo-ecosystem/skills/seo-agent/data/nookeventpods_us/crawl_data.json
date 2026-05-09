@@ -1,0 +1,3393 @@
+{
+  "domain": "nookeventpods.us",
+  "base_url": "https://nookeventpods.us",
+  "crawl_time": "2026-04-02T17:58:53.827Z",
+  "source": "browser_multi:/mnt/user-data/uploads/seo-full-crawl-nookeventpods_us.json",
+  "pages": {
+    "https://nookeventpods.us/": {
+      "url": "https://nookeventpods.us/",
+      "final_url": "https://nookeventpods.us/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Mobile Meeting Space For Events | NOOK Event Pods",
+      "meta_description": "Mobile Meeting Space for events, tradeshows, meetings, conferences and private events. Provides New Sponsor Revenue For Events",
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Mobile Meeting Space For Events"
+        ],
+        "h2": [
+          "NOOK Event Pods\u00ae",
+          "NOOK Event Pods\u00ae",
+          "Event Dates",
+          "Book Your NOOK Event Pods\u00ae Today \u2013 and provide mobile meeting space for Your events",
+          "NOOK Event Pods\u00ae",
+          "Latest News"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 9,
+      "internal_links_count": 19,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/",
+              "url": "https://nookeventpods.us/",
+              "name": "Mobile Meeting Space For Events | NOOK Event Pods",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "about": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "datePublished": "2019-01-29T07:57:13+00:00",
+              "dateModified": "2026-03-24T00:37:51+00:00",
+              "description": "Mobile Meeting Space for events, tradeshows, meetings, conferences and private events. Provides New Sponsor Revenue For Events",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://schema.org",
+          "@graph": [
+            {
+              "@type": "VideoObject",
+              "name": "VBooth by Deondo",
+              "uploadDate": "2020-12-08 09:06:37",
+              "thumbnailUrl": "https://i.vimeocdn.com/video/1010905319-e0fb33bf3f4d3064642e54d0912008104af82654a7eb904085847e4c25161cb8-d_640?region=us",
+              "description": "VBooth by Deondo is a virtual booth you can use at physical trade shows when you or your staff cannot attend.",
+              "embedUrl": "https://player.vimeo.com/video/488536055",
+              "duration": "P0DT0H3M10S"
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization",
+        "VideoObject"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "NOOK Home",
+        "og:description": "Mobile Meeting Space For Events \n\nNOOK Event Pods\u00ae \n\nAward Winning Innovative Business Solution    \n\nNOOK Event Pods\u00ae \n\nThe Deondo Company is the exclusive North American provider of mobile meeting spaces called NOOK Event Pods\u00ae. With warehouses in Las Vegas, Orlando and Baltimore, NOOK Event Pods\u00ae offer spaces that generate sponsorship revenue and",
+        "og:url": "https://nookeventpods.us/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1531,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/who-we-serve-and-how/": {
+      "url": "https://nookeventpods.us/who-we-serve-and-how/",
+      "final_url": "https://nookeventpods.us/who-we-serve-and-how/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Who We Serve & How - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/who-we-serve-and-how/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Who We Serve & How"
+        ],
+        "h2": [
+          "Trade Associations",
+          "Event Owners",
+          "General Service Contractors",
+          "Event Planners",
+          "Event Sponsors",
+          "Conference and Event Facilities"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 21,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/who-we-serve-and-how/",
+              "url": "https://nookeventpods.us/who-we-serve-and-how/",
+              "name": "Who We Serve & How - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2017-12-06T18:26:11+00:00",
+              "dateModified": "2025-11-04T01:30:10+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/who-we-serve-and-how/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/who-we-serve-and-how/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/who-we-serve-and-how/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Who We Serve &#038; How"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Who We Serve & How",
+        "og:url": "https://nookeventpods.us/who-we-serve-and-how/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "Who We Serve & How        \nFrom planning logistics and brainstorming branding, to set-up and take-down, The Deondo Company is ready to bring NOOK Event Pods to your next event!    \nTrade Associations \nYour role is to serve your members with",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1432,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/use-cases/": {
+      "url": "https://nookeventpods.us/use-cases/",
+      "final_url": "https://nookeventpods.us/use-cases/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Use Cases - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/use-cases/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Use Cases"
+        ],
+        "h2": [
+          "Podcast/Media Booth",
+          "Career Coaching",
+          "Exhibit Space/Sponsor Presentations",
+          "Wellness Space or Lounge",
+          "Meet the Expert or Hosted Buyer"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 10,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/use-cases/",
+              "url": "https://nookeventpods.us/use-cases/",
+              "name": "Use Cases - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2025-11-09T19:21:52+00:00",
+              "dateModified": "2025-11-10T19:46:45+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/use-cases/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/use-cases/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/use-cases/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Use Cases"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Use Cases",
+        "og:url": "https://nookeventpods.us/use-cases/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "Use Cases    \nCurious how to use NOOK Event Pods\u00ae? Here are some primary uses that event organizers utilize year after year.  \nPodcast/Media Booth \nWhen the NOOK Event Pods\u00ae are configured as what we call a Double-Wide, they create an affordable quiet space that",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 2436,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/partners/": {
+      "url": "https://nookeventpods.us/partners/",
+      "final_url": "https://nookeventpods.us/partners/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "NOOK Event Pods | Partnerships Driving Innovation in the Event Industry",
+      "meta_description": "Discover how NOOK partners with leading event industry organizations to stay ahead of trends, foster innovation, and enhance event experiences for organizers and attendees alike.",
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/partners/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Partners & Testimonials"
+        ],
+        "h2": [
+          "Our Industry Affiliations & Supportive Partnerships",
+          "Testimonials"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 5,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/partners/",
+              "url": "https://nookeventpods.us/partners/",
+              "name": "NOOK Event Pods | Partnerships Driving Innovation in the Event Industry",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2024-11-22T04:00:55+00:00",
+              "dateModified": "2025-11-04T01:24:52+00:00",
+              "description": "Discover how NOOK partners with leading event industry organizations to stay ahead of trends, foster innovation, and enhance event experiences for organizers and attendees alike.",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/partners/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/partners/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/partners/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Partners &#038; Testimonials"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Partners & Testimonials",
+        "og:description": "Partners & Testimonials    \n\nOur Industry Affiliations & Supportive Partnerships \n\nNOOK Event Pods are proud to collaborate with some of the most influential organizations in the event industry. These partnerships keep us at the cutting edge of industry innovation, helping us create meaningful connections and deliver exceptional value to event organizers and attendees",
+        "og:url": "https://nookeventpods.us/partners/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1860,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/pricing/": {
+      "url": "https://nookeventpods.us/pricing/",
+      "final_url": "https://nookeventpods.us/pricing/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Pricing - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/pricing/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Pricing"
+        ],
+        "h2": [
+          "Nationwide Reach. Local Expertise."
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 5,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/pricing/",
+              "url": "https://nookeventpods.us/pricing/",
+              "name": "Pricing - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2025-10-08T01:04:10+00:00",
+              "dateModified": "2026-03-03T00:09:52+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/pricing/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/pricing/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/pricing/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Pricing"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Pricing",
+        "og:url": "https://nookeventpods.us/pricing/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "\u00a0Pricing    \nNationwide Reach. Local Expertise. \nWith warehouses in Las Vegas, Orlando, and the Washington, DC area, we provide efficient local transportation in major event markets.\nHosting elsewhere?\nNOOK Event Pods can be shipped anywhere in the contiguous United",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1154,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/about/": {
+      "url": "https://nookeventpods.us/about/",
+      "final_url": "https://nookeventpods.us/about/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "About - NOOK Event Pods\u00ae",
+      "meta_description": "NOOK Event Pods\u00ae are mobile meeting spaces for tradeshows, meetings and corporate events. Provides inclusivity for neurodiversity at events",
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/about/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Solution Details"
+        ],
+        "h2": [
+          "Anatomy of a NOOK",
+          "Technical Specs"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 9,
+      "internal_links_count": 17,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/about/",
+              "url": "https://nookeventpods.us/about/",
+              "name": "About - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2019-01-29T07:57:53+00:00",
+              "dateModified": "2025-09-19T19:48:07+00:00",
+              "description": "NOOK Event Pods\u00ae are mobile meeting spaces for tradeshows, meetings and corporate events. Provides inclusivity for neurodiversity at events",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/about/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/about/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/about/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "About",
+        "og:description": "Solution Details     \n\n\n\n\nShell Specifications\n200cm wide x 196cm tall x 92cm deep\n\n\nShell Color\nWhite\n\n\nUpholstery\nCamira > Xtreme > Blizzard Grey\n\n\nSeats\nStandard (Set of 2 bench seats)\n\n\nTable\nWhite Laminate\n\n\nReal Wall Lower\nInclude\n\n\nReal Wall Upper\nWhite Board Optional\n\n\nMains Power\nMains Plug",
+        "og:url": "https://nookeventpods.us/about/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1526,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/blog-2/": {
+      "url": "https://nookeventpods.us/blog-2/",
+      "final_url": "https://nookeventpods.us/blog-2/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Blog - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/blog-2/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "",
+          "Latest From NOOK Event Pods"
+        ],
+        "h2": [
+          "Why NOOK Event Pods Are Perfect for Loud Conferences",
+          "Sponsorship Meets Comfort at IFA Annual 2026",
+          "Comfort and Content Creation at Final Mile Forum 2026",
+          "The Future of Exhibit Design on Display at WVC 2026",
+          "Flexible Meeting Space Done Right at ReFocus 2026",
+          "Structured, Quiet Meeting Space at SLAS 2026 with NOOK Event Pods\u00ae"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 22,
+      "internal_links_count": 34,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/blog-2/",
+              "url": "https://nookeventpods.us/blog-2/",
+              "name": "Blog - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2019-01-29T08:01:21+00:00",
+              "dateModified": "2026-03-30T21:22:54+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/blog-2/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/blog-2/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/blog-2/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Blog"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Blog",
+        "og:url": "https://nookeventpods.us/blog-2/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "Latest From NOOK Event Pods",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1306,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/book-now/": {
+      "url": "https://nookeventpods.us/book-now/",
+      "final_url": "https://nookeventpods.us/book-now/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Book Now - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/book-now/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Book Now"
+        ],
+        "h2": [
+          "We\u2019re waiting to hear from you",
+          "Event Dates"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/book-now/",
+              "url": "https://nookeventpods.us/book-now/",
+              "name": "Book Now - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2019-01-29T08:01:35+00:00",
+              "dateModified": "2024-07-31T01:27:37+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/book-now/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/book-now/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/book-now/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Book Now"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Book Now",
+        "og:url": "https://nookeventpods.us/book-now/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "Book Now    \n\nWe\u2019re waiting to hear from you  \n\nGet in touch and we'll get back to you as soon as we can. We look forward to hearing from you!\nDelivery of the NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1011,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/author/dliddle/": {
+      "url": "https://nookeventpods.us/author/dliddle/",
+      "final_url": "https://nookeventpods.us/author/dliddle/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "dliddle, Author at NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/author/dliddle/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [],
+        "h2": [
+          "NOOK Event Pods at IMEX America 2025: Showcasing Connection, Comfort, and Creativity",
+          "NOOK Event Pods Make Their Debut at Arival 360 National Harbor",
+          "NOOK Event Pods at Oracle NetSuite SuiteWorld: Elevating Privacy and Focus in a Dynamic Setting",
+          "NOOK Event Pods at Braze Forge 2025: A Perfect Fit for Connection and Comfort",
+          "NOOK Event Pods at Groceryshop: Creating Calm and Connection on a Busy Show Floor",
+          "NOOK Event Pods at Fiserv Forum: Comfort, Design, and a Record-Breaking Sponsorship Win",
+          "NOOK Event Pods at the National Black MBA Association Conference: Creating Space for Connection and Resilience",
+          "NOOK Event Pods at Skift Global Forum: Creating Space for Inspiration at The Glass Houseat Skift Global Forum: Creating Space for Inspiration at The Glass House",
+          "ASD August",
+          "ITALCON 2023"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 36,
+      "internal_links_count": 50,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "ProfilePage",
+              "@id": "https://nookeventpods.us/author/dliddle/",
+              "url": "https://nookeventpods.us/author/dliddle/",
+              "name": "dliddle, Author at NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://nookeventpods.us/author/dliddle/#primaryimage"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/author/dliddle/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2025/10/IMEX-2025-Reilience-Lounge-Team.jpg",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/author/dliddle/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/author/dliddle/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://nookeventpods.us/author/dliddle/#primaryimage",
+              "url": "https://nookeventpods.us/wp-content/uploads/2025/10/IMEX-2025-Reilience-Lounge-Team.jpg",
+              "contentUrl": "https://nookeventpods.us/wp-content/uploads/2025/10/IMEX-2025-Reilience-Lounge-Team.jpg",
+              "width": 2016,
+              "height": 1512
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/author/dliddle/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Archives for dliddle"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://nookeventpods.us/#/schema/person/58aedb550fead3cdce246889c1bbdb04",
+              "name": "dliddle",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://secure.gravatar.com/avatar/d72fa32e6e1c0a1677c759026623d2fbaa8fddbcff61096e846e3fbdb2f80517?s=96&d=mm&r=g",
+                "url": "https://secure.gravatar.com/avatar/d72fa32e6e1c0a1677c759026623d2fbaa8fddbcff61096e846e3fbdb2f80517?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/d72fa32e6e1c0a1677c759026623d2fbaa8fddbcff61096e846e3fbdb2f80517?s=96&d=mm&r=g",
+                "caption": "dliddle"
+              },
+              "mainEntityOfPage": {
+                "@id": "https://nookeventpods.us/author/dliddle/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "ProfilePage",
+        "ImageObject",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization",
+        "Person"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "profile",
+        "og:title": "dliddle, Author at NOOK Event Pods\u00ae",
+        "og:url": "https://nookeventpods.us/author/dliddle/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://secure.gravatar.com/avatar/93daadf6de79ef8919a4b3c5d398bbf7?s=500&d=mm&r=g"
+      },
+      "twitter_tags": {},
+      "word_count": 1210,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/solution-details/": {
+      "url": "https://nookeventpods.us/solution-details/",
+      "final_url": "https://nookeventpods.us/solution-details/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Solution Details - NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/solution-details/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [],
+        "h2": [
+          "Anatomy of a NOOK Event Pod",
+          "What is a NOOK Village?",
+          "Technical Specs"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 5,
+      "internal_links_count": 11,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/solution-details/",
+              "url": "https://nookeventpods.us/solution-details/",
+              "name": "Solution Details - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "datePublished": "2017-12-06T19:49:53+00:00",
+              "dateModified": "2023-01-11T02:00:06+00:00",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/solution-details/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/solution-details/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/solution-details/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Solution Details"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Solution Details",
+        "og:url": "https://nookeventpods.us/solution-details/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:description": "Anatomy of a NOOK Event Pod    \n\n\n\n\nShell Specifications\n200cm wide x 196cm tall x 92cm deep\n\n\nShell Color\nWhite\n\n\nUpholstery\nCamira > Xtreme > Blizzard Grey\n\n\nSeats\nStandard (Set of 2 bench seats)\n\n\nTable\nWhite Laminate",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2024/08/NOOK-Logo-long-registered-1-e1725380312834.png"
+      },
+      "twitter_tags": {},
+      "word_count": 1549,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/": {
+      "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+      "final_url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Why NOOK Event Pods Are Perfect for Loud Conferences - NOOK Event Pods\u00ae",
+      "meta_description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Why NOOK Event Pods Are Perfect for Loud Conferences"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 4,
+      "internal_links_count": 13,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#article",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+              },
+              "author": {
+                "name": "Dan Donati",
+                "@id": "https://nookeventpods.us/#/schema/person/f95bcabdbe2f8a606b71951b864408e8"
+              },
+              "headline": "Why NOOK Event Pods Are Perfect for Loud Conferences",
+              "datePublished": "2026-03-24T22:47:59+00:00",
+              "mainEntityOfPage": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+              },
+              "wordCount": 224,
+              "commentCount": 0,
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "keywords": [
+                "#ConferenceManagement",
+                "#ConferencePlanning",
+                "#ConventionPlanning",
+                "#CorporateEventPlanning",
+                "#CorporateEvents",
+                "#CorporateEventSponsorships",
+                "#CorporateSponsorships",
+                "#EventManagement",
+                "#EventPlanning",
+                "#MobileMeetingSpace",
+                "#MobileMeetingSpaces",
+                "#PortableMeetingSpaces",
+                "#TradeShowManagement",
+                "BookANOOK",
+                "Event Management",
+                "mobile meeting space"
+              ],
+              "articleSection": [
+                "mobile meeting pods"
+              ],
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "CommentAction",
+                  "name": "Comment",
+                  "target": [
+                    "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#respond"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+              "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+              "name": "Why NOOK Event Pods Are Perfect for Loud Conferences - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#primaryimage"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "datePublished": "2026-03-24T22:47:59+00:00",
+              "description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#primaryimage",
+              "url": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "contentUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "width": 2016,
+              "height": 1512
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Blog",
+                  "item": "https://nookeventpods.us/blog/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Why NOOK Event Pods Are Perfect for Loud Conferences"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://nookeventpods.us/#/schema/person/f95bcabdbe2f8a606b71951b864408e8",
+              "name": "Dan Donati",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "url": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "caption": "Dan Donati"
+              },
+              "url": "https://nookeventpods.us/author/dan-donati/"
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "Article",
+        "WebPage",
+        "ImageObject",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization",
+        "Person"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Why NOOK Event Pods Are Perfect for Loud Conferences",
+        "og:description": "Large conferences and trade shows are exciting\u2014but they\u2019re also loud. Between keynote stages, exhibit booths, and thousands of conversations happening at once, finding a quiet place for a meaningful discussion can be nearly impossible. That\u2019s why NOOK Event Pods by The Deondo Company have become a smart solution for modern events.",
+        "og:url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+        "og:image:width": "2016",
+        "og:image:height": "1512",
+        "og:image:type": "image/jpeg"
+      },
+      "twitter_tags": {},
+      "word_count": 1101,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/author/dan-donati/": {
+      "url": "https://nookeventpods.us/author/dan-donati/",
+      "final_url": "https://nookeventpods.us/author/dan-donati/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Dan Donati, Author at NOOK Event Pods\u00ae",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/author/dan-donati/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [],
+        "h2": [
+          "Why NOOK Event Pods Are Perfect for Loud Conferences",
+          "Sponsorship Meets Comfort at IFA Annual 2026",
+          "Comfort and Content Creation at Final Mile Forum 2026",
+          "The Future of Exhibit Design on Display at WVC 2026",
+          "Flexible Meeting Space Done Right at ReFocus 2026",
+          "Structured, Quiet Meeting Space at SLAS 2026 with NOOK Event Pods\u00ae",
+          "Finding \u201cMeating\u201d Space at CattleCon 2026 with NOOK Event Pods\u00ae",
+          "The possibilities are endless with creative graphics",
+          "Comfort Across Every Floor at FMI Midwinter Conference Food Industry Association Midwinter Executive Conference \u201cWhere the Food Industry Shapes What\u2019s Next\u201d | Chula Vista, CA | January 21 \u2013 24",
+          "Supporting the Future of the Game at the PGA Show with NOOK Event Pods\u00ae PGA Show | Orange County Convention Center, Orlando, FL | January 21 \u2013 23"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 34,
+      "internal_links_count": 49,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "ProfilePage",
+              "@id": "https://nookeventpods.us/author/dan-donati/",
+              "url": "https://nookeventpods.us/author/dan-donati/",
+              "name": "Dan Donati, Author at NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://nookeventpods.us/author/dan-donati/#primaryimage"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/author/dan-donati/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/author/dan-donati/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/author/dan-donati/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://nookeventpods.us/author/dan-donati/#primaryimage",
+              "url": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "contentUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/Nvidia-2026-lobby-cluster-2jpg.jpg",
+              "width": 2016,
+              "height": 1512
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/author/dan-donati/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Archives for Dan Donati"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://nookeventpods.us/#/schema/person/f95bcabdbe2f8a606b71951b864408e8",
+              "name": "Dan Donati",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "url": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "caption": "Dan Donati"
+              },
+              "mainEntityOfPage": {
+                "@id": "https://nookeventpods.us/author/dan-donati/"
+              }
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "ProfilePage",
+        "ImageObject",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization",
+        "Person"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "profile",
+        "og:title": "Dan Donati, Author at NOOK Event Pods\u00ae",
+        "og:url": "https://nookeventpods.us/author/dan-donati/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://secure.gravatar.com/avatar/eb925be0123b8b58cd2bde6bc323200a?s=500&d=mm&r=g"
+      },
+      "twitter_tags": {},
+      "word_count": 1250,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/": {
+      "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+      "final_url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Sponsorship Meets Comfort at IFA Annual 2026 - NOOK Event Pods\u00ae",
+      "meta_description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+      "meta_robots": null,
+      "canonical": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Sponsorship Meets Comfort at IFA Annual 2026"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 4,
+      "internal_links_count": 13,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#article",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+              },
+              "author": {
+                "name": "Dan Donati",
+                "@id": "https://nookeventpods.us/#/schema/person/f95bcabdbe2f8a606b71951b864408e8"
+              },
+              "headline": "Sponsorship Meets Comfort at IFA Annual 2026",
+              "datePublished": "2026-03-05T23:13:13+00:00",
+              "dateModified": "2026-03-11T18:18:26+00:00",
+              "mainEntityOfPage": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+              },
+              "wordCount": 223,
+              "commentCount": 0,
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/IFA-2026-Sponsor.jpg",
+              "keywords": [
+                "#ConferenceManagement",
+                "#CorporateEvents",
+                "#CorporateEventSponsorships",
+                "#CorporateSponsorships",
+                "#EventPods",
+                "#MobileMeetingSpace",
+                "#MobileMeetingSpaces",
+                "#PortableMeetingSpaces",
+                "#TradeShowManagement",
+                "#TradeShowPlanning",
+                "corporate event",
+                "Exhibit Booth",
+                "exhibitors",
+                "trade shows"
+              ],
+              "articleSection": [
+                "mobile meeting pods"
+              ],
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "CommentAction",
+                  "name": "Comment",
+                  "target": [
+                    "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#respond"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+              "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+              "name": "Sponsorship Meets Comfort at IFA Annual 2026 - NOOK Event Pods\u00ae",
+              "isPartOf": {
+                "@id": "https://nookeventpods.us/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#primaryimage"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#primaryimage"
+              },
+              "thumbnailUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/IFA-2026-Sponsor.jpg",
+              "datePublished": "2026-03-05T23:13:13+00:00",
+              "dateModified": "2026-03-11T18:18:26+00:00",
+              "description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+              "breadcrumb": {
+                "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#primaryimage",
+              "url": "https://nookeventpods.us/wp-content/uploads/2026/03/IFA-2026-Sponsor.jpg",
+              "contentUrl": "https://nookeventpods.us/wp-content/uploads/2026/03/IFA-2026-Sponsor.jpg",
+              "width": 2000,
+              "height": 924
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://nookeventpods.us/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Blog",
+                  "item": "https://nookeventpods.us/blog/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Sponsorship Meets Comfort at IFA Annual 2026"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://nookeventpods.us/#website",
+              "url": "https://nookeventpods.us/",
+              "name": "NOOK Event Pods\u00ae",
+              "description": "The NOOK Event Pods\u00ae provide an Oasis of Calm to collaborate with colleagues and clients",
+              "publisher": {
+                "@id": "https://nookeventpods.us/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://nookeventpods.us/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://nookeventpods.us/#organization",
+              "name": "NOOK Event Pods\u00ae",
+              "url": "https://nookeventpods.us/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://nookeventpods.us/#/schema/logo/image/",
+                "url": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "contentUrl": "https://nookeventpods.us/wp-content/uploads/2023/01/nook-event-pods-stacked-dark-500.png",
+                "width": 254,
+                "height": 240,
+                "caption": "NOOK Event Pods\u00ae"
+              },
+              "image": {
+                "@id": "https://nookeventpods.us/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://nookeventpods.us/#/schema/person/f95bcabdbe2f8a606b71951b864408e8",
+              "name": "Dan Donati",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "url": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/097345d916678b5724be4c9733b3ff721987ca05db0af77c399fc2d036151f90?s=96&d=mm&r=g",
+                "caption": "Dan Donati"
+              },
+              "url": "https://nookeventpods.us/author/dan-donati/"
+            }
+          ]
+        }
+      ],
+      "schema_types": [
+        "Article",
+        "WebPage",
+        "ImageObject",
+        "BreadcrumbList",
+        "WebSite",
+        "Organization",
+        "Person"
+      ],
+      "og_tags": {
+        "og:locale": "en_US",
+        "og:type": "article",
+        "og:title": "Sponsorship Meets Comfort at IFA Annual 2026",
+        "og:description": "International Franchise Association | Mandalay Bay Convention Center, Las Vegas | February 23\u201325, 2026\n\nFor the second consecutive year, the International Franchise Association (IFA) successfully leveraged NOOK Event Pods\u00ae as both a revenue-generating sponsorship platform and a meaningful attendee amenity at IFA Annual 2026.\n\nHeld at the Mandalay Bay Convention Center in Las Vegas, this high-energy",
+        "og:url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+        "og:site_name": "NOOK Event Pods\u00ae",
+        "og:image": "https://nookeventpods.us/wp-content/uploads/2026/03/IFA-2026-Sponsor.jpg",
+        "og:image:width": "2000",
+        "og:image:height": "924",
+        "og:image:type": "image/jpeg"
+      },
+      "twitter_tags": {},
+      "word_count": 1104,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    }
+  },
+  "robots_txt": {
+    "exists": false,
+    "content": "",
+    "note": "Not captured via browser collector"
+  },
+  "sitemap": {
+    "exists": false,
+    "note": "Not captured via browser collector"
+  },
+  "errors": [],
+  "network_accessible": false,
+  "summary": {
+    "total_pages_crawled": 13,
+    "total_errors": 0
+  }
+}

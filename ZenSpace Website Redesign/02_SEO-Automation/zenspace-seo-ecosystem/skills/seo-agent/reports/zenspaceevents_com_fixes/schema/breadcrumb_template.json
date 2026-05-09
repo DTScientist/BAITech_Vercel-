@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.zenspaceevents.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "[PAGE_CATEGORY]",
+      "item": "https://www.zenspaceevents.com/[category]/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "[PAGE_TITLE]",
+      "item": "https://www.zenspaceevents.com/[category]/[page]/"
+    }
+  ]
+}

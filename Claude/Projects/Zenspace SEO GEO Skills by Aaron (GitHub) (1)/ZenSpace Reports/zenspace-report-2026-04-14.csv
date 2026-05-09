@@ -1,0 +1,31 @@
+Date,Task Name,Status,Category,Due Date,Needs Mayank,Mayank Input Needed,Priority
+2026-04-14,Crawl + audit ZenSpace (33 pages) vs Nook (13 pages),Done,Technical SEO,2026-04-05,NO,,DONE
+2026-04-14,Deploy Cloudflare Worker middleware,Done,Infrastructure,2026-04-05,NO,,DONE
+2026-04-14,Run verification engine on live site,Done,Technical SEO,2026-04-05,NO,,DONE
+2026-04-14,Run 16-fix deployment via middleware,Done,Infrastructure,2026-04-05,NO,,DONE
+2026-04-14,Wix: Paste meta descriptions on 9 pages (10 min),Done,On-Page SEO,2026-04-07,NO,,DONE
+2026-04-14,Wix: Paste FAQPage schema on /faq page (5 min),Done,Schema Markup,2026-04-06,NO,,DONE
+2026-04-14,Wix: Add H1 to privacy-policy + terms-conditions (3 min),Done,On-Page SEO,2026-04-08,NO,,DONE
+2026-04-14,Wix: Add AI bot rules to robots.txt (2 min),Done,Technical SEO,2026-04-06,NO,,DONE
+2026-04-14,Wix: Paste Product schema on 6 pod pages (15 min),Done,Schema Markup,2026-04-07,NO,,DONE
+2026-04-14,Wix: Fix homepage H1 — change 250+ and 15+ from H1 to H2 (5 min),Done,On-Page SEO,2026-04-06,NO,,DONE
+2026-04-14,Paste LocalBusiness schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-04-14,Paste Organization schema in Wix Custom Code,Done,Schema Markup,2026-04-05,NO,,DONE
+2026-04-14,Build Notion Command Center (8 databases),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-14,Build SEO Agent Toolkit (4284 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-14,Build SEO Ecosystem scripts (2021 lines),Done,AI Automation,2026-04-05,NO,,DONE
+2026-04-14,Review + edit pillar page draft (3200 words),In progress,Content Review,2026-04-14,NO,,ACTIVE
+2026-04-14,Review /event-pod-rental page v2 — approve & publish to Wix,Not started,Content Review,2026-04-14,YES,"Review the /event-pod-rental landing page v2 — fully written GEO+CORE-EEAT optimized (82/100 score) and SEO-audited. Page is ready to publish. Once approved: follow the Wix publish checklist + fix 3 homepage issues (wrong schema cities /home canonical title tag).",CRITICAL
+2026-04-14,Download SEO ecosystem package + install on local machine,Not started,Infrastructure,2026-04-09,NO,,PIPELINE
+2026-04-14,Install crontab for automated daily/weekly monitoring,Not started,Infrastructure,2026-04-10,NO,,PIPELINE
+2026-04-14,Day 6 (Apr 11) — Review IoT blog → Approve. Publish SmartPods blog.,Not started,Content Publishing,2026-04-11,NO,,PIPELINE
+2026-04-14,Day 7 (Apr 12) — Review What to Expect blog → Approve. Publish IoT blog.,Not started,Content Publishing,2026-04-12,NO,,PIPELINE
+2026-04-14,Wix: Investigate homepage schema missing (5 min),Not started,Schema Markup,2026-04-13,NO,,PIPELINE
+2026-04-14,Re-run verification engine after manual fixes (change delay to 3s),Not started,Technical SEO,2026-04-13,NO,,PIPELINE
+2026-04-14,Publish pillar page to Wix at /event-pod-rental,Not started,Content Publishing,2026-04-14,NO,,PIPELINE
+2026-04-14,Day 9 (Apr 14) — Review Chicago page → Approve. Publish Las Vegas + remaining.,Not started,Content Publishing,2026-04-14,NO,,PIPELINE
+2026-04-14,Write 2 city pages (Las Vegas + SF Bay Area),Not started,Content Writing,2026-04-15,NO,,PIPELINE
+2026-04-14,Write + publish AIEO page: What Is an Event Pod?,Not started,Content Writing,2026-04-15,NO,,PIPELINE
+2026-04-14,Day 10 (Apr 15) — Add schema to all new published pages. Re-run full site verification.,Not started,Technical SEO,2026-04-15,NO,,PIPELINE
+2026-04-14,Write + publish pricing page: Event Pod Rental Cost,Not started,Content Writing,2026-04-19,NO,,PIPELINE
+2026-04-14,Image alt text — case studies + remaining (397 images),Not started,On-Page SEO,2026-04-20,NO,,PIPELINE

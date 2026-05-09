@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<script type="application/json" id="cowork-artifact-meta">
+{
+  "name": "Zenspace Existing Content Optimization",
+  "schemaVersion": 1,
+  "description": "Page-by-page optimization guide for every existing page on zenspaceevents.com — exact copy-paste rewrites for title tags, H1s, meta descriptions, and body copy improvements."
+}
+</script>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZenSpace — Existing Content Optimization</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9fb; color: #1a1a2e; font-size: 14px; line-height: 1.6; }
+
+  .header { background: linear-gradient(135deg, #0f3460, #533483); color: #fff; padding: 32px 40px 24px; }
+  .header h1 { font-size: 24px; font-weight: 700; }
+  .header p { color: rgba(255,255,255,0.75); font-size: 13px; margin-top: 5px; }
+
+  .container { max-width: 1060px; margin: 0 auto; padding: 28px 20px; }
+
+  .page-card { background: #fff; border-radius: 16px; border: 1px solid #e0e2ea; margin-bottom: 28px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+  .page-header { padding: 18px 24px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #f0f1f8; }
+  .page-icon { font-size: 22px; }
+  .page-title { font-size: 16px; font-weight: 800; color: #1a1a2e; }
+  .page-url { font-size: 12px; color: #888; margin-top: 1px; font-family: monospace; }
+  .status-pill { margin-left: auto; border-radius: 20px; padding: 4px 12px; font-size: 11px; font-weight: 700; white-space: nowrap; }
+  .status-pill.fire { background: #fff1f0; color: #cf1322; border: 1px solid #ffccc7; }
+  .status-pill.warn { background: #fffbe6; color: #ad6800; border: 1px solid #ffe58f; }
+  .status-pill.ok { background: #f6ffed; color: #389e0d; border: 1px solid #b7eb8f; }
+
+  .fix-block { padding: 16px 24px; border-bottom: 1px solid #f0f1f8; }
+  .fix-block:last-child { border-bottom: none; }
+  .fix-label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.6px; color: #888; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .fix-label .severity { border-radius: 4px; padding: 1px 7px; font-size: 10px; font-weight: 700; }
+  .fix-label .severity.crit { background: #fff1f0; color: #cf1322; }
+  .fix-label .severity.high { background: #fff7e6; color: #d46b08; }
+  .fix-label .severity.med { background: #e6f7ff; color: #096dd9; }
+
+  .before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px; }
+  .ba-box { border-radius: 10px; padding: 12px 14px; }
+  .ba-box.before { background: #fff1f0; border: 1px solid #ffccc7; }
+  .ba-box.after { background: #f6ffed; border: 1px solid #b7eb8f; }
+  .ba-label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .ba-box.before .ba-label { color: #cf1322; }
+  .ba-box.after .ba-label { color: #389e0d; }
+  .ba-text { font-size: 13px; color: #1a1a2e; line-height: 1.5; }
+  .ba-text em { font-style: normal; font-weight: 700; background: rgba(56,158,13,0.12); border-radius: 3px; padding: 0 2px; }
+
+  .why { background: #f5f6fa; border-radius: 8px; padding: 10px 13px; margin-top: 10px; font-size: 12px; color: #555; }
+  .why strong { color: #333; }
+
+  .body-fix { background: #fafbff; border: 1px solid #e0e2ea; border-radius: 10px; padding: 14px 16px; margin-top: 10px; }
+  .body-fix h4 { font-size: 12px; font-weight: 700; color: #4338ca; margin-bottom: 8px; }
+  .body-fix ul { padding-left: 16px; }
+  .body-fix li { font-size: 12px; color: #444; margin-bottom: 5px; line-height: 1.5; }
+  .body-fix li strong { color: #1a1a2e; }
+
+  .emergency { background: linear-gradient(135deg, #fff1f015, #ffccc730); border: 1.5px solid #ffccc7; border-radius: 14px; padding: 18px 22px; margin-bottom: 28px; }
+  .emergency h3 { color: #cf1322; font-size: 15px; font-weight: 800; margin-bottom: 8px; }
+  .emergency p { font-size: 13px; color: #444; margin-bottom: 8px; }
+  .emergency ul { padding-left: 18px; }
+  .emergency li { font-size: 13px; color: #444; margin-bottom: 4px; }
+
+  .char-count { font-size: 10px; color: #888; margin-top: 3px; }
+
+  @media (max-width: 640px) { .before-after { grid-template-columns: 1fr; } }
+
+  code { background: #f0f1f8; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-family: monospace; color: #c41d7f; }
+  .inline-tag { display: inline-block; background: #e6f7ff; color: #096dd9; border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>✏️ Existing Content Optimization — Page by Page</h1>
+  <p>Exact copy-paste fixes for every current page on zenspaceevents.com · April 2026</p>
+</div>
+
+<div class="container">
+
+  <!-- EMERGENCY ALERT -->
+  <div class="emergency">
+    <h3>🚨 Emergency Fix First — FAQ Page Is Broken</h3>
+    <p>The /faq page — which is linked in your main navigation on every page — currently shows only the words <strong>"Coming Soon."</strong> This means:</p>
+    <ul>
+      <li>Every visitor who clicks FAQ hits a dead end. This damages trust and increases bounce rate.</li>
+      <li>Google is crawling this page and seeing a near-empty page — it dilutes your overall site quality score.</li>
+      <li>A "Resources" menu item is also misspelled as <strong>"Resourses"</strong> in the navigation on /exhibitors and /faq pages.</li>
+    </ul>
+    <p style="margin-top:8px"><strong>Do this before anything else:</strong> Either build the FAQ page content (highest recommended) or set it to noindex and remove it from the nav until it's ready. Don't leave an empty linked page live.</p>
+  </div>
+
+  <!-- HOMEPAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">🏠</div>
+      <div>
+        <div class="page-title">Homepage</div>
+        <div class="page-url">zenspaceevents.com/</div>
+      </div>
+      <div class="status-pill warn">Needs Work</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Title Tag <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current (58 chars)</div>
+          <div class="ba-text">Event Pod Rental | Smart Meeting Pods for Trade Shows | ZenSpace</div>
+          <div class="char-count">Missing "soundproof," "conference," and "rental" context is weak</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (60 chars)</div>
+          <div class="ba-text"><em>Soundproof Event Pod Rental</em> for <em>Trade Shows & Conferences</em> | ZenSpace</div>
+          <div class="char-count">Front-loads two high-value keywords, stays under 60 chars</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Meta Description <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Auto-generated or missing — Wix is likely pulling the first sentence of page content</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (152 chars)</div>
+          <div class="ba-text">Rent <em>UL-certified soundproof meeting pods</em> for trade shows, conferences & corporate events. <em>15+ smart features</em>, full-service delivery. 250+ events. <em>Get a quote →</em></div>
+        </div>
+      </div>
+      <div class="why"><strong>Why:</strong> Surfaces your 3 key differentiators (UL-certified, 15+ features, full-service), includes the primary keyword, and ends with a clear CTA. Google shows meta descriptions in search results — this is your ad copy.</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">H1 Tag <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Smart Event Pod Rentals for Trade Shows, Conferences, Corporate Events</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text"><em>Soundproof Event Pod Rental</em> for Trade Shows, Conferences & Corporate Events</div>
+        </div>
+      </div>
+      <div class="why"><strong>Why:</strong> Adding "Soundproof" to the H1 captures a keyword cluster (soundproof pod, sound-insulated pod, quiet meeting pod) that your competitors rank for and you currently don't. Google weighs H1 heavily for topic classification.</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">CTA Buttons — Broken Links <span class="severity crit">CRITICAL</span></div>
+      <div class="body-fix">
+        <h4>Both hero CTA buttons link back to the homepage. Fix these immediately in Wix editor:</h4>
+        <ul>
+          <li><strong>"Contact Us" button</strong> → Change link destination to <code>/contacts</code></li>
+          <li><strong>"Explore Solutions" button</strong> → Change link destination to <code>/our-process</code> or <code>/4-seater</code></li>
+          <li>Self-referential links waste crawl budget and confuse both users and Googlebot</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Body Copy — "Why ZenSpace" Section <span class="severity med">MEDIUM</span></div>
+      <div class="body-fix">
+        <h4>The "Why ZenSpace" section (Since 2017...) has great facts buried in a paragraph. Restructure for SEO:</h4>
+        <ul>
+          <li>Add the keyword "event pod rental" or "meeting pod rental" naturally in the first sentence of this section</li>
+          <li>The stats (250+ events, 15+ features) are currently in decorative callouts — Google's crawler may not weight these. Make sure they also appear in readable paragraph text</li>
+          <li>Add a sentence explicitly mentioning "UL-certified" and "soundproof" — these are trust/spec terms buyers search for and they don't appear prominently enough in indexable body text</li>
+          <li>Current footer tagline "On-Demand Workspace. Anytime. Anyplace." appears on every page footer but doesn't reflect your product. Consider changing to "Smart Event Pod Rentals. Any Event. Anywhere."</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4-SEATER PAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">🏛️</div>
+      <div>
+        <div class="page-title">4-Seater Event Pod — Core Product Page</div>
+        <div class="page-url">zenspaceevents.com/4-seater</div>
+      </div>
+      <div class="status-pill fire">Urgent</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Title Tag <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current (47 chars)</div>
+          <div class="ba-text">Event 4-seater Pod | ZenSpace Event Solutions</div>
+          <div class="char-count">No rental keyword. No soundproof. No trade show. This is your most important product page.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (61 chars)</div>
+          <div class="ba-text"><em>4-Seater Soundproof Event Pod Rental</em> | <em>Trade Shows</em> | ZenSpace</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">H1 Tag <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">ZenSpace 4-seater Event Pod</div>
+          <div class="char-count">Brand name in H1 wastes your most powerful on-page SEO signal</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text"><em>4-Seater Soundproof Meeting Pod Rental</em> for <em>Trade Shows & Conferences</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Meta Description <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Auto-generated or missing</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (155 chars)</div>
+          <div class="ba-text">Rent our <em>4-seater soundproof event pod</em> for your next trade show or conference. <em>-29 dB isolation, smart e-glass, 32" monitor</em>. From <em>$4,500/pod</em>. Delivered fully assembled.</div>
+        </div>
+      </div>
+      <div class="why"><strong>Why:</strong> Showing the price ($4,500) in the meta description is a proven CTR booster for transactional searches — it pre-qualifies clicks and your transparency is a competitive advantage over NOOK and Skyline who don't show pricing.</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Opening Paragraph — Missing Keywords <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">A convenient, smart, reservable, private workspace for on-the-go business people. Designed for focus, privacy, and seamless connectivity...</div>
+          <div class="char-count">No keyword in first 100 words. "On-the-go business people" is vague.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">The ZenSpace 4-seater event pod is a <em>soundproof meeting pod rental</em> built for <em>trade shows, conferences, and corporate events</em>. It delivers a private, noise-insulated (-29 dB) workspace directly on the event floor — giving attendees, exhibitors, and organizers a professional meeting space without leaving the venue.</div>
+        </div>
+      </div>
+      <div class="why"><strong>Why:</strong> Google's algorithm places heavy weight on the first 100 words of a page. The primary keyword must appear in this window. Currently it does not.</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Feature Section Headers — Add Keywords <span class="severity med">MEDIUM</span></div>
+      <div class="body-fix">
+        <h4>The feature section uses generic headers. Add keyword context to each:</h4>
+        <ul>
+          <li><strong>"Shared Features"</strong> → Change to <strong>"Standard Features — Every ZenSpace Event Pod Includes:"</strong></li>
+          <li><strong>"New 2026 Updates"</strong> → Change to <strong>"2026 Smart Features — What Sets Our Event Pods Apart"</strong></li>
+          <li>In the Smart E-Glass description, add: "This feature makes ZenSpace the only <em>smart event pod rental</em> with on-demand e-glass privacy."</li>
+          <li>The specs table is great for SEO. Make sure all spec labels are in actual text (not just images) so Google can read them.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Price Section — SEO Opportunity <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>The pricing section ("2026 Rental Rate: $4,500 per pod") is excellent but needs SEO optimization:</h4>
+        <ul>
+          <li>Add an H2 or H3 above this section: <strong>"Event Pod Rental Pricing"</strong> — this is a keyword people search</li>
+          <li>Add a sentence: "For events with 6 or more pods, ZenSpace Booking Software is included at no additional cost — a value of approximately $X."</li>
+          <li>Add FAQ schema to 2–3 pricing questions (see schema guide in the main audit report)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- EVENT ORGANIZERS PAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">🎪</div>
+      <div>
+        <div class="page-title">Event Organizers Page</div>
+        <div class="page-url">zenspaceevents.com/event-organizers</div>
+      </div>
+      <div class="status-pill fire">Urgent</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Title Tag <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Tradeshow & Conference Organizers | ZenSpace Event Solutions</div>
+          <div class="char-count">Describes who the page is for, not what they get. No transactional keyword.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (60 chars)</div>
+          <div class="ba-text"><em>Event Pod Rental for Trade Show Organizers</em> | ZenSpace</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">H1 Tag — Worst H1 on the Site <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Value Proposition for Event Organizers</div>
+          <div class="char-count">Nobody searches "value proposition." This H1 has zero SEO value and feels like an internal slide deck header.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text"><em>Soundproof Meeting Pod Rentals</em> for <em>Trade Show & Conference Organizers</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Subheading — "Four Ways ZenSpace Creates Value" <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Four Ways ZenSpace Creates Value for Organizers</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">Four Ways <em>Event Pod Rentals</em> Enhance Your Trade Show or Conference</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Opening Paragraph — Missing Keyword Context <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">ZenSpace pods give organizers a versatile toolkit to respond to modern event needs — enhancing participant experience, unlocking sponsorship opportunities, and creating new value streams across the event floor.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">ZenSpace <em>event pod rentals</em> give <em>trade show and conference organizers</em> a versatile toolkit to respond to modern event needs — delivering private <em>soundproof meeting spaces</em> on the event floor, unlocking sponsorship revenue, and creating measurable attendee value at every event.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Use Case Subsections — Internal Link Fixes <span class="severity crit">CRITICAL</span></div>
+      <div class="body-fix">
+        <h4>All four "Explore Details" buttons on this page link back to /event-organizers (the current page itself). This is a critical error:</h4>
+        <ul>
+          <li><strong>"Use Cases" → Explore Details</strong> button should link to <code>/4-seater</code></li>
+          <li><strong>"Brand Presence" → Explore Details</strong> button should link to <code>/branding-solutions</code></li>
+          <li><strong>"Sponsor Value" → Explore Details</strong> button should link to <code>/sponsors</code></li>
+          <li><strong>"Exhibitor Add-on" → Explore Details</strong> button should link to <code>/exhibitors</code></li>
+          <li>Self-referential links create crawl loops and pass no value between pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">The Exhibitor Add-on Section — SEO Gold Buried Here <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>The "Example Calculation" (10 exhibitors × $4,500 = $45,000 → $11,250 credit) is unique and compelling. Optimize it:</h4>
+        <ul>
+          <li>Change section H2 from "Exhibitor Add-on Option" to <strong>"Earn ZenSpace Credits Through Exhibitor Pod Rentals"</strong></li>
+          <li>Add this as an FAQ with schema: <em>"How much credit do organizers earn from exhibitor pod rentals?"</em> → The 25% credit answer becomes a rich snippet candidate</li>
+          <li>The word "Attendees" in the footer nav of this page links to /attendees but there's no "Attendees" in the audience nav structure — make sure this link is intentional</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Meta Description <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Auto-generated / missing</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (153 chars)</div>
+          <div class="ba-text">Add <em>soundproof event pods</em> to your trade show or conference. Boost attendee experience, unlock <em>sponsor revenue</em>, and earn <em>25% ZenSpace credits</em> from exhibitor rentals. Get a quote.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXHIBITORS PAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">🏢</div>
+      <div>
+        <div class="page-title">Exhibitors Page</div>
+        <div class="page-url">zenspaceevents.com/exhibitors</div>
+      </div>
+      <div class="status-pill fire">Urgent</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Navigation Typo on This Page <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current — Nav on /exhibitors and /faq shows</div>
+          <div class="ba-text">"Resourses" (misspelled)</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Fix To</div>
+          <div class="ba-text">"Resources" — check if this is a separate Wix page nav or a site-wide nav and fix at source</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Title Tag <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Exhibitors | ZenSpace for Events</div>
+          <div class="char-count">3 words. Zero keyword value. Ranks for nothing.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (59 chars)</div>
+          <div class="ba-text"><em>Private Meeting Pod for Trade Show Exhibitors</em> | ZenSpace</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">H1 Tag <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Value Proposition for EXHIBITORS</div>
+          <div class="char-count">All-caps "EXHIBITORS" looks like a placeholder. No keywords.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">Add a <em>Private Soundproof Meeting Pod</em> to Your <em>Trade Show Booth</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Opening Paragraph <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Give your team a private space to conduct business right on the show floor. ZenSpace Pods provide a cost-efficient alternative to building custom meeting rooms...</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">Give your team a private, <em>soundproof meeting space</em> right on the <em>trade show floor</em>. The ZenSpace <em>exhibitor pod rental</em> is a cost-efficient alternative to building custom meeting rooms — pre-assembled, branded to your booth, and removed when the event ends.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Section Headers — Rewrite for Keywords <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>The three main sections need keyword-rich headings:</h4>
+        <ul>
+          <li><strong>"Upgrade Your Booth with a ZenSpace Pod"</strong> → Keep this — it's actually decent. Add the subheading: "Turn a standard booth into a private <em>meeting pod rental</em> that closes deals."</li>
+          <li><strong>"Designed to adapt to different booth formats"</strong> → Change to <strong>"Fits Any Trade Show Booth — 10×10 to Island Exhibits"</strong></li>
+          <li>The bullet list (Private, soundproof / Host strategic talks / Attract more traffic) is strong — make sure these are in actual <code>&lt;ul&gt;&lt;li&gt;</code> HTML tags, not styled text, so Google parses them correctly</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Missing: A "Why Rent vs. Build?" Section <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>The page mentions "cost-efficient alternative to building custom meeting rooms" once but never expands on this. Add a short comparison section:</h4>
+        <ul>
+          <li>Add a 3-row comparison table: <strong>Custom Build vs. ZenSpace Pod Rental</strong></li>
+          <li>Compare: Setup time (days vs. hours), Cost (custom can be $15,000+ vs. $4,500), Portability, Branding flexibility, Staffing needed</li>
+          <li>This is high-value decision-stage content and introduces keywords like "trade show meeting room cost" and "booth meeting space rental"</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Meta Description <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Auto-generated / missing</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (150 chars)</div>
+          <div class="ba-text">Rent a <em>soundproof meeting pod</em> for your trade show booth. Host demos & private meetings on the floor. <em>Pre-assembled, fully branded</em>, delivered and removed by ZenSpace.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOOKING SOFTWARE PAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">💻</div>
+      <div>
+        <div class="page-title">Booking Software Page</div>
+        <div class="page-url">zenspaceevents.com/booking-software</div>
+      </div>
+      <div class="status-pill warn">Needs Work</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Title Tag <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Booking Software | ZenSpace Event Solutions</div>
+          <div class="char-count">Generic. Could be for any booking software for any industry.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (58 chars)</div>
+          <div class="ba-text"><em>Event Pod Booking Software</em> for <em>Trade Shows</em> | ZenSpace</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">H1 Tag <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">ZenSpace Booking Software</div>
+          <div class="char-count">Brand name leads. Keyword gets buried. This page could rank for "event space booking software" but currently won't.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text"><em>Event Space Booking Software</em> for <em>Trade Shows & Conferences</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Opening Paragraph — Good Content, Missing Keywords <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">ZenSpace Booking Software allows organizers to manage pods or meeting rooms without additional on-site staff...</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">ZenSpace <em>event space booking software</em> allows <em>trade show and conference organizers</em> to manage meeting pods or rooms without additional on-site staff. Attendees book time slots via QR code or booking link — free or paid — while organizers receive real-time utilization dashboards and <em>lead generation data</em> after the event.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Section Structure — Add H2s with Keywords <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>This page has rich feature content but no H2 structure that Google can use for indexing. Add these H2s above existing sections:</h4>
+        <ul>
+          <li>Above "Add-On or Retrofit Solution" → Add H2: <strong>"Works with Any Event Pod or Meeting Room"</strong></li>
+          <li>Above "Event-Specific Booking Website" → Add H2: <strong>"Branded Booking Page for Every Event"</strong></li>
+          <li>Above "Meeting Room Displays" → Add H2: <strong>"On-Site Tablet Displays for Walk-Up Bookings"</strong></li>
+          <li>Above "Dashboard & Utilization Reports" → Add H2: <strong>"Real-Time Dashboard & Post-Event Analytics"</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">The Lead Generation Angle — Underplayed <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>The booking software captures attendee data (name, company, email, phone). This is a massive value proposition for organizers that is buried at the bottom. Fix:</h4>
+        <ul>
+          <li>Move "Lead generation data such as user name, company, email, and phone number" higher up the page — ideally in the opening section</li>
+          <li>Add a dedicated sentence: "Every booking captures <em>lead generation data</em> — including name, company, email, and phone — giving organizers and sponsors a measurable ROI report after every event."</li>
+          <li>This framing targets searchers looking for "event lead capture software" and "trade show lead generation tools" — a different keyword cluster that ZenSpace could own</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Meta Description <span class="severity high">HIGH</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current</div>
+          <div class="ba-text">Auto-generated / missing</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With (154 chars)</div>
+          <div class="ba-text">Self-serve <em>event space booking software</em> for trade shows & conferences. QR code bookings, real-time dashboard, <em>lead capture data</em>, branded booking page. <em>No extra staff needed.</em></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ PAGE -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">❓</div>
+      <div>
+        <div class="page-title">FAQ Page — Currently Empty</div>
+        <div class="page-url">zenspaceevents.com/faq</div>
+      </div>
+      <div class="status-pill fire">🚨 EMERGENCY</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Current State <span class="severity crit">CRITICAL</span></div>
+      <div class="body-fix">
+        <h4>The FAQ page shows only "Coming Soon." It is linked in the main navigation of every page on the site. This needs to be built or removed from the nav immediately. Below is a ready-to-publish FAQ for this page — add FAQ schema to each Q&A:</h4>
+        <ul>
+          <li><strong>Q: What is a ZenSpace event pod?</strong> A: A ZenSpace event pod is a mobile, soundproof meeting space designed for trade shows, conferences, and corporate events. Each pod is pre-assembled, UL-certified, and equipped with 15+ smart features including a 32" monitor, ventilation, LED lighting, charging outlets, and optional smart e-glass privacy.</li>
+          <li><strong>Q: How much does it cost to rent an event pod?</strong> A: The 2026 rental rate is $4,500 per pod. This includes the fully configured pod, delivery, setup, and removal. For orders of 6+ pods, ZenSpace Booking Software is included at no additional cost. A flat shipping and installation fee applies separately.</li>
+          <li><strong>Q: How quickly can a ZenSpace pod be set up at my event?</strong> A: Pods are delivered fully assembled and installed in hours, not days. No construction is required — just a standard 110V electrical outlet to power each pod.</li>
+          <li><strong>Q: Can pods be branded for my event or sponsor?</strong> A: Yes. ZenSpace offers a full range of physical and digital branding options across all pod surfaces — including exterior panels, interior table wraps, 32" monitor displays, and booking screen branding. Each pod becomes a high-impact sponsor touchpoint.</li>
+          <li><strong>Q: What events are ZenSpace pods suitable for?</strong> A: Trade shows, industry conferences, corporate summits, hospitality events, non-profit galas, and any event where attendees need private, focused meeting spaces on or near the main event floor.</li>
+          <li><strong>Q: How does the ZenSpace booking software work?</strong> A: Attendees book pods via a QR code or booking link. The organizer gets a real-time dashboard showing availability and utilization. After the event, a full utilization report with lead capture data (name, company, email, phone) is provided.</li>
+          <li><strong>Q: Do you offer ADA-compliant event pods?</strong> A: Yes. ZenSpace offers an ADA-compliant event pod designed to meet accessibility standards for events that require fully accessible meeting spaces.</li>
+          <li><strong>Q: Which cities do you serve?</strong> A: ZenSpace serves events across the United States, with inventory in key trade show cities. Contact us for availability in Las Vegas, Orlando, Chicago, New York, and other major convention markets.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOMEPAGE FOOTER TAGLINE + GLOBAL FIXES -->
+  <div class="page-card">
+    <div class="page-header">
+      <div class="page-icon">🌐</div>
+      <div>
+        <div class="page-title">Site-Wide Fixes (Affects Every Page)</div>
+        <div class="page-url">All pages</div>
+      </div>
+      <div class="status-pill fire">Do First</div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Typo in Navigation — Every Page <span class="severity crit">CRITICAL</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current (shown on every page)</div>
+          <div class="ba-text">"Venues and Convension Centers" in the Built For → Industry Partners menu</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Fix To</div>
+          <div class="ba-text">"Venues and Convention Centers"</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Footer Tagline — Low-Value on Every Page <span class="severity med">MEDIUM</span></div>
+      <div class="before-after">
+        <div class="ba-box before">
+          <div class="ba-label">❌ Current (footer on every page)</div>
+          <div class="ba-text">On-Demand Workspace. Anytime. Anyplace.</div>
+          <div class="char-count">Sounds like a coworking space, not an event pod rental company. Also conflicts with your actual product.</div>
+        </div>
+        <div class="ba-box after">
+          <div class="ba-label">✅ Replace With</div>
+          <div class="ba-text">Smart Event Pod Rentals for Trade Shows & Conferences.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Internal Links — Missing Cross-Links Between Key Pages <span class="severity high">HIGH</span></div>
+      <div class="body-fix">
+        <h4>These internal links are missing and should be added — they pass SEO authority between pages and help Google understand your site structure:</h4>
+        <ul>
+          <li>From <strong>/event-organizers</strong> → Add a text link to <strong>/booking-software</strong> in the sponsorship section (already mentions it but confirm it's linked)</li>
+          <li>From <strong>/exhibitors</strong> → Add a link to <strong>/4-seater</strong> with anchor text "4-seater soundproof event pod"</li>
+          <li>From <strong>/booking-software</strong> → Add a link to <strong>/case-studies</strong> with anchor text "see how organizers use it at IMEX and IAVM"</li>
+          <li>From <strong>/4-seater</strong> → Add a link to <strong>/faq</strong> with anchor text "See frequently asked questions about event pod rentals"</li>
+          <li>From every case study → Add a link back to <strong>/4-seater</strong> and <strong>/contacts</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fix-block">
+      <div class="fix-label">Page Title Pattern — Standardize Across the Site <span class="severity med">MEDIUM</span></div>
+      <div class="body-fix">
+        <h4>You currently have two different title formats across the site ("ZenSpace Event Solutions" vs "ZenSpace for Events" vs just "ZenSpace"). Standardize to one pattern:</h4>
+        <ul>
+          <li><strong>Recommended format:</strong> [Keyword-rich page description] | ZenSpace</li>
+          <li>Example: "4-Seater Soundproof Event Pod Rental | ZenSpace" ✅</li>
+          <li>Avoid: "Exhibitors | ZenSpace for Events" ❌ (inconsistent brand name suffix, no keywords)</li>
+          <li>Update: /exhibitors, /faq, /sponsors, /attendees, /booking-software to all use the standardized format</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; color:#999; font-size:12px; padding: 12px 0 32px;">
+    ZenSpace Existing Content Optimization · April 2026 · Claude in Cowork Mode
+  </div>
+
+</div>
+</body>
+</html>

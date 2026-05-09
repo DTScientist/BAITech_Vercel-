@@ -1,0 +1,5500 @@
+{
+  "domain": "zenspaceevents.com",
+  "base_url": "https://www.zenspaceevents.com",
+  "crawl_time": "2026-04-02T17:43:15.529Z",
+  "source": "browser_multi:/mnt/user-data/uploads/seo-full-crawl-www_zenspaceevents_com.json",
+  "pages": {
+    "https://www.zenspaceevents.com/": {
+      "url": "https://www.zenspaceevents.com/",
+      "final_url": "https://www.zenspaceevents.com/",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Zenspace Event Solutions | Meeting Pods | United States",
+      "meta_description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Smart Event Pod Rentals for Trade Shows, Conferences, Corporate Events",
+          "250+",
+          "15+"
+        ],
+        "h2": [
+          "What We Offer",
+          "ZenSpace works for everyone shaping the event experience",
+          "Why ZenSpace",
+          "Branding as Value",
+          "Real Events. Real Results.",
+          "ZenSpace Event Solutions' Blog",
+          "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+          "ZenSpace Booking Software for Non-Profit & Charity Events",
+          "ZenSpace Booking Software for Corporate Events",
+          "Ready to Bring Calm to Your Event?",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 33,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "ZenSpace Event Solutions",
+          "url": "https://www.zenspaceevents.com"
+        }
+      ],
+      "schema_types": [
+        "WebSite"
+      ],
+      "og_tags": {
+        "og:title": "Zenspace Event Solutions | Meeting Pods | United States",
+        "og:description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 5536,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/4-seater": {
+      "url": "https://www.zenspaceevents.com/4-seater",
+      "final_url": "https://www.zenspaceevents.com/4-seater",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Event 4-seater Pod | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace 4-seater event pod rental - soundproof, fully branded private meeting space for conferences, trade shows, and corporate events.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/4-seater",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace\n4-seater Event\u00a0 Pod"
+        ],
+        "h2": [
+          "Shared Features",
+          "New 2026 Updates",
+          "Pod's Specifications",
+          "Use Cases",
+          "Modular Layouts & Compositions",
+          "Our Pods in Use",
+          "Price and What\u2019s Included",
+          "Ready to Bring Calm to Your Event?",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 77,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Event 4-seater Pod | ZenSpace Event Solutions",
+        "og:description": "ZenSpace 4-seater event pod rental - soundproof, fully branded private meeting space for conferences, trade shows, and corporate events.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/4-seater",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 9586,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/booking-software": {
+      "url": "https://www.zenspaceevents.com/booking-software",
+      "final_url": "https://www.zenspaceevents.com/booking-software",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Booking Software | ZenSpace Event Solutions",
+      "meta_description": "Manage event meeting pods without extra staff - ZenSpace Booking Software offers self-serve QR bookings, free or paid slots, lead capture, and sponsor ROI reports.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/booking-software",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace\nBooking\u00a0\nSoftware"
+        ],
+        "h2": [
+          "Key Elements of ZenSpace Booking Solution"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Booking Software | ZenSpace Event Solutions",
+        "og:description": "Manage event meeting pods without extra staff - ZenSpace Booking Software offers self-serve QR bookings, free or paid slots, lead capture, and sponsor ROI reports.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/booking-software",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2494,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/other-products": {
+      "url": "https://www.zenspaceevents.com/other-products",
+      "final_url": "https://www.zenspaceevents.com/other-products",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Other Products for Events | ZenSpace Event Solutions",
+      "meta_description": "Rent 1-seater, 6-seater, ADA, and Aura Gather pods for events - plus digital kiosks. Flexible soundproof workspace solutions for any event size or format.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/other-products",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Other Event Products"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Other Products for Events | ZenSpace Event Solutions",
+        "og:description": "Rent 1-seater, 6-seater, ADA, and Aura Gather pods for events - plus digital kiosks. Flexible soundproof workspace solutions for any event size or format.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/other-products",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2261,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/1-seater": {
+      "url": "https://www.zenspaceevents.com/1-seater",
+      "final_url": "https://www.zenspaceevents.com/1-seater",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "1-seater Event Pod | ZenSpace Event Solutions",
+      "meta_description": "This smart Pod is ideal for events where space is limited,\u00a0but privacy still matters.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/1-seater",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace\n1-seater Event\u00a0 Pod"
+        ],
+        "h2": [
+          "1 Seater Event Pod"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "1-seater Event Pod | ZenSpace Event Solutions",
+        "og:description": "This smart Pod is ideal for events where space is limited,\u00a0but privacy still matters.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/1-seater",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2276,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/6-seater": {
+      "url": "https://www.zenspaceevents.com/6-seater",
+      "final_url": "https://www.zenspaceevents.com/6-seater",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "6-seater Event Pod | ZenSpace Event Solutions",
+      "meta_description": "Space for your attendees to meet, collaborate, and close deals \u2014 right in the middle of your event.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/6-seater",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace\n6-seater Event\u00a0 Pod"
+        ],
+        "h2": [
+          "6 Seater Event Pod"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "6-seater Event Pod | ZenSpace Event Solutions",
+        "og:description": "Space for your attendees to meet, collaborate, and close deals \u2014 right in the middle of your event.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/6-seater",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2288,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/aura-gather": {
+      "url": "https://www.zenspaceevents.com/aura-gather",
+      "final_url": "https://www.zenspaceevents.com/aura-gather",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Aura Gather | ZenSpace Event Solutions",
+      "meta_description": "A large and versatile meeting space that effortlessly accommodates up to 6 people.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/aura-gather",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace\nAura gather Pod"
+        ],
+        "h2": [
+          "Aura Gather Pod"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Aura Gather | ZenSpace Event Solutions",
+        "og:description": "A large and versatile meeting space that effortlessly accommodates up to 6 people.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/aura-gather",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2289,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/ada-pod": {
+      "url": "https://www.zenspaceevents.com/ada-pod",
+      "final_url": "https://www.zenspaceevents.com/ada-pod",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "ADA Event Pod | ZenSpace Event Solutions",
+      "meta_description": "A fully accessible, soundproof meeting space built to welcome every attendee at your event, regardless of mobility needs.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/ada-pod",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZeNSPACE ADA Event Pod"
+        ],
+        "h2": [
+          "ADA Event Pod"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "ADA Event Pod | ZenSpace Event Solutions",
+        "og:description": "A fully accessible, soundproof meeting space built to welcome every attendee at your event, regardless of mobility needs.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/ada-pod",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2323,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/digital-kiosk": {
+      "url": "https://www.zenspaceevents.com/digital-kiosk",
+      "final_url": "https://www.zenspaceevents.com/digital-kiosk",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Digital Kiosk | ZenSpace Event Solutions",
+      "meta_description": "A sleek, interactive digital display that puts event schedules, sponsor ads, and attendee information all in one place \u2014 right where your audience needs it most.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/digital-kiosk",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZeNSPACE Digital Kiosks"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Digital Kiosk | ZenSpace Event Solutions",
+        "og:description": "A sleek, interactive digital display that puts event schedules, sponsor ads, and attendee information all in one place \u2014 right where your audience needs it most.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/digital-kiosk",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2297,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/our-process": {
+      "url": "https://www.zenspaceevents.com/our-process",
+      "final_url": "https://www.zenspaceevents.com/our-process",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Our Process | ZenSpace Event Solutions",
+      "meta_description": "See how ZenSpace manages meeting pod rental process from start to finish - onboarding, branding, on-site installation, live support, and post-event reporting.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/our-process",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "A Process Refined by Experience"
+        ],
+        "h2": [
+          "Before the Event",
+          "During & After the Event"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Our Process | ZenSpace Event Solutions",
+        "og:description": "See how ZenSpace manages meeting pod rental process from start to finish - onboarding, branding, on-site installation, live support, and post-event reporting.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/our-process",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2720,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/partnerships": {
+      "url": "https://www.zenspaceevents.com/partnerships",
+      "final_url": "https://www.zenspaceevents.com/partnerships",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Partnerships | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace Event Solutions collaborates with leading industry associations and organizations to set new standards for attendee experience, event design, and on-site innovation. \n",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/partnerships",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Shaping the Future\nof Events \u2014\u00a0Together"
+        ],
+        "h2": [
+          "Our Partners",
+          "Become a ZenSpace Partner",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Partnerships | ZenSpace Event Solutions",
+        "og:description": "ZenSpace Event Solutions collaborates with leading industry associations and organizations to set new standards for attendee experience, event design, and on-site innovation. \n",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/partnerships",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 3699,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/event-organizers": {
+      "url": "https://www.zenspaceevents.com/event-organizers",
+      "final_url": "https://www.zenspaceevents.com/event-organizers",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Tradeshow & Conference Organizers | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace for event organizers - bookable private pods that boost attendee satisfaction, generate sponsorship value, and create new revenue streams at any event.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/event-organizers",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Value Proposition\nfor Event Organizers"
+        ],
+        "h2": [
+          "Four Ways ZenSpace Creates Value for Organizers",
+          "Usage-Centric\u00a0 Use Cases",
+          "Brand-Centric Opportunities",
+          "Turn pod activation\ninto sponsor-ready value",
+          "Exhibitor Add-on Option",
+          "Ready to Bring Calm to Your Event?",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Tradeshow & Conference Organizers | ZenSpace Event Solutions",
+        "og:description": "ZenSpace for event organizers - bookable private pods that boost attendee satisfaction, generate sponsorship value, and create new revenue streams at any event.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/event-organizers",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 4217,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/exhibitors": {
+      "url": "https://www.zenspaceevents.com/exhibitors",
+      "final_url": "https://www.zenspaceevents.com/exhibitors",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Exhibitors | ZenSpace Event Solutions",
+      "meta_description": "Upgrade your exhibit booth with a ZenSpace meeting pod - pre-assembled, fully branded, and ready to host private conversations right on the show floor.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/exhibitors",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Value Proposition\nfor EXHIBITORS"
+        ],
+        "h2": [
+          "Upgrade Your Booth with a ZenSpace Pod",
+          "Designed to adapt to different booth formats",
+          "Ready to Bring Calm to Your Event?",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Exhibitors | ZenSpace Event Solutions",
+        "og:description": "Upgrade your exhibit booth with a ZenSpace meeting pod - pre-assembled, fully branded, and ready to host private conversations right on the show floor.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/exhibitors",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 3634,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/sponsors": {
+      "url": "https://www.zenspaceevents.com/sponsors",
+      "final_url": "https://www.zenspaceevents.com/sponsors",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Sponsors | ZenSpace Event Solutions",
+      "meta_description": "Sponsor a ZenSpace meeting pod at the next event - branded private spaces with measurable ROI, lead capture, and physical-digital brand touchpoints.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/sponsors",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Value Proposition\nfor Sponsors"
+        ],
+        "h2": [
+          "Why Sponsors Invest in ZenSpace Event Pods"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Sponsors | ZenSpace Event Solutions",
+        "og:description": "Sponsor a ZenSpace meeting pod at the next event - branded private spaces with measurable ROI, lead capture, and physical-digital brand touchpoints.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/sponsors",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2461,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/attendees": {
+      "url": "https://www.zenspaceevents.com/attendees",
+      "final_url": "https://www.zenspaceevents.com/attendees",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Value for Attendees | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace soundproof meeting pods give event attendees a private space to work, meet, and recharge \u2014 bookable by QR code, no app required.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/attendees",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Value\u00a0for\nAttendees"
+        ],
+        "h2": [
+          "Easy Booking, Access and Screen Sharing"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Value for Attendees | ZenSpace Event Solutions",
+        "og:description": "ZenSpace soundproof meeting pods give event attendees a private space to work, meet, and recharge \u2014 bookable by QR code, no app required.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/attendees",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2588,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/branding-solutions": {
+      "url": "https://www.zenspaceevents.com/branding-solutions",
+      "final_url": "https://www.zenspaceevents.com/branding-solutions",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Branding Solutions | ZenSpace Event Solutions",
+      "meta_description": "Brand every surface of your ZenSpace event pod - vinyl wraps, digital signage, interior stickers, and screen branding for maximum sponsor visibility.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/branding-solutions",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Branding\u00a0\nSolution"
+        ],
+        "h2": [
+          "Physical Options",
+          "Digital Options"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Branding Solutions | ZenSpace Event Solutions",
+        "og:description": "Brand every surface of your ZenSpace event pod - vinyl wraps, digital signage, interior stickers, and screen branding for maximum sponsor visibility.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/branding-solutions",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2417,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/design-hub": {
+      "url": "https://www.zenspaceevents.com/design-hub",
+      "final_url": "https://www.zenspaceevents.com/design-hub",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Design Hub | ZenSpace Event Solutions",
+      "meta_description": "Turn meeting pods into powerful brand touchpoints - full surface branding options including vinyl wraps, digital signage, and remote-managed screen content.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/design-hub",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Design Hub"
+        ],
+        "h2": [
+          "4-Seater Pod Graphics Specifications",
+          "Booking Page Graphics Specifications",
+          "Submission Guidelines for Branding Options"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Design Hub | ZenSpace Event Solutions",
+        "og:description": "Turn meeting pods into powerful brand touchpoints - full surface branding options including vinyl wraps, digital signage, and remote-managed screen content.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/design-hub",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2488,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies": {
+      "url": "https://www.zenspaceevents.com/case-studies",
+      "final_url": "https://www.zenspaceevents.com/case-studies",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Case Studies | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Our Pods in Use"
+        ],
+        "h2": [
+          "IMEX",
+          "The Hospitality Show",
+          "Expo! Expo!",
+          "ILHA INSPIRE",
+          "IAVM VenueConnect"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 55,
+      "internal_links_count": 28,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Case Studies | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/case-studies",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7792,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/faq": {
+      "url": "https://www.zenspaceevents.com/faq",
+      "final_url": "https://www.zenspaceevents.com/faq",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "FAQ | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/faq",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Frequently asked questions"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "FAQ | ZenSpace Event Solutions",
+        "og:description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/faq",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2283,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/blog": {
+      "url": "https://www.zenspaceevents.com/blog",
+      "final_url": "https://www.zenspaceevents.com/blog",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Blog | ZenSpace Event Solutions",
+      "meta_description": "Explore the ZenSpace blog for tips and updates on soundproof meeting pods, smart event spaces, booking software, and event planning best practices.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/blog",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "All Posts"
+        ],
+        "h2": [
+          "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+          "ZenSpace Booking Software for Non-Profit & Charity Events",
+          "ZenSpace Booking Software for Corporate Events"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 30,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Blog | ZenSpace Event Solutions",
+        "og:description": "Explore the ZenSpace blog for tips and updates on soundproof meeting pods, smart event spaces, booking software, and event planning best practices.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/blog",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2788,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/contacts": {
+      "url": "https://www.zenspaceevents.com/contacts",
+      "final_url": "https://www.zenspaceevents.com/contacts",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Contact Us | ZenSpace for Events",
+      "meta_description": "Get in touch with ZenSpace Events - request a quote for soundproof meeting pod rentals, branding options, and event workspace solutions.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/contacts",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Ready to Bring Calm to Your Event?"
+        ],
+        "h2": [
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Contact Us | ZenSpace for Events",
+        "og:description": "Get in touch with ZenSpace Events - request a quote for soundproof meeting pod rentals, branding options, and event workspace solutions.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/contacts",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 3427,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/corporate": {
+      "url": "https://www.zenspaceevents.com/corporate",
+      "final_url": "https://www.zenspaceevents.com/corporate",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Corporate Event & Meeting Planners | ZenSpace Event Solutions",
+      "meta_description": "All-hands conferences, sales kickoffs, and leadership summits generate energy \u2014 but also overwhelm. SmartPods create on-demand private space for 1:1s, sensitive calls, focused work, and executive conversations, without booking a separate breakout room. ",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/corporate",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Give your attendees somewhere to actually think"
+        ],
+        "h2": [
+          "The moments that need a door",
+          "See what SmartPods look like at events",
+          "Ready to Bring Calm to Your Event?",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Corporate Event & Meeting Planners | ZenSpace Event Solutions",
+        "og:description": "All-hands conferences, sales kickoffs, and leadership summits generate energy \u2014 but also overwhelm. SmartPods create on-demand private space for 1:1s, sensitive calls, focused work, and executive conversations, without booking a separate breakout room. ",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/corporate",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 3661,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/venues": {
+      "url": "https://www.zenspaceevents.com/venues",
+      "final_url": "https://www.zenspaceevents.com/venues",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Venues | ZenSpace Event Solutions",
+      "meta_description": "Turn unused spaces into a premium, revenue-generating amenity \u2014 with zero capital investment, zero new staff, and a product your event clients will remember.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/venues",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Value Proposition\nfor venues"
+        ],
+        "h2": [
+          "The Gap: What Event Organizers can't find today",
+          "ZenSpace takes this head on: Purpose & Utilization",
+          "Flexible by Design: Event Use Cases That Drive Real Value",
+          "Contact Us"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Venues | ZenSpace Event Solutions",
+        "og:description": "Turn unused spaces into a premium, revenue-generating amenity \u2014 with zero capital investment, zero new staff, and a product your event clients will remember.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/venues",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 3872,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies/inspire": {
+      "url": "https://www.zenspaceevents.com/case-studies/inspire",
+      "final_url": "https://www.zenspaceevents.com/case-studies/inspire",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "ILHA INSPIRE | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies/inspire",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ILHA INSPIRE"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 61,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "ImageObject",
+          "height": 2706,
+          "width": 7676,
+          "url": "https://static.wixstatic.com/media/7ed973_ca147b65c201434b8dddbdf3ef560a7b~mv2.png/v1/fill/w_7676,h_2706,al_c/Logo_Inspire_white.png"
+        },
+        {}
+      ],
+      "schema_types": [
+        "ImageObject"
+      ],
+      "og_tags": {
+        "og:title": "ILHA INSPIRE | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_ca147b65c201434b8dddbdf3ef560a7b~mv2.png/v1/fill/w_7676,h_2706,al_c/Logo_Inspire_white.png",
+        "og:image:width": "7676",
+        "og:image:height": "2706",
+        "og:url": "https://www.zenspaceevents.com/case-studies/inspire",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7899,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies/expo-expo": {
+      "url": "https://www.zenspaceevents.com/case-studies/expo-expo",
+      "final_url": "https://www.zenspaceevents.com/case-studies/expo-expo",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Expo! Expo! | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies/expo-expo",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Expo! Expo!"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 61,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "ImageObject",
+          "height": 1134,
+          "width": 3000,
+          "url": "https://static.wixstatic.com/media/7ed973_e5b90a49864e4c80b8db8fe6d0dd1c6a~mv2.png/v1/fill/w_3000,h_1134,al_c/Expo-Expo-Generic-Logo_edited.png"
+        },
+        {}
+      ],
+      "schema_types": [
+        "ImageObject"
+      ],
+      "og_tags": {
+        "og:title": "Expo! Expo!  | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_e5b90a49864e4c80b8db8fe6d0dd1c6a~mv2.png/v1/fill/w_3000,h_1134,al_c/Expo-Expo-Generic-Logo_edited.png",
+        "og:image:width": "3000",
+        "og:image:height": "1134",
+        "og:url": "https://www.zenspaceevents.com/case-studies/expo-expo",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7861,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies/iavm": {
+      "url": "https://www.zenspaceevents.com/case-studies/iavm",
+      "final_url": "https://www.zenspaceevents.com/case-studies/iavm",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "IAVM VenueConnect | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies/iavm",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "IAVM VenueConnect"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 61,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "ImageObject",
+          "height": 47,
+          "width": 225,
+          "url": "https://static.wixstatic.com/media/7ed973_5b44be9699be41b79d1d6ac27bb0c568~mv2.png/v1/fill/w_225,h_47,al_c/VC25-225_47.png"
+        },
+        {}
+      ],
+      "schema_types": [
+        "ImageObject"
+      ],
+      "og_tags": {
+        "og:title": "IAVM VenueConnect | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_5b44be9699be41b79d1d6ac27bb0c568~mv2.png/v1/fill/w_225,h_47,al_c/VC25-225_47.png",
+        "og:image:width": "225",
+        "og:image:height": "47",
+        "og:url": "https://www.zenspaceevents.com/case-studies/iavm",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7851,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies/ths": {
+      "url": "https://www.zenspaceevents.com/case-studies/ths",
+      "final_url": "https://www.zenspaceevents.com/case-studies/ths",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "The Hospitality Show | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies/ths",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "The Hospitality Show"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 61,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "ImageObject",
+          "height": 315,
+          "width": 790,
+          "url": "https://static.wixstatic.com/media/7ed973_8475229aab41400ca268ea0119162665~mv2.png/v1/fill/w_790,h_315,al_c/THS%2BLogo%2BPrimary%2BLockup%2BRGB%2BWhite.png"
+        },
+        {}
+      ],
+      "schema_types": [
+        "ImageObject"
+      ],
+      "og_tags": {
+        "og:title": "The Hospitality Show  | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_8475229aab41400ca268ea0119162665~mv2.png/v1/fill/w_790,h_315,al_c/THS%2BLogo%2BPrimary%2BLockup%2BRGB%2BWhite.png",
+        "og:image:width": "790",
+        "og:image:height": "315",
+        "og:url": "https://www.zenspaceevents.com/case-studies/ths",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7862,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/case-studies/imex": {
+      "url": "https://www.zenspaceevents.com/case-studies/imex",
+      "final_url": "https://www.zenspaceevents.com/case-studies/imex",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "IMEX | ZenSpace Event Solutions",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/case-studies/imex",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "IMEX"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 56,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "ImageObject",
+          "height": 326,
+          "width": 850,
+          "url": "https://static.wixstatic.com/media/7ed973_198a71cb5fd643c0aa1a48190e75c215~mv2.png/v1/fill/w_850,h_326,al_c/IMEX_Logo_White.png"
+        },
+        {}
+      ],
+      "schema_types": [
+        "ImageObject"
+      ],
+      "og_tags": {
+        "og:title": "IMEX | ZenSpace Event Solutions",
+        "og:image": "https://static.wixstatic.com/media/7ed973_198a71cb5fd643c0aa1a48190e75c215~mv2.png/v1/fill/w_850,h_326,al_c/IMEX_Logo_White.png",
+        "og:image:width": "850",
+        "og:image:height": "326",
+        "og:url": "https://www.zenspaceevents.com/case-studies/imex",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 7819,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass": {
+      "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+      "final_url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 24,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "author": {
+            "@type": "Person",
+            "name": "Maria Chernenko"
+          },
+          "dateModified": "2026-03-05T12:14:38.527Z",
+          "datePublished": "2026-03-05T12:14:38.527Z",
+          "headline": "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+          "mainEntityOfPage": {
+            "@id": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+            "@type": "itemPage",
+            "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass"
+          },
+          "description": "The future of event privacy is here, and it's built right into the ZenSpace 4-Seater Pod. The new Smart E-Glass technology instantly switches from transparent to private at the touch of a button\u00a0\u2014 no curtains, no awkward partitions, just seamless control over your space. For tech conferences and innovation summits where high-value conversations happen on the event floor, this kind of on-demand privacy is a game changer. Pair that with wireless screen sharing via Airtame, which lets you share you",
+          "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/7ed973_1cabae4d1d9946b9ba003762037737be~mv2.png/v1/fill/w_1000,h_421,al_c,q_90,usm_0.66_1.00_0.01/7ed973_1cabae4d1d9946b9ba003762037737be~mv2.png",
+            "width": "1030",
+            "height": "434"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "ZenSpace Event Solutions",
+            "url": "https://www.zenspaceevents.com"
+          }
+        }
+      ],
+      "schema_types": [
+        "BlogPosting"
+      ],
+      "og_tags": {
+        "og:title": "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+        "og:description": "The future of event privacy is here, and it's built right into the ZenSpace 4-Seater Pod. The new Smart E-Glass technology instantly switches from transparent to private at the touch of a button\u00a0\u2014 no curtains, no awkward partitions, just seamless control over your space. For tech conferences and innovation summits where high-value conversations happen on the event floor, this kind of on-demand privacy is a game changer. Pair that with wireless screen sharing via Airtame, which lets you share you",
+        "og:image": "https://static.wixstatic.com/media/7ed973_1cabae4d1d9946b9ba003762037737be~mv2.png/v1/fill/w_1000,h_421,al_c,q_90,usm_0.66_1.00_0.01/7ed973_1cabae4d1d9946b9ba003762037737be~mv2.png",
+        "og:image:width": "1030",
+        "og:image:height": "434",
+        "og:url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "article"
+      },
+      "twitter_tags": {},
+      "word_count": 2220,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events": {
+      "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+      "final_url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "ZenSpace Booking Software for Non-Profit & Charity Events",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace Booking Software for Non-Profit & Charity Events"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 24,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "author": {
+            "@type": "Person",
+            "name": "Maria Chernenko"
+          },
+          "dateModified": "2026-03-05T12:03:30.995Z",
+          "datePublished": "2026-03-05T11:36:50.951Z",
+          "headline": "ZenSpace Booking Software for Non-Profit &amp; Charity Events",
+          "mainEntityOfPage": {
+            "@id": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+            "@type": "itemPage",
+            "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events"
+          },
+          "description": "Running a non-profit or charity event means making every dollar count \u2014 and that includes how you manage your event spaces. Whether you're organizing a fundraising gala, awareness conference, or donor summit, ZenSpace Booking Software gives your team the tools to run meeting spaces efficiently, without stretching your budget on additional staff.Self-serve bookings \u2014 no extra hands needed. Non-profit teams are often lean. ZenSpace lets attendees, donors, and volunteers book private meeting pods o",
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/7ed973_14cf704aea0a4f24a53f308605684834~mv2.avif/v1/fill/w_1000,h_571,al_c,q_85,usm_0.66_1.00_0.01/7ed973_14cf704aea0a4f24a53f308605684834~mv2.avif",
+            "width": "1596",
+            "height": "912"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "ZenSpace Event Solutions",
+            "url": "https://www.zenspaceevents.com"
+          }
+        }
+      ],
+      "schema_types": [
+        "BlogPosting"
+      ],
+      "og_tags": {
+        "og:title": "ZenSpace Booking Software for Non-Profit & Charity Events",
+        "og:description": "Running a non-profit or charity event means making every dollar count \u2014 and that includes how you manage your event spaces. Whether you're organizing a fundraising gala, awareness conference, or donor summit, ZenSpace Booking Software gives your team the tools to run meeting spaces efficiently, without stretching your budget on additional staff.Self-serve bookings \u2014 no extra hands needed. Non-profit teams are often lean. ZenSpace lets attendees, donors, and volunteers book private meeting pods o",
+        "og:image": "https://static.wixstatic.com/media/7ed973_14cf704aea0a4f24a53f308605684834~mv2.avif/v1/fill/w_1000,h_571,al_c,q_85,usm_0.66_1.00_0.01/7ed973_14cf704aea0a4f24a53f308605684834~mv2.avif",
+        "og:image:width": "1596",
+        "og:image:height": "912",
+        "og:url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "article"
+      },
+      "twitter_tags": {},
+      "word_count": 2393,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events": {
+      "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+      "final_url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "ZenSpace Booking Software for Corporate Events",
+      "meta_description": null,
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [
+          "ZenSpace Booking Software for Corporate Events"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "has_alt": false
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 1,
+      "internal_links_count": 24,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "author": {
+            "@type": "Person",
+            "name": "Maria Chernenko"
+          },
+          "dateModified": "2026-03-05T12:04:16.951Z",
+          "datePublished": "2026-03-05T09:56:40.982Z",
+          "headline": "ZenSpace Booking Software for Corporate Events",
+          "mainEntityOfPage": {
+            "@id": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+            "@type": "itemPage",
+            "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events"
+          },
+          "description": "Corporate events \u2014 whether conferences, summits, trade shows, or internal company gatherings \u2014 come with one common challenge: managing multiple meeting spaces efficiently without overloading your on-site team. That's exactly where ZenSpace Booking Software shines.No extra staff needed.\u00a0ZenSpace allows organizers to manage pods or meeting rooms without additional on-site staff\u00a0\u2014 a massive win for corporate event teams juggling dozens of moving parts at once.Seamless booking experience for attend",
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://static.wixstatic.com/media/7ed973_5359aab609364c76b55ba664e79e2dbc~mv2.avif/v1/fill/w_1000,h_571,al_c,q_85,usm_0.66_1.00_0.01/7ed973_5359aab609364c76b55ba664e79e2dbc~mv2.avif",
+            "width": "2394",
+            "height": "1368"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "ZenSpace Event Solutions",
+            "url": "https://www.zenspaceevents.com"
+          }
+        }
+      ],
+      "schema_types": [
+        "BlogPosting"
+      ],
+      "og_tags": {
+        "og:title": "ZenSpace Booking Software for Corporate Events",
+        "og:description": "Corporate events \u2014 whether conferences, summits, trade shows, or internal company gatherings \u2014 come with one common challenge: managing multiple meeting spaces efficiently without overloading your on-site team. That's exactly where ZenSpace Booking Software shines.No extra staff needed.\u00a0ZenSpace allows organizers to manage pods or meeting rooms without additional on-site staff\u00a0\u2014 a massive win for corporate event teams juggling dozens of moving parts at once.Seamless booking experience for attend",
+        "og:image": "https://static.wixstatic.com/media/7ed973_5359aab609364c76b55ba664e79e2dbc~mv2.avif/v1/fill/w_1000,h_571,al_c,q_85,usm_0.66_1.00_0.01/7ed973_5359aab609364c76b55ba664e79e2dbc~mv2.avif",
+        "og:image:width": "2394",
+        "og:image:height": "1368",
+        "og:url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "article"
+      },
+      "twitter_tags": {},
+      "word_count": 2353,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/privacy-policy": {
+      "url": "https://www.zenspaceevents.com/privacy-policy",
+      "final_url": "https://www.zenspaceevents.com/privacy-policy",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Privacy Policy | ZenSpace Event Solutions",
+      "meta_description": "ZenSpace Events Privacy Policy - learn how we collect, use, and protect your personal data when you use our meeting pod rental services.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/privacy-policy",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [],
+        "h2": [
+          "Privacy Policy"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Privacy Policy | ZenSpace Event Solutions",
+        "og:description": "ZenSpace Events Privacy Policy - learn how we collect, use, and protect your personal data when you use our meeting pod rental services.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/privacy-policy",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2435,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    },
+    "https://www.zenspaceevents.com/terms-conditions": {
+      "url": "https://www.zenspaceevents.com/terms-conditions",
+      "final_url": "https://www.zenspaceevents.com/terms-conditions",
+      "status_code": 200,
+      "content_length": 0,
+      "elapsed_ms": 0,
+      "headers": {},
+      "redirects": [],
+      "title": "Terms & Conditions | ZenSpace Event Solutions",
+      "meta_description": "Our Terms & Conditions cover everything you need to know about renting a meeting pod - agreements, policies, and branding options.",
+      "meta_robots": null,
+      "canonical": "https://www.zenspaceevents.com/terms-conditions",
+      "has_viewport": true,
+      "has_charset": true,
+      "headings": {
+        "h1": [],
+        "h2": [
+          "Terms and Conditions"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        },
+        {
+          "src": "",
+          "alt": "present",
+          "has_alt": true
+        }
+      ],
+      "images_without_alt": 0,
+      "internal_links_count": 23,
+      "external_links": [],
+      "external_links_count": 0,
+      "schema_markup": [],
+      "schema_types": [],
+      "og_tags": {
+        "og:title": "Terms & Conditions | ZenSpace Event Solutions",
+        "og:description": "Our Terms & Conditions cover everything you need to know about renting a meeting pod - agreements, policies, and branding options.",
+        "og:image": "https://static.wixstatic.com/media/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png/v1/fit/w_2500,h_1330,al_c/7ed973_d44fb67b5d0e4b538f82e494166e05d5%7Emv2.png",
+        "og:image:width": "2500",
+        "og:image:height": "1330",
+        "og:url": "https://www.zenspaceevents.com/terms-conditions",
+        "og:site_name": "ZenSpace Event Solutions",
+        "og:type": "website"
+      },
+      "twitter_tags": {},
+      "word_count": 2441,
+      "text_content_preview": "",
+      "hreflang": [],
+      "preloads": [],
+      "prefetches": [],
+      "css_files": 0,
+      "js_files": 0,
+      "inline_scripts": 0
+    }
+  },
+  "robots_txt": {
+    "exists": false,
+    "content": "",
+    "note": "Not captured via browser collector"
+  },
+  "sitemap": {
+    "exists": false,
+    "note": "Not captured via browser collector"
+  },
+  "errors": [],
+  "network_accessible": false,
+  "summary": {
+    "total_pages_crawled": 33,
+    "total_errors": 0
+  }
+}

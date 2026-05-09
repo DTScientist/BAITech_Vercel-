@@ -1,0 +1,1008 @@
+{
+  "domain": "zenspaceevents.com",
+  "base_url": "https://www.zenspaceevents.com",
+  "pages_analyzed": 33,
+  "network_accessible": false,
+  "categories": {
+    "robots_txt": {
+      "name": "Robots.txt",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "No robots.txt found",
+          "fix": "Create a robots.txt file at the root of your domain with proper directives and sitemap reference.",
+          "category": "Robots.txt"
+        }
+      ]
+    },
+    "sitemap": {
+      "name": "XML Sitemap",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "No XML sitemap found",
+          "fix": "Create and submit an XML sitemap. Include all indexable pages with accurate <lastmod> dates.",
+          "category": "XML Sitemap"
+        }
+      ]
+    },
+    "https_security": {
+      "name": "HTTPS & Security",
+      "score": 6,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "OK",
+          "issue": "Site uses HTTPS"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No HSTS header",
+          "fix": "Add Strict-Transport-Security header: max-age=31536000; includeSubDomains",
+          "category": "HTTPS & Security"
+        }
+      ]
+    },
+    "meta_tags": {
+      "name": "Title Tags & Meta Descriptions",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (359 chars)",
+          "url": "https://www.zenspaceevents.com/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (163 chars)",
+          "url": "https://www.zenspaceevents.com/booking-software"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (161 chars)",
+          "url": "https://www.zenspaceevents.com/digital-kiosk"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (176 chars)",
+          "url": "https://www.zenspaceevents.com/partnerships"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (359 chars)",
+          "url": "https://www.zenspaceevents.com/faq"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Title may be truncated (61 chars): 'Corporate Event & Meeting Planners | ZenSpace Event Solution...'",
+          "url": "https://www.zenspaceevents.com/corporate"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (253 chars)",
+          "url": "https://www.zenspaceevents.com/corporate"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies/inspire"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies/expo-expo"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies/iavm"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies/ths"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/case-studies/imex"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Title may be truncated (65 chars): 'Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-...'",
+          "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Duplicate meta description across 2 pages",
+          "fix": "Write unique descriptions for each page",
+          "category": "Title Tags & Meta Descriptions"
+        }
+      ],
+      "pages_detail": [
+        {
+          "url": "https://www.zenspaceevents.com/",
+          "title": "Zenspace Event Solutions | Meeting Pods | United States",
+          "meta_description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (359 chars)",
+              "url": "https://www.zenspaceevents.com/"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/4-seater",
+          "title": "Event 4-seater Pod | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace 4-seater event pod rental - soundproof, fully branded private meeting space for conferences, trade shows, and corporate events.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/booking-software",
+          "title": "Booking Software | ZenSpace Event Solutions",
+          "meta_description": "Manage event meeting pods without extra staff - ZenSpace Booking Software offers self-serve QR bookings, free or paid slots, lead capture, and sponsor ROI reports.",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (163 chars)",
+              "url": "https://www.zenspaceevents.com/booking-software"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/other-products",
+          "title": "Other Products for Events | ZenSpace Event Solutions",
+          "meta_description": "Rent 1-seater, 6-seater, ADA, and Aura Gather pods for events - plus digital kiosks. Flexible soundproof workspace solutions for any event size or format.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/1-seater",
+          "title": "1-seater Event Pod | ZenSpace Event Solutions",
+          "meta_description": "This smart Pod is ideal for events where space is limited,\u00a0but privacy still matters.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/6-seater",
+          "title": "6-seater Event Pod | ZenSpace Event Solutions",
+          "meta_description": "Space for your attendees to meet, collaborate, and close deals \u2014 right in the middle of your event.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/aura-gather",
+          "title": "Aura Gather | ZenSpace Event Solutions",
+          "meta_description": "A large and versatile meeting space that effortlessly accommodates up to 6 people.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/ada-pod",
+          "title": "ADA Event Pod | ZenSpace Event Solutions",
+          "meta_description": "A fully accessible, soundproof meeting space built to welcome every attendee at your event, regardless of mobility needs.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/digital-kiosk",
+          "title": "Digital Kiosk | ZenSpace Event Solutions",
+          "meta_description": "A sleek, interactive digital display that puts event schedules, sponsor ads, and attendee information all in one place \u2014 right where your audience needs it most.",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (161 chars)",
+              "url": "https://www.zenspaceevents.com/digital-kiosk"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/our-process",
+          "title": "Our Process | ZenSpace Event Solutions",
+          "meta_description": "See how ZenSpace manages meeting pod rental process from start to finish - onboarding, branding, on-site installation, live support, and post-event reporting.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/partnerships",
+          "title": "Partnerships | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace Event Solutions collaborates with leading industry associations and organizations to set new standards for attendee experience, event design, and on-site innovation. \n",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (176 chars)",
+              "url": "https://www.zenspaceevents.com/partnerships"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/event-organizers",
+          "title": "Tradeshow & Conference Organizers | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace for event organizers - bookable private pods that boost attendee satisfaction, generate sponsorship value, and create new revenue streams at any event.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/exhibitors",
+          "title": "Exhibitors | ZenSpace Event Solutions",
+          "meta_description": "Upgrade your exhibit booth with a ZenSpace meeting pod - pre-assembled, fully branded, and ready to host private conversations right on the show floor.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/sponsors",
+          "title": "Sponsors | ZenSpace Event Solutions",
+          "meta_description": "Sponsor a ZenSpace meeting pod at the next event - branded private spaces with measurable ROI, lead capture, and physical-digital brand touchpoints.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/attendees",
+          "title": "Value for Attendees | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace soundproof meeting pods give event attendees a private space to work, meet, and recharge \u2014 bookable by QR code, no app required.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/branding-solutions",
+          "title": "Branding Solutions | ZenSpace Event Solutions",
+          "meta_description": "Brand every surface of your ZenSpace event pod - vinyl wraps, digital signage, interior stickers, and screen branding for maximum sponsor visibility.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/design-hub",
+          "title": "Design Hub | ZenSpace Event Solutions",
+          "meta_description": "Turn meeting pods into powerful brand touchpoints - full surface branding options including vinyl wraps, digital signage, and remote-managed screen content.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies",
+          "title": "Case Studies | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/faq",
+          "title": "FAQ | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace provides on-demand, tech-enabled, soundproof meeting pods and business lounges for events, conventions, and public spaces. Our SmartPods offer attendees a private, quiet oasis for meetings, networking, presentations, and focused work \u2014 right on the event floor. With proven deployment at over 200 events, ZenSpace keeps attendees engaged and on-site.",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (359 chars)",
+              "url": "https://www.zenspaceevents.com/faq"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/blog",
+          "title": "Blog | ZenSpace Event Solutions",
+          "meta_description": "Explore the ZenSpace blog for tips and updates on soundproof meeting pods, smart event spaces, booking software, and event planning best practices.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/contacts",
+          "title": "Contact Us | ZenSpace for Events",
+          "meta_description": "Get in touch with ZenSpace Events - request a quote for soundproof meeting pod rentals, branding options, and event workspace solutions.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/corporate",
+          "title": "Corporate Event & Meeting Planners | ZenSpace Event Solutions",
+          "meta_description": "All-hands conferences, sales kickoffs, and leadership summits generate energy \u2014 but also overwhelm. SmartPods create on-demand private space for 1:1s, sensitive calls, focused work, and executive conversations, without booking a separate breakout room. ",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Title may be truncated (61 chars): 'Corporate Event & Meeting Planners | ZenSpace Event Solution...'",
+              "url": "https://www.zenspaceevents.com/corporate"
+            },
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (253 chars)",
+              "url": "https://www.zenspaceevents.com/corporate"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/venues",
+          "title": "Venues | ZenSpace Event Solutions",
+          "meta_description": "Turn unused spaces into a premium, revenue-generating amenity \u2014 with zero capital investment, zero new staff, and a product your event clients will remember.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/inspire",
+          "title": "ILHA INSPIRE | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies/inspire"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/expo-expo",
+          "title": "Expo! Expo! | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies/expo-expo"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/iavm",
+          "title": "IAVM VenueConnect | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies/iavm"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/ths",
+          "title": "The Hospitality Show | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies/ths"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/imex",
+          "title": "IMEX | ZenSpace Event Solutions",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/case-studies/imex"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+          "title": "Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-Glass",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Title may be truncated (65 chars): 'Smart Event Spaces Just Got Smarter \u2014 Meet ZenSpace Smart E-...'",
+              "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass"
+            },
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+          "title": "ZenSpace Booking Software for Non-Profit & Charity Events",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+          "title": "ZenSpace Booking Software for Corporate Events",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events"
+            }
+          ]
+        },
+        {
+          "url": "https://www.zenspaceevents.com/privacy-policy",
+          "title": "Privacy Policy | ZenSpace Event Solutions",
+          "meta_description": "ZenSpace Events Privacy Policy - learn how we collect, use, and protect your personal data when you use our meeting pod rental services.",
+          "issues": []
+        },
+        {
+          "url": "https://www.zenspaceevents.com/terms-conditions",
+          "title": "Terms & Conditions | ZenSpace Event Solutions",
+          "meta_description": "Our Terms & Conditions cover everything you need to know about renting a meeting pod - agreements, policies, and branding options.",
+          "issues": []
+        }
+      ]
+    },
+    "headings": {
+      "name": "Heading Structure",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (3) on https://www.zenspaceevents.com/: ['Smart Event Pod Rentals for Trade Shows, Conferences, Corporate Events', '250+', '15+']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/other-products",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/digital-kiosk",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/faq",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/case-studies/inspire",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/case-studies/expo-expo",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/case-studies/iavm",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/case-studies/ths",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/case-studies/imex",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "CRITICAL",
+          "issue": "No H1 tag on https://www.zenspaceevents.com/privacy-policy",
+          "fix": "Add exactly one H1 that includes the page's primary keyword",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "CRITICAL",
+          "issue": "No H1 tag on https://www.zenspaceevents.com/terms-conditions",
+          "fix": "Add exactly one H1 that includes the page's primary keyword",
+          "category": "Heading Structure"
+        }
+      ]
+    },
+    "images": {
+      "name": "Image Optimization",
+      "score": 5,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "447/704 images missing alt text (63%)",
+          "fix": "Add descriptive alt text to every image",
+          "category": "Image Optimization"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No images use lazy loading",
+          "fix": "Add loading='lazy' to below-the-fold images",
+          "category": "Image Optimization"
+        }
+      ],
+      "stats": {
+        "total": 704,
+        "missing_alt": 447,
+        "lazy_loaded": 0
+      }
+    },
+    "content_depth": {
+      "name": "Content Depth",
+      "score": 10,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Average word count across 33 pages: 3955 words"
+        }
+      ],
+      "page_words": [
+        {
+          "url": "https://www.zenspaceevents.com/",
+          "words": 5536
+        },
+        {
+          "url": "https://www.zenspaceevents.com/4-seater",
+          "words": 9586
+        },
+        {
+          "url": "https://www.zenspaceevents.com/booking-software",
+          "words": 2494
+        },
+        {
+          "url": "https://www.zenspaceevents.com/other-products",
+          "words": 2261
+        },
+        {
+          "url": "https://www.zenspaceevents.com/1-seater",
+          "words": 2276
+        },
+        {
+          "url": "https://www.zenspaceevents.com/6-seater",
+          "words": 2288
+        },
+        {
+          "url": "https://www.zenspaceevents.com/aura-gather",
+          "words": 2289
+        },
+        {
+          "url": "https://www.zenspaceevents.com/ada-pod",
+          "words": 2323
+        },
+        {
+          "url": "https://www.zenspaceevents.com/digital-kiosk",
+          "words": 2297
+        },
+        {
+          "url": "https://www.zenspaceevents.com/our-process",
+          "words": 2720
+        },
+        {
+          "url": "https://www.zenspaceevents.com/partnerships",
+          "words": 3699
+        },
+        {
+          "url": "https://www.zenspaceevents.com/event-organizers",
+          "words": 4217
+        },
+        {
+          "url": "https://www.zenspaceevents.com/exhibitors",
+          "words": 3634
+        },
+        {
+          "url": "https://www.zenspaceevents.com/sponsors",
+          "words": 2461
+        },
+        {
+          "url": "https://www.zenspaceevents.com/attendees",
+          "words": 2588
+        },
+        {
+          "url": "https://www.zenspaceevents.com/branding-solutions",
+          "words": 2417
+        },
+        {
+          "url": "https://www.zenspaceevents.com/design-hub",
+          "words": 2488
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies",
+          "words": 7792
+        },
+        {
+          "url": "https://www.zenspaceevents.com/faq",
+          "words": 2283
+        },
+        {
+          "url": "https://www.zenspaceevents.com/blog",
+          "words": 2788
+        },
+        {
+          "url": "https://www.zenspaceevents.com/contacts",
+          "words": 3427
+        },
+        {
+          "url": "https://www.zenspaceevents.com/corporate",
+          "words": 3661
+        },
+        {
+          "url": "https://www.zenspaceevents.com/venues",
+          "words": 3872
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/inspire",
+          "words": 7899
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/expo-expo",
+          "words": 7861
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/iavm",
+          "words": 7851
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/ths",
+          "words": 7862
+        },
+        {
+          "url": "https://www.zenspaceevents.com/case-studies/imex",
+          "words": 7819
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/smart-event-spaces-just-got-smarter-meet-zenspace-smart-e-glass",
+          "words": 2220
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-non-profit-charity-events",
+          "words": 2393
+        },
+        {
+          "url": "https://www.zenspaceevents.com/post/zenspace-booking-software-for-corporate-events",
+          "words": 2353
+        },
+        {
+          "url": "https://www.zenspaceevents.com/privacy-policy",
+          "words": 2435
+        },
+        {
+          "url": "https://www.zenspaceevents.com/terms-conditions",
+          "words": 2441
+        }
+      ]
+    },
+    "schema_markup": {
+      "name": "Schema / Structured Data",
+      "score": 4,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Schema types found: ImageObject, WebSite, BlogPosting"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/4-seater",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/booking-software",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/other-products",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/1-seater",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/6-seater",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/aura-gather",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/ada-pod",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/digital-kiosk",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/our-process",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/partnerships",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/event-organizers",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/exhibitors",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/sponsors",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/attendees",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/branding-solutions",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/design-hub",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/case-studies",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/faq",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/blog",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/contacts",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/corporate",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/venues",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/privacy-policy",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No schema markup on https://www.zenspaceevents.com/terms-conditions",
+          "fix": "Add JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "OK",
+          "issue": "\u2713 WebSite schema present"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing Organization schema",
+          "fix": "Add Organization JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing LocalBusiness schema",
+          "fix": "Add LocalBusiness JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing Product schema",
+          "fix": "Add Product JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Missing FAQPage schema",
+          "fix": "Add FAQPage JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Missing BreadcrumbList schema",
+          "fix": "Add BreadcrumbList JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        }
+      ],
+      "types_found": [
+        "ImageObject",
+        "WebSite",
+        "BlogPosting"
+      ],
+      "recommended_missing": [
+        "Organization",
+        "LocalBusiness",
+        "Product",
+        "FAQPage",
+        "BreadcrumbList"
+      ]
+    },
+    "internal_linking": {
+      "name": "Internal Linking",
+      "score": 10,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Average internal links per page: 23.8"
+        }
+      ]
+    },
+    "performance": {
+      "name": "Performance Indicators",
+      "score": 8,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Note: Run PageSpeed Insights for actual Core Web Vitals (LCP, CLS, INP) measurements."
+        }
+      ]
+    },
+    "aieo_geo": {
+      "name": "AIEO / GEO Readiness",
+      "score": 4.5,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "OK",
+          "issue": "Has structured data (helps AI comprehension)"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No FAQPage schema \u2014 major missed opportunity for AI citations",
+          "fix": "Create FAQ content with FAQPage JSON-LD markup",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No clear definitional content",
+          "fix": "Add clear 'what is' content: '[Company] is a [what] that [does what] for [whom]'",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No specific quantitative proof points",
+          "fix": "Add stats: events served, pod count, cities covered, setup time, etc.",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "OK",
+          "issue": "Good content volume (130531 total words)"
+        },
+        {
+          "severity": "OK",
+          "issue": "AI crawlers not blocked"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Consider creating an llms.txt file \u2014 emerging standard for AI-optimized site summaries",
+          "fix": "Create /llms.txt with structured company info for AI systems",
+          "category": "AIEO / GEO Readiness"
+        }
+      ]
+    },
+    "wix_platform": {
+      "name": "Wix Platform Checks",
+      "score": 7,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Wix platform detected \u2014 applying platform-specific checks"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Wix auto-generates sitemap \u2014 verify all important pages are included",
+          "fix": "Check: yourdomain.com/sitemap.xml \u2014 ensure key pages appear. Use Page Settings \u2192 SEO \u2192 Advanced to control visibility.",
+          "category": "Wix Platform Checks"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Wix's JavaScript-heavy rendering can delay content visibility to crawlers",
+          "fix": "Use Google Search Console \u2192 URL Inspection \u2192 test each key page to confirm Googlebot sees full content.",
+          "category": "Wix Platform Checks"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Consider Wix Velo for advanced SEO customization (dynamic schema, custom routes)",
+          "fix": "Wix Velo (Dev Mode) enables programmatic schema injection, custom routing for llms.txt, and dynamic meta tags.",
+          "category": "Wix Platform Checks"
+        }
+      ]
+    }
+  },
+  "overall_score": 54.5,
+  "overall_max": 120,
+  "overall_percentage": 45.4,
+  "overall_grade": "D"
+}

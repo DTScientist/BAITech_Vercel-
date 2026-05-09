@@ -1,0 +1,1116 @@
+[
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Organization Schema (All Pages)"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "Critical"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "5 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "This tells Google and AI systems who ZenSpace is \u2014 your name, what you do, and where to find you online. Think of it as your digital business card. Nook has this on every page. You don't. This is the #1 gap between you and them."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "org_schema",
+      "wix_steps": [
+        "1. Go to Wix Dashboard",
+        "2. Click 'Settings' in the left sidebar",
+        "3. Click 'Custom Code'",
+        "4. Click '+ Add Custom Code'",
+        "5. Paste the code below",
+        "6. Name it: 'Organization Schema'",
+        "7. Set 'Add Code to Pages': All Pages",
+        "8. Set 'Place Code in': Head",
+        "9. Click Apply"
+      ],
+      "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"ZenSpace Event Solutions\",\n  \"alternateName\": \"ZenSpace Events\",\n  \"url\": \"https://www.zenspaceevents.com\",\n  \"logo\": \"https://www.zenspaceevents.com/logo.png\",\n  \"description\": \"ZenSpace Event Solutions provides premium IoT-enabled meeting pod rentals for trade shows, conferences, and corporate events. Since 2017, we have delivered 250+ events with smart, soundproof, mobile pods featu..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "LocalBusiness Schema (All Pages)"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "Critical"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "5 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "This tells Google you serve real locations. It powers 'near me' searches and Google Maps results. When someone searches 'event pod rental Las Vegas', this is what makes you show up."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "local_biz_schema",
+      "wix_steps": [
+        "1. Go to Wix Dashboard \u2192 Settings \u2192 Custom Code",
+        "2. Click '+ Add Custom Code'",
+        "3. Paste the code below",
+        "4. Name it: 'LocalBusiness Schema'",
+        "5. Set 'Add Code to Pages': All Pages",
+        "6. Set 'Place Code in': Head",
+        "7. Click Apply"
+      ],
+      "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"name\": \"ZenSpace Event Solutions\",\n  \"url\": \"https://www.zenspaceevents.com\",\n  \"description\": \"Premium IoT-enabled meeting pod rentals for trade shows, conferences, and corporate events. Full-service delivery including setup, branding, and on-site support.\",\n  \"email\": \"info@zenspace.io\",\n  \"priceRange\": \"$$-$$$\",\n  \"areaServed\": [\n    {\"@type\": \"City\", \"name\": \"Las Vegas\"},\n    {\"@type\": \"C..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Allow AI Bots in robots.txt"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "Critical"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "AIEO/GEO"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "This tells ChatGPT, Claude, and Perplexity they're allowed to read your site. If they can't read it, they can't recommend you. Neither you nor Nook have this \u2014 whoever does it first gets cited first."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "robots_ai_bots",
+      "wix_steps": [
+        "1. Go to Wix Dashboard",
+        "2. Click 'Marketing & SEO' in the left sidebar",
+        "3. Click 'SEO Tools'",
+        "4. Click 'robots.txt Editor'",
+        "5. ADD these lines at the end (don't delete existing content)",
+        "6. Click Save"
+      ],
+      "code": "User-agent: GPTBot\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /"
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "FAQPage Schema (/faq page)"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "Critical"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "5 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "This tells Google your FAQ page has questions and answers. Google shows them as expandable dropdowns right in search results \u2014 taking up huge space. AI systems LOVE this format for citing sources. Neither you nor Nook have this. First mover wins."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "faq_schema",
+      "wix_steps": [
+        "1. Open Wix Editor",
+        "2. Navigate to the FAQ page",
+        "3. Click the gear icon (Page Settings)",
+        "4. Go to 'SEO (Google)' tab",
+        "5. Scroll to 'Advanced SEO'",
+        "6. Find 'Structured Data Markup' and click Edit",
+        "7. Paste the JSON below (WITHOUT the script tags)",
+        "8. Save and Publish"
+      ],
+      "code": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How much does it cost to rent an event pod?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ZenSpace Event Pod rental pricing starts at approximately $900 per pod per event day, with a one-time relocation fee of around $500 per pod. Pricing varies based on the number of pods, event duration, and customization. Contact us for a custom quote.\"\n      ..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "This page has no meta description \u2014 Google is writing its own snippet for you, probably badly. This tells Google exactly what to show when someone finds this page."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_case_studies",
+      "wix_steps": [
+        "1. Open Wix Editor \u2192 click Case Studies page",
+        "2. Click gear icon (Page Settings)",
+        "3. Go to 'SEO (Google)' tab",
+        "4. In 'What's this page about?' paste the text below",
+        "5. Save"
+      ],
+      "code": "See how ZenSpace event pods transformed trade shows and conferences. Real results from IMEX, Expo! Expo!, IAVM VenueConnect, and more. 250+ events delivered."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies/imex"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Case study page missing its meta description. This tells Google what to show in search results."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_imex",
+      "wix_steps": [
+        "Same as above \u2014 Page Settings \u2192 SEO \u2192 'What's this page about?'"
+      ],
+      "code": "How ZenSpace deployed smart meeting pods at IMEX, one of the world's largest meetings industry trade shows. See the setup, results, and attendee experience."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies/expo-expo"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Case study page missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_expo",
+      "wix_steps": [
+        "Page Settings \u2192 SEO \u2192 'What's this page about?'"
+      ],
+      "code": "ZenSpace event pods at Expo! Expo! \u2014 IAEE's annual exhibition. Discover how smart pods created private meeting spaces for event professionals."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies/iavm"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Case study page missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_iavm",
+      "wix_steps": [
+        "Page Settings \u2192 SEO \u2192 'What's this page about?'"
+      ],
+      "code": "ZenSpace meeting pods at IAVM VenueConnect. See how IoT-enabled pods provided quiet, bookable workspaces for venue management professionals."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies/inspire"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Case study page missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_inspire",
+      "wix_steps": [
+        "Page Settings \u2192 SEO \u2192 'What's this page about?'"
+      ],
+      "code": "ZenSpace event pods at ILHA INSPIRE. Learn how smart meeting pods enhanced the attendee experience with private, tech-enabled spaces."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: /case-studies/ths"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Case study page missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_ths",
+      "wix_steps": [
+        "Page Settings \u2192 SEO \u2192 'What's this page about?'"
+      ],
+      "code": "ZenSpace event pods at The Hospitality Show. See how our smart meeting pods delivered private meeting spaces for hospitality industry leaders."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: Smart E-Glass blog post"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Blog post missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_blog1",
+      "wix_steps": [
+        "Blog Editor \u2192 click post \u2192 SEO Settings (left panel) \u2192 Description"
+      ],
+      "code": "Meet ZenSpace Smart E-Glass \u2014 switch from transparent to opaque at the touch of a button. The latest in event pod technology for trade shows and conferences."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: Corporate Events blog post"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Blog post missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_blog2",
+      "wix_steps": [
+        "Blog Editor \u2192 click post \u2192 SEO Settings \u2192 Description"
+      ],
+      "code": "How ZenSpace Booking Software streamlines pod management at corporate events. Self-service booking, real-time dashboards, and utilization reports \u2014 no extra staff needed."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Add Meta Description: Non-Profit Events blog post"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Meta Tags"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "2 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Blog post missing its meta description."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "meta_blog3",
+      "wix_steps": [
+        "Blog Editor \u2192 click post \u2192 SEO Settings \u2192 Description"
+      ],
+      "code": "ZenSpace Booking Software for non-profit and charity events. Manage meeting pods with self-service booking, branded pages, and post-event analytics."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Fix Homepage: 3 H1 tags \u2192 1 H1 tag"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "Critical"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Headings"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "5 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Your homepage has 3 H1 headings \u2014 there should be exactly 1. Multiple H1s confuse Google about what the page is about. Keep the main headline as H1, change the others to H2."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "fix_homepage_h1",
+      "wix_steps": [
+        "1. Open Wix Editor \u2192 go to Homepage",
+        "2. Find ALL text styled as 'Heading 1'",
+        "3. Keep only the main headline ('Smart Event Pod Rentals...') as Heading 1",
+        "4. Change all other Heading 1 elements to Heading 2",
+        "5. Save and Publish"
+      ],
+      "code": "Keep: 'Smart Event Pod Rentals for Trade Shows, Conferences & Events' as H1\nChange all other H1s to H2 using the text style dropdown in Wix Editor."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: 1-Seater Pod"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details to Google for the 1-Seater pod page \u2014 specs, features, and availability."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_1seater",
+      "wix_steps": [
+        "Wix Editor \u2192 /1-seater page \u2192 Page Settings \u2192 SEO \u2192 Advanced SEO \u2192 Structured Data Markup \u2192 Edit \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace 1-Seater Event Pod\",\"description\":\"Compact single-person privacy pod for trade shows. Features -29dB acoustic privacy, 32-inch TV, smart LED lighting, ventilation, charging, and mobility casters.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Equipment Rental\",\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Capacity\",\"value\":\"1 person\"},{\"@type\":\"PropertyValue\",\"name\":\"Acoustic Privacy\",\"va..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: 4-Seater Pod"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details to Google for the 4-Seater pod page."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_4seater",
+      "wix_steps": [
+        "Wix Editor \u2192 /4-seater page \u2192 Page Settings \u2192 SEO \u2192 Advanced SEO \u2192 Structured Data \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace 4-Seater Event Pod\",\"description\":\"Lightweight 4-person meeting pod for events. Interior: 81.8in W x 54.24in D x 66in H. Floor: 35.5 sqft. Features -29dB acoustic privacy, 32-inch TV, smart E-glass, wireless screen sharing.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Equipment Rental\",\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Capacity\",\"value\":\"4 persons\"},{\"@type\":\"PropertyValue\",..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: 6-Seater Pod"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details for the 6-Seater conference pod."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_6seater",
+      "wix_steps": [
+        "Wix Editor \u2192 /6-seater \u2192 Page Settings \u2192 SEO \u2192 Advanced \u2192 Structured Data \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace 6-Seater Event Pod\",\"description\":\"Spacious 6-person conference pod for trade shows. -29dB acoustic privacy, 32-inch TV, smart E-glass, wireless screen sharing, digital signage, AI alerts.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Equipment Rental\",\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Capacity\",\"value\":\"6 persons\"},{\"@type\":\"PropertyValue\",\"name\":\"Acoustic Privacy\",\"value\":\"..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: ADA Pod"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details for the ADA-compliant accessible pod."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_ada",
+      "wix_steps": [
+        "Wix Editor \u2192 /ada-pod \u2192 Page Settings \u2192 SEO \u2192 Advanced \u2192 Structured Data \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace Element ADA Event Pod\",\"description\":\"ADA-compliant wheelchair-accessible meeting pod for events. Wider doorways, accessible interior, -29dB acoustic privacy, UL-certified, all smart features included.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Equipment Rental\",\"additionalProperty\":[{\"@type\":\"PropertyValue\",\"name\":\"Accessibility\",\"value\":\"ADA-compliant, wheelchair accessible\"},{\"@type\":\"Prope..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: Aura Gather Pod"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details for the Aura Gather collaborative pod."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_aura",
+      "wix_steps": [
+        "Wix Editor \u2192 /aura-gather \u2192 Page Settings \u2192 SEO \u2192 Advanced \u2192 Structured Data \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace Aura Gather Pod\",\"description\":\"Multi-person gathering pod for collaborative meetings at trade shows. Acoustic privacy, smart E-glass, wireless screen sharing, digital signage, AI monitoring.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Equipment Rental\",\"offers\":{\"@type\":\"Offer\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/InStock\",\"url\":\"https://www.zenspaceevents.com/aura-gather\"}..."
+    }
+  },
+  {
+    "object": "page",
+    "properties": {
+      "Name": {
+        "title": [
+          {
+            "text": {
+              "content": "Product Schema: Digital Kiosk"
+            }
+          }
+        ]
+      },
+      "Status": {
+        "select": {
+          "name": "To Do"
+        }
+      },
+      "Priority": {
+        "select": {
+          "name": "High"
+        }
+      },
+      "Category": {
+        "select": {
+          "name": "Schema Markup"
+        }
+      },
+      "Time Estimate": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "3 min"
+            }
+          }
+        ]
+      },
+      "Description": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Adds product details for the Digital Kiosk."
+            }
+          }
+        ]
+      }
+    },
+    "_meta": {
+      "task_id": "schema_kiosk",
+      "wix_steps": [
+        "Wix Editor \u2192 /digital-kiosk \u2192 Page Settings \u2192 SEO \u2192 Advanced \u2192 Structured Data \u2192 Paste JSON"
+      ],
+      "code": "{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"ZenSpace Digital Kiosk\",\"description\":\"Interactive digital kiosk for event wayfinding, sponsor branding, and attendee engagement. Digital signage, real-time alerts, sponsor integration.\",\"brand\":{\"@type\":\"Brand\",\"name\":\"ZenSpace Event Solutions\"},\"category\":\"Event Technology\",\"offers\":{\"@type\":\"Offer\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/InStock\",\"url\":\"https://www.zenspaceevents.com/digital-kiosk\"}}"
+    }
+  }
+]

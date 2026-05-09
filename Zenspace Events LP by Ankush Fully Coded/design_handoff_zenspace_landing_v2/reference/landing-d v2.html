@@ -731,6 +731,156 @@
     .nav{padding:0; height:auto}
     .nav__inner{height:64px; padding:0 20px}
   }
+
+  /* ===== E-GLASS BEFORE / AFTER SPLIT ===== */
+  .eg-compare{
+    position:relative; display:flex;
+    border-radius:12px; overflow:hidden;
+    width:100%; min-height:210px;
+    box-shadow:0 12px 44px rgba(13,30,69,.55);
+  }
+  .eg-side{ flex:1; position:relative; overflow:hidden }
+  .eg-side img{
+    width:100%; height:100%; min-height:210px;
+    object-fit:cover; object-position:center 30%;
+    display:block;
+  }
+  /* Frosted side: desaturate + white overlay simulates opaque glass */
+  .eg-side--frost img{ filter:brightness(1.12) saturate(.18) }
+  .eg-frost-layer{
+    position:absolute; inset:0; z-index:1;
+    background:rgba(210,228,252,.86);
+  }
+  .eg-side__lbl{
+    position:absolute; bottom:10px; left:50%; transform:translateX(-50%);
+    font:600 9px var(--f-body); letter-spacing:.22em; text-transform:uppercase;
+    color:rgba(255,255,255,.95); background:rgba(0,0,0,.5);
+    padding:5px 12px; border-radius:20px; white-space:nowrap;
+    z-index:3; backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  }
+  .eg-side--frost .eg-side__lbl{ color:var(--mint); background:rgba(13,30,69,.7) }
+  /* Double-chevron center button */
+  .eg-chevron{
+    position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); z-index:10;
+    width:52px; height:52px; background:#fff; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 4px 20px rgba(13,30,69,.28);
+    flex-shrink:0; pointer-events:none;
+  }
+  /* Override tile__media when it holds the comparison */
+  .tile--feat .tile__media{
+    aspect-ratio:auto; background:transparent; padding:0; gap:12px;
+  }
+  .eg-meta{
+    font:500 11px var(--f-body); letter-spacing:.04em;
+    color:rgba(255,255,255,.6); text-align:center;
+  }
+
+  /* ===== SHIMMER ON HEADLINE em ===== */
+  @keyframes text-shimmer{
+    0%  { background-position:200% center }
+    100%{ background-position:-200% center }
+  }
+  /* Light-section headlines */
+  .hero__title em,
+  .about__h em,
+  .sec--canvas .sec__h em,
+  .sec--deep .sec__h em {
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+    background:linear-gradient(90deg,
+      var(--navy) 0%, var(--blue) 38%, var(--sky-mid) 53%, var(--navy) 72%);
+    background-size:250% auto;
+    -webkit-background-clip:text; background-clip:text;
+    animation:text-shimmer 6s linear infinite;
+  }
+  /* Dark-section headlines */
+  .sec--dark .sec__h em,
+  .sec--dark .aud-h em,
+  .cta-band__h em {
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+    background:linear-gradient(90deg,
+      var(--mint) 0%, #fff 38%, var(--sky) 53%, var(--mint) 72%);
+    background-size:250% auto;
+    -webkit-background-clip:text; background-clip:text;
+    animation:text-shimmer 6s linear infinite;
+  }
+
+  /* ===== COUNT-UP POP ===== */
+  @keyframes stat-pop{
+    0%  { transform:scale(.93) }
+    60% { transform:scale(1.06) }
+    100%{ transform:scale(1) }
+  }
+  .stat__big.popped{ animation:stat-pop .5s var(--ease) forwards }
+
+  /* ===== ENHANCED CHIP ENTRANCE ===== */
+  @media (prefers-reduced-motion:no-preference){
+    .chip.anim-chip{
+      opacity:0; transform:translateY(10px) scale(.95);
+      transition:opacity .5s var(--ease), transform .5s var(--ease);
+    }
+    .chip.anim-chip.in{ opacity:1; transform:none }
+  }
+
+  /* ===== POD LINEUP SWITCHER ===== */
+  .pod-lineup{ background:var(--canvas-card); border-radius:var(--r-card); overflow:hidden; border:1px solid rgba(28,63,146,.07) }
+  .pod-tabs{
+    display:flex; border-bottom:1px solid var(--gray);
+    padding:0 8px; overflow-x:auto;
+    scrollbar-width:none; -ms-overflow-style:none;
+    background:var(--canvas-card);
+  }
+  .pod-tabs::-webkit-scrollbar{display:none}
+  .pod-tab{
+    padding:16px 20px; background:transparent; border:none;
+    border-bottom:2.5px solid transparent; margin-bottom:-1px;
+    font-family:var(--f-body); font-weight:600; font-size:13px;
+    color:var(--gray-dk); cursor:pointer; white-space:nowrap;
+    transition:color .2s, border-color .2s;
+  }
+  .pod-tab:hover{ color:var(--navy-dark) }
+  .pod-tab.pod-tab--active{ color:var(--navy); border-bottom-color:var(--navy) }
+
+  .pod-panel{
+    display:none;
+    grid-template-columns:1fr 1.55fr;
+    min-height:360px;
+    animation:pod-fade .38s var(--ease);
+  }
+  .pod-panel.pod-panel--active{ display:grid }
+  @keyframes pod-fade{
+    from{ opacity:0; transform:translateY(10px) }
+    to{ opacity:1; transform:none }
+  }
+  .pod-panel__info{
+    padding:40px 36px;
+    display:flex; flex-direction:column; justify-content:center;
+  }
+  .pod-panel__img{
+    overflow:hidden; background:var(--canvas-deep);
+    position:relative;
+  }
+  .pod-panel__img img{
+    width:100%; height:100%; object-fit:cover; object-position:center;
+    display:block; transition:transform .6s var(--ease);
+  }
+  .pod-panel__img:hover img{ transform:scale(1.04) }
+
+  .pod-specs{ list-style:none; border-top:1px solid var(--gray); margin-top:8px }
+  .pod-specs li{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:9px 0; border-bottom:1px solid var(--gray); font-size:13px;
+  }
+  .pod-specs li span{ color:var(--gray-dk) }
+  .pod-specs li strong{ color:var(--navy-dark); font-weight:600; text-align:right; max-width:55% }
+
+  @media(max-width:768px){
+    .pod-panel{ grid-template-columns:1fr }
+    .pod-panel__img{ min-height:220px; order:-1 }
+    .pod-panel__info{ padding:28px 24px }
+  }
 </style>
 </head>
 <body>
@@ -968,35 +1118,35 @@
       <div class="stats stagger">
         <div class="stat">
           <div class="stat__lbl">Events delivered since 2017, refined by experience.</div>
-          <div class="stat__big">250<sup>+</sup></div>
+          <div class="stat__big" data-count="250" data-suffix="+">250<sup>+</sup></div>
         </div>
         <div class="stat">
           <div class="stat__lbl">Peak pod utilization at IMEX 2025 across 6 units.</div>
-          <div class="stat__big">93<sup>%</sup></div>
+          <div class="stat__big" data-count="93" data-suffix="%">93<sup>%</sup></div>
         </div>
         <div class="stat">
           <div class="stat__lbl">Self-serve users registered via branded QR at IMEX 2025.</div>
-          <div class="stat__big">600<sup>+</sup></div>
+          <div class="stat__big" data-count="600" data-suffix="+">600<sup>+</sup></div>
         </div>
         <div class="stat">
           <div class="stat__lbl">The only thing we'll ever ask of you, per pod.</div>
-          <div class="stat__big">5<sup>A</sup></div>
+          <div class="stat__big" data-count="5" data-suffix="A">5<sup>A</sup></div>
         </div>
       </div>
 
       <!-- Secondary proof strip -->
       <div class="stagger" style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:20px">
         <div style="padding:28px; background:var(--canvas-deep); border-radius:var(--r-card)">
-          <div style="font-family:var(--f-display); font-size:52px; line-height:1; color:var(--navy); font-weight:700; letter-spacing:-.02em">2.4<span style="font-family:var(--f-body); font-size:.5em; font-weight:600; vertical-align:super; color:var(--green)">×</span></div>
-          <div style="font-size:14px; line-height:1.5; color:var(--gray-dk); margin-top:10px">More qualified leads vs. standard trade show booth setup — CEIR data.</div>
+          <div style="font-family:var(--f-display); font-size:52px; line-height:1; color:var(--navy); font-weight:700; letter-spacing:-.02em">$40<span style="font-family:var(--f-body); font-size:.4em; font-weight:600; vertical-align:super; color:var(--green)">K+</span></div>
+          <div style="font-size:14px; line-height:1.5; color:var(--gray-dk); margin-top:10px">Organizer revenue from 5 pods over 3 days — before sponsor branding fees.</div>
         </div>
         <div style="padding:28px; background:var(--canvas-deep); border-radius:var(--r-card)">
-          <div style="font-family:var(--f-display); font-size:52px; line-height:1; color:var(--navy); font-weight:700; letter-spacing:-.02em">12<span style="font-family:var(--f-body); font-size:.5em; font-weight:600; vertical-align:super; color:var(--green)">×</span></div>
+          <div style="font-family:var(--f-display); font-size:36px; line-height:1.1; color:var(--navy); font-weight:700; letter-spacing:-.02em">Up to 12<span style="font-family:var(--f-body); font-size:.55em; font-weight:600; vertical-align:super; color:var(--green)">×</span></div>
           <div style="font-size:14px; line-height:1.5; color:var(--gray-dk); margin-top:10px">Higher sponsor impact vs. passive advertising — through owned, branded meeting spaces.</div>
         </div>
         <div style="padding:28px; background:var(--canvas-deep); border-radius:var(--r-card)">
           <div style="font-family:var(--f-display); font-size:52px; line-height:1; color:var(--navy); font-weight:700; letter-spacing:-.02em">49<span style="font-family:var(--f-body); font-size:.5em; font-weight:600; vertical-align:super; color:var(--green)">%</span></div>
-          <div style="font-size:14px; line-height:1.5; color:var(--gray-dk); margin-top:10px">Of event attendees skip sessions to find a quiet space for work calls or focused meetings.</div>
+          <div style="font-size:14px; line-height:1.5; color:var(--gray-dk); margin-top:10px">Of attendees skip sessions just to find a quiet space for a work call — EventMB 2023.</div>
         </div>
       </div>
     </div>
@@ -1022,15 +1172,28 @@
           <p class="tile__d" style="color:rgba(255,255,255,.78); max-width:none">Electrochromic glass goes from transparent to fully opaque in under a second — instant on-demand privacy, no curtains, no partitions, no fuss. Try the demo →</p>
         </div>
         <div class="tile__media">
-          <div class="eg-glass" id="egGlass" onclick="setEG(this.classList.contains('opaque')?'clear':'opaque')" title="Click to toggle privacy">
-            <div class="eg-frost" id="egFrost"></div>
-            <div class="eg-glass__lbl" id="egLbl">Transparent</div>
+          <!-- Before / After E-Glass split — mirrors real-world transition -->
+          <div class="eg-compare">
+            <!-- Transparent side -->
+            <div class="eg-side eg-side--clear">
+              <img src="assets/cs-floor.jpg" alt="ZenSpace pod — transparent glass, meeting visible inside">
+              <div class="eg-side__lbl">Transparent</div>
+            </div>
+            <!-- Double-chevron centre badge -->
+            <div class="eg-chevron" aria-hidden="true">
+              <svg viewBox="0 0 30 20" fill="none" width="22" height="15">
+                <path d="M1 3l8 7-8 7" stroke="#1c3f92" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 3l8 7-8 7" stroke="#1c3f92" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <!-- Frosted side -->
+            <div class="eg-side eg-side--frost">
+              <img src="assets/cs-floor.jpg" alt="ZenSpace pod — frosted privacy glass, opaque in under 1 second">
+              <div class="eg-frost-layer"></div>
+              <div class="eg-side__lbl">Frosted · Private</div>
+            </div>
           </div>
-          <div class="eg-toggle" role="tablist">
-            <button type="button" class="active" data-state="clear" onclick="setEG('clear')">Transparent</button>
-            <button type="button" data-state="opaque" onclick="setEG('opaque')">Frosted</button>
-          </div>
-          <div style="font:500 11px var(--f-body); letter-spacing:.04em; color:var(--gray-dk); text-align:center">Real pods transition in &lt;1s. &nbsp;·&nbsp; Click the glass or use the buttons.</div>
+          <div class="eg-meta">Smart E-Glass™ — transparent → fully opaque in &lt;1&nbsp;second. No curtains. No partitions.</div>
         </div>
       </div>
 
@@ -1102,21 +1265,123 @@
 
     </div>
 
-    <!-- Pod lineup strip -->
-    <div class="reveal" style="margin-top:56px; padding:32px; background:var(--canvas-deep); border-radius:var(--r-card)">
-      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px">
-        <div>
-          <div class="chip" style="margin-bottom:12px">Full Pod Lineup</div>
-          <p style="font-size:15px; color:var(--gray-dk); max-width:480px; line-height:1.55">Available in five formats to fit any footprint, capacity, or compliance requirement. All pods ship fully assembled — plug-and-play in under 30 minutes.</p>
+    <!-- Pod lineup interactive switcher -->
+    <div class="reveal pod-lineup" style="margin-top:56px">
+
+      <!-- Tab bar -->
+      <div class="pod-tabs" role="tablist">
+        <button class="pod-tab" onclick="switchPod('1s',this)" role="tab">1-Seater Privacy Pod</button>
+        <button class="pod-tab pod-tab--active" onclick="switchPod('4s',this)" role="tab">4-Seater SmartPod <span style="color:var(--green)">★</span></button>
+        <button class="pod-tab" onclick="switchPod('6s',this)" role="tab">6-Seater Conference Pod</button>
+        <button class="pod-tab" onclick="switchPod('ada',this)" role="tab">ADA Element Pod</button>
+        <button class="pod-tab" onclick="switchPod('aura',this)" role="tab">Aura Gather</button>
+      </div>
+
+      <!-- 1-Seater -->
+      <div id="pod-1s" class="pod-panel" role="tabpanel">
+        <div class="pod-panel__info">
+          <div class="chip" style="margin-bottom:16px">1 Person</div>
+          <h3 class="display display--md" style="margin-bottom:10px">1-Seater<br>Privacy Pod</h3>
+          <p style="font-size:14px; color:var(--gray-dk); line-height:1.65; margin-bottom:18px">A compact, soundproof sanctuary for private calls, focused work, or a quick reset — without leaving the event floor.</p>
+          <ul class="pod-specs">
+            <li><span>Capacity</span><strong>1 person</strong></li>
+            <li><span>Soundproofing</span><strong>Up to 25 dB</strong></li>
+            <li><span>Dimensions</span><strong>40.2"D × 35"W × 89"H</strong></li>
+            <li><span>Weight</span><strong>848.78 lbs</strong></li>
+            <li><span>Charging</span><strong>USB-A, USB-C, power outlet</strong></li>
+            <li><span>Setup</span><strong>Plug & play, fully assembled</strong></li>
+          </ul>
+          <a href="#contact" class="btn btn--dark" style="margin-top:24px; align-self:flex-start">Get a Quote <svg class="arr" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
-        <div style="display:flex; gap:12px; flex-wrap:wrap">
-          <span style="padding:10px 18px; border-radius:var(--r-pill); background:var(--canvas-card); border:1px solid var(--gray); font-size:13px; font-weight:600; color:var(--navy-dark)">1-Seater Privacy Pod</span>
-          <span style="padding:10px 18px; border-radius:var(--r-pill); background:var(--navy); color:#fff; font-size:13px; font-weight:600">4-Seater SmartPod ★</span>
-          <span style="padding:10px 18px; border-radius:var(--r-pill); background:var(--canvas-card); border:1px solid var(--gray); font-size:13px; font-weight:600; color:var(--navy-dark)">6-Seater Conference Pod</span>
-          <span style="padding:10px 18px; border-radius:var(--r-pill); background:var(--canvas-card); border:1px solid var(--gray); font-size:13px; font-weight:600; color:var(--navy-dark)">ADA Element Pod</span>
-          <span style="padding:10px 18px; border-radius:var(--r-pill); background:var(--canvas-card); border:1px solid var(--gray); font-size:13px; font-weight:600; color:var(--navy-dark)">Aura Gather (6-person)</span>
+        <div class="pod-panel__img">
+          <img src="assets/pod-front.png" alt="ZenSpace 1-Seater Privacy Pod" loading="lazy">
         </div>
       </div>
+
+      <!-- 4-Seater SmartPod -->
+      <div id="pod-4s" class="pod-panel pod-panel--active" role="tabpanel">
+        <div class="pod-panel__info">
+          <div class="chip" style="margin-bottom:16px">4 People · Flagship</div>
+          <h3 class="display display--md" style="margin-bottom:10px">4-Seater<br>SmartPod</h3>
+          <p style="font-size:14px; color:var(--gray-dk); line-height:1.65; margin-bottom:18px">The flagship. 15+ smart features including Smart E-Glass, AI occupancy monitoring, Airtame wireless sharing, and self-serve QR booking. UL-certified and ready for any floor.</p>
+          <ul class="pod-specs">
+            <li><span>Capacity</span><strong>4 people</strong></li>
+            <li><span>Soundproofing</span><strong>−29 dB</strong></li>
+            <li><span>Smart E-Glass</span><strong>Transparent → opaque in &lt;1s</strong></li>
+            <li><span>Booking</span><strong>QR self-serve + 10" on-site display</strong></li>
+            <li><span>Connectivity</span><strong>Dedicated WiFi + Airtame</strong></li>
+            <li><span>Power required</span><strong>1 × 5 Amp outlet</strong></li>
+          </ul>
+          <a href="#contact" class="btn btn--green" style="margin-top:24px; align-self:flex-start">Get a Quote <svg class="arr" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="pod-panel__img">
+          <img src="assets/pod-hero.png" alt="ZenSpace 4-Seater SmartPod — flagship" loading="lazy">
+        </div>
+      </div>
+
+      <!-- 6-Seater -->
+      <div id="pod-6s" class="pod-panel" role="tabpanel">
+        <div class="pod-panel__info">
+          <div class="chip" style="margin-bottom:16px">6 People</div>
+          <h3 class="display display--md" style="margin-bottom:10px">6-Seater<br>Conference Pod</h3>
+          <p style="font-size:14px; color:var(--gray-dk); line-height:1.65; margin-bottom:18px">Turns event space into a private room for sponsor briefings, press interviews, VIP conversations, and team strategy sessions.</p>
+          <ul class="pod-specs">
+            <li><span>Capacity</span><strong>6 people</strong></li>
+            <li><span>Dimensions</span><strong>85"W × 84.5"D × 87.5"H</strong></li>
+            <li><span>Weight</span><strong>2,000 lbs</strong></li>
+            <li><span>Display</span><strong>32" monitor, USB-C / HDMI</strong></li>
+            <li><span>Furniture</span><strong>Table, 2 benches</strong></li>
+            <li><span>Setup</span><strong>Plug & play, fully assembled</strong></li>
+          </ul>
+          <a href="#contact" class="btn btn--dark" style="margin-top:24px; align-self:flex-start">Get a Quote <svg class="arr" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="pod-panel__img">
+          <img src="assets/cs-floor.jpg" alt="ZenSpace 6-Seater Conference Pod deployed on event floor" loading="lazy">
+        </div>
+      </div>
+
+      <!-- ADA Pod -->
+      <div id="pod-ada" class="pod-panel" role="tabpanel">
+        <div class="pod-panel__info">
+          <div class="chip" style="margin-bottom:16px">4 People · ADA Compliant</div>
+          <h3 class="display display--md" style="margin-bottom:10px">ADA<br>Element Pod</h3>
+          <p style="font-size:14px; color:var(--gray-dk); line-height:1.65; margin-bottom:18px">Fully accessible and soundproof — built to welcome every attendee regardless of mobility needs. 37" motorized door, 70% openable roof, UL-certified.</p>
+          <ul class="pod-specs">
+            <li><span>Capacity</span><strong>4 people</strong></li>
+            <li><span>Dimensions</span><strong>88"W × 64"D × 83"H</strong></li>
+            <li><span>Door</span><strong>37" wide, motorized automated</strong></li>
+            <li><span>Roof</span><strong>70% openable</strong></li>
+            <li><span>Weight</span><strong>750 lbs</strong></li>
+            <li><span>Certified</span><strong>ADA / ADAAG + UL</strong></li>
+          </ul>
+          <a href="#contact" class="btn btn--dark" style="margin-top:24px; align-self:flex-start">Get a Quote <svg class="arr" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="pod-panel__img">
+          <img src="assets/cs-iavm.jpg" alt="ZenSpace ADA Element Pod — accessible meeting space" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Aura Gather -->
+      <div id="pod-aura" class="pod-panel" role="tabpanel">
+        <div class="pod-panel__info">
+          <div class="chip" style="margin-bottom:16px">Up to 6 People · Premium</div>
+          <h3 class="display display--md" style="margin-bottom:10px">Aura<br>Gather Pod</h3>
+          <p style="font-size:14px; color:var(--gray-dk); line-height:1.65; margin-bottom:18px">A design-forward gathering space for high-stakes sponsor meetings, executive roundtables, and VIP activations. Nearly 73 sq ft of acoustic privacy.</p>
+          <ul class="pod-specs">
+            <li><span>Capacity</span><strong>Up to 6 people</strong></li>
+            <li><span>Interior space</span><strong>Nearly 73 sq ft</strong></li>
+            <li><span>Dimensions</span><strong>102.6"W × 102.4"D × 91.6"H</strong></li>
+            <li><span>Soundproofing</span><strong>29 dB reduction</strong></li>
+            <li><span>Lighting</span><strong>OSRAM 3000K–6000K adjustable</strong></li>
+            <li><span>Weight</span><strong>1,728 lbs</strong></li>
+          </ul>
+          <a href="#contact" class="btn btn--dark" style="margin-top:24px; align-self:flex-start">Get a Quote <svg class="arr" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="pod-panel__img">
+          <img src="assets/pod-angle.png" alt="ZenSpace Aura Gather Pod — premium large-format meeting space" loading="lazy">
+        </div>
+      </div>
+
     </div>
 
   </div>
@@ -1675,25 +1940,25 @@
 </script>
 
 <script>
-  /* E-Glass demo (both hero card + main feature tile) */
+  /* Pod lineup tab switcher */
+  function switchPod(id, tabEl){
+    document.querySelectorAll('.pod-panel').forEach(p => p.classList.remove('pod-panel--active'));
+    document.querySelectorAll('.pod-tab').forEach(t => t.classList.remove('pod-tab--active'));
+    document.getElementById('pod-' + id).classList.add('pod-panel--active');
+    tabEl.classList.add('pod-tab--active');
+  }
+
+  /* E-Glass demo — hero card only (feature tile now uses static before/after) */
   function setEG(state){
-    const g  = document.getElementById('egGlass');
-    const l  = document.getElementById('egLbl');
     const hg = document.getElementById('heroGlass');
-    document.querySelectorAll('.eg-toggle button').forEach(b => {
-      b.classList.toggle('active', b.dataset.state === state);
-    });
+    if(!hg) return;
     if(state === 'opaque'){
-      g.classList.add('opaque');
-      l.textContent = 'Frosted · Private';
-      if(hg) hg.classList.replace('clear','opaque');
+      hg.classList.replace('clear','opaque');
     } else {
-      g.classList.remove('opaque');
-      l.textContent = 'Transparent';
-      if(hg) hg.classList.replace('opaque','clear');
+      hg.classList.replace('opaque','clear');
     }
   }
-  /* hero glass auto-cycles for show */
+  /* Hero glass auto-cycles */
   setInterval(() => {
     const hg = document.getElementById('heroGlass');
     if(!hg) return;
@@ -1707,7 +1972,45 @@
       if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
     });
   }, { threshold: .12, rootMargin: '0px 0px -80px 0px' });
-  document.querySelectorAll('.reveal, .stagger').forEach(el => io.observe(el));
+  document.querySelectorAll('.reveal, .stagger, .sec__head').forEach(el => io.observe(el));
+
+  /* ---- Count-up animation for stat numbers ---- */
+  function easeOut(t){ return 1 - Math.pow(1 - t, 3) }
+  function animateCount(el){
+    const target = parseInt(el.dataset.count, 10);
+    const suffix = el.dataset.suffix || '';
+    const sup    = el.querySelector('sup');
+    const dur    = Math.min(1800, 600 + target * 1.4);
+    const start  = performance.now();
+    el.classList.add('popped');
+    function tick(now){
+      const p   = Math.min((now - start) / dur, 1);
+      const val = Math.round(easeOut(p) * target);
+      const firstChild = el.firstChild;
+      if(firstChild && firstChild.nodeType === Node.TEXT_NODE){
+        firstChild.textContent = val;
+      } else {
+        el.insertBefore(document.createTextNode(val), el.firstChild);
+      }
+      if(sup) sup.textContent = suffix;
+      if(p < 1) requestAnimationFrame(tick);
+      else {
+        if(firstChild && firstChild.nodeType === Node.TEXT_NODE)
+          firstChild.textContent = target;
+      }
+    }
+    requestAnimationFrame(tick);
+  }
+
+  const countIO = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting && e.target.dataset.count){
+        animateCount(e.target);
+        countIO.unobserve(e.target);
+      }
+    });
+  }, { threshold: .5 });
+  document.querySelectorAll('.stat__big[data-count]').forEach(el => countIO.observe(el));
 </script>
 
 </body>

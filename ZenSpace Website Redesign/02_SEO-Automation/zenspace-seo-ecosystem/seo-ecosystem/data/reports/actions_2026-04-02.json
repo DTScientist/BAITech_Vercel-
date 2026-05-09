@@ -1,0 +1,38 @@
+[
+  {
+    "priority": 1,
+    "category": "Setup",
+    "action": "Run SERP tracking: python3 collectors/serp_tracker.py",
+    "detail": "No ranking data collected yet. Start tracking to measure progress."
+  },
+  {
+    "priority": 2,
+    "category": "Setup",
+    "action": "Run CWV check: python3 collectors/pagespeed.py"
+  },
+  {
+    "priority": 2,
+    "category": "Setup",
+    "action": "Run competitor scan: python3 collectors/competitor_monitor.py"
+  },
+  {
+    "priority": 3,
+    "category": "Content",
+    "action": "Create /event-pod-rental/ landing page targeting primary transactional keyword"
+  },
+  {
+    "priority": 3,
+    "category": "AIEO",
+    "action": "Create /what-is-an-event-pod/ definitional page for AI citation eligibility"
+  },
+  {
+    "priority": 3,
+    "category": "Content",
+    "action": "Publish 2 new blog posts targeting informational keywords this week"
+  },
+  {
+    "priority": 3,
+    "category": "Images",
+    "action": "Add alt text to 50 images this week (product pages first)"
+  }
+]

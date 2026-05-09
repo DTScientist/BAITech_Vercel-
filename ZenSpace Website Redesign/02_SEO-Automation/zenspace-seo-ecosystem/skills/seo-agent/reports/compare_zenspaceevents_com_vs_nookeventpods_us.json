@@ -1,0 +1,282 @@
+{
+  "our_domain": "zenspaceevents.com",
+  "competitor_domain": "nookeventpods.us",
+  "our_overall": {
+    "score": 54.5,
+    "max": 120,
+    "pct": 45.416666666666664,
+    "grade": "D"
+  },
+  "their_overall": {
+    "score": 56.5,
+    "max": 120,
+    "pct": 47.083333333333336,
+    "grade": "D"
+  },
+  "gaps": [
+    {
+      "category": "AIEO / GEO Readiness",
+      "key": "aieo_geo",
+      "our_score": 4.5,
+      "their_score": 4.5,
+      "gap": 0.0,
+      "max_score": 10
+    },
+    {
+      "category": "HTTPS & Security",
+      "key": "https_security",
+      "our_score": 6,
+      "their_score": 6,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Image Optimization",
+      "key": "images",
+      "our_score": 5,
+      "their_score": 5,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Content Depth",
+      "key": "content_depth",
+      "our_score": 10,
+      "their_score": 10,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Heading Structure",
+      "key": "headings",
+      "our_score": 0,
+      "their_score": 0,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "XML Sitemap",
+      "key": "sitemap",
+      "our_score": 0,
+      "their_score": 0,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Title Tags & Meta Descriptions",
+      "key": "meta_tags",
+      "our_score": 0,
+      "their_score": 0,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Internal Linking",
+      "key": "internal_linking",
+      "our_score": 10,
+      "their_score": 10,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Performance Indicators",
+      "key": "performance",
+      "our_score": 8,
+      "their_score": 8,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Wix Platform Checks",
+      "key": "wix_platform",
+      "our_score": 7,
+      "their_score": 7,
+      "gap": 0,
+      "max_score": 10
+    },
+    {
+      "category": "Schema / Structured Data",
+      "key": "schema_markup",
+      "our_score": 4,
+      "their_score": 6,
+      "gap": -2,
+      "max_score": 10
+    },
+    {
+      "category": "Robots.txt",
+      "key": "robots_txt",
+      "our_score": 0,
+      "their_score": 0,
+      "gap": 0,
+      "max_score": 10
+    }
+  ],
+  "actions": [
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add Organization JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add LocalBusiness JSON-LD structured data",
+      "impact": 2
+    },
+    {
+      "priority": 2,
+      "category": "Schema / Structured Data",
+      "action": "Add Product JSON-LD structured data",
+      "impact": 2
+    }
+  ],
+  "losing_categories": [
+    "Schema / Structured Data"
+  ],
+  "winning_categories": []
+}

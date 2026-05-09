@@ -1,0 +1,663 @@
+{
+  "domain": "nookeventpods.us",
+  "base_url": "https://nookeventpods.us",
+  "pages_analyzed": 13,
+  "network_accessible": false,
+  "categories": {
+    "robots_txt": {
+      "name": "Robots.txt",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "No robots.txt found",
+          "fix": "Create a robots.txt file at the root of your domain with proper directives and sitemap reference.",
+          "category": "Robots.txt"
+        }
+      ]
+    },
+    "sitemap": {
+      "name": "XML Sitemap",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "No XML sitemap found",
+          "fix": "Create and submit an XML sitemap. Include all indexable pages with accurate <lastmod> dates.",
+          "category": "XML Sitemap"
+        }
+      ]
+    },
+    "https_security": {
+      "name": "HTTPS & Security",
+      "score": 6,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "OK",
+          "issue": "Site uses HTTPS"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No HSTS header",
+          "fix": "Add Strict-Transport-Security header: max-age=31536000; includeSubDomains",
+          "category": "HTTPS & Security"
+        }
+      ]
+    },
+    "meta_tags": {
+      "name": "Title Tags & Meta Descriptions",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/who-we-serve-and-how/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Title too short (28 chars): 'Use Cases - NOOK Event Pods\u00ae'",
+          "url": "https://nookeventpods.us/use-cases/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/use-cases/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Title may be truncated (71 chars): 'NOOK Event Pods | Partnerships Driving Innovation in the Eve...'",
+          "url": "https://nookeventpods.us/partners/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (178 chars)",
+          "url": "https://nookeventpods.us/partners/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Title too short (26 chars): 'Pricing - NOOK Event Pods\u00ae'",
+          "url": "https://nookeventpods.us/pricing/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/pricing/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Title too short (24 chars): 'About - NOOK Event Pods\u00ae'",
+          "url": "https://nookeventpods.us/about/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Title too short (23 chars): 'Blog - NOOK Event Pods\u00ae'",
+          "url": "https://nookeventpods.us/blog-2/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/blog-2/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Title too short (27 chars): 'Book Now - NOOK Event Pods\u00ae'",
+          "url": "https://nookeventpods.us/book-now/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/book-now/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/author/dliddle/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/solution-details/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Title may be truncated (71 chars): 'Why NOOK Event Pods Are Perfect for Loud Conferences - NOOK ...'",
+          "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (420 chars)",
+          "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing meta description",
+          "url": "https://nookeventpods.us/author/dan-donati/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Title may be truncated (63 chars): 'Sponsorship Meets Comfort at IFA Annual 2026 - NOOK Event Po...'",
+          "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Meta description may be truncated (420 chars)",
+          "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Duplicate meta description across 2 pages",
+          "fix": "Write unique descriptions for each page",
+          "category": "Title Tags & Meta Descriptions"
+        }
+      ],
+      "pages_detail": [
+        {
+          "url": "https://nookeventpods.us/",
+          "title": "Mobile Meeting Space For Events | NOOK Event Pods",
+          "meta_description": "Mobile Meeting Space for events, tradeshows, meetings, conferences and private events. Provides New Sponsor Revenue For Events",
+          "issues": []
+        },
+        {
+          "url": "https://nookeventpods.us/who-we-serve-and-how/",
+          "title": "Who We Serve & How - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/who-we-serve-and-how/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/use-cases/",
+          "title": "Use Cases - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "MEDIUM",
+              "issue": "Title too short (28 chars): 'Use Cases - NOOK Event Pods\u00ae'",
+              "url": "https://nookeventpods.us/use-cases/"
+            },
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/use-cases/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/partners/",
+          "title": "NOOK Event Pods | Partnerships Driving Innovation in the Event Industry",
+          "meta_description": "Discover how NOOK partners with leading event industry organizations to stay ahead of trends, foster innovation, and enhance event experiences for organizers and attendees alike.",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Title may be truncated (71 chars): 'NOOK Event Pods | Partnerships Driving Innovation in the Eve...'",
+              "url": "https://nookeventpods.us/partners/"
+            },
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (178 chars)",
+              "url": "https://nookeventpods.us/partners/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/pricing/",
+          "title": "Pricing - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "MEDIUM",
+              "issue": "Title too short (26 chars): 'Pricing - NOOK Event Pods\u00ae'",
+              "url": "https://nookeventpods.us/pricing/"
+            },
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/pricing/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/about/",
+          "title": "About - NOOK Event Pods\u00ae",
+          "meta_description": "NOOK Event Pods\u00ae are mobile meeting spaces for tradeshows, meetings and corporate events. Provides inclusivity for neurodiversity at events",
+          "issues": [
+            {
+              "severity": "MEDIUM",
+              "issue": "Title too short (24 chars): 'About - NOOK Event Pods\u00ae'",
+              "url": "https://nookeventpods.us/about/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/blog-2/",
+          "title": "Blog - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "MEDIUM",
+              "issue": "Title too short (23 chars): 'Blog - NOOK Event Pods\u00ae'",
+              "url": "https://nookeventpods.us/blog-2/"
+            },
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/blog-2/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/book-now/",
+          "title": "Book Now - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "MEDIUM",
+              "issue": "Title too short (27 chars): 'Book Now - NOOK Event Pods\u00ae'",
+              "url": "https://nookeventpods.us/book-now/"
+            },
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/book-now/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/author/dliddle/",
+          "title": "dliddle, Author at NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/author/dliddle/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/solution-details/",
+          "title": "Solution Details - NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/solution-details/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+          "title": "Why NOOK Event Pods Are Perfect for Loud Conferences - NOOK Event Pods\u00ae",
+          "meta_description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Title may be truncated (71 chars): 'Why NOOK Event Pods Are Perfect for Loud Conferences - NOOK ...'",
+              "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+            },
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (420 chars)",
+              "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/author/dan-donati/",
+          "title": "Dan Donati, Author at NOOK Event Pods\u00ae",
+          "meta_description": null,
+          "issues": [
+            {
+              "severity": "HIGH",
+              "issue": "Missing meta description",
+              "url": "https://nookeventpods.us/author/dan-donati/"
+            }
+          ]
+        },
+        {
+          "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+          "title": "Sponsorship Meets Comfort at IFA Annual 2026 - NOOK Event Pods\u00ae",
+          "meta_description": "Mobile meeting pods Meeting space for events Wellness spaces for events Tradeshow wellness Exhibitor booth space, exhibit design Sponsored meeting space Sponsorship option Meeting pods for rent Event furniture rental Portable meeting spaces Podcast space Event collaboration pods Focus relaxation Brandable event pods Adaptable event seating Quiet spaces Event networking pods nook wellness pods https://nookeventpods.us",
+          "issues": [
+            {
+              "severity": "LOW",
+              "issue": "Title may be truncated (63 chars): 'Sponsorship Meets Comfort at IFA Annual 2026 - NOOK Event Po...'",
+              "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+            },
+            {
+              "severity": "LOW",
+              "issue": "Meta description may be truncated (420 chars)",
+              "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/"
+            }
+          ]
+        }
+      ]
+    },
+    "headings": {
+      "name": "Heading Structure",
+      "score": 0,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/who-we-serve-and-how/: ['', 'Who We Serve & How']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/use-cases/: ['', 'Use Cases']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/partners/: ['', 'Partners & Testimonials']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/pricing/: ['', 'Pricing']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/about/: ['', 'Solution Details']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Multiple H1 tags (2) on https://nookeventpods.us/blog-2/: ['', 'Latest From NOOK Event Pods']",
+          "fix": "Use only one H1 per page",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "CRITICAL",
+          "issue": "No H1 tag on https://nookeventpods.us/author/dliddle/",
+          "fix": "Add exactly one H1 that includes the page's primary keyword",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "CRITICAL",
+          "issue": "No H1 tag on https://nookeventpods.us/solution-details/",
+          "fix": "Add exactly one H1 that includes the page's primary keyword",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "CRITICAL",
+          "issue": "No H1 tag on https://nookeventpods.us/author/dan-donati/",
+          "fix": "Add exactly one H1 that includes the page's primary keyword",
+          "category": "Heading Structure"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No H2 tags on https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+          "fix": "Add H2 subheadings to structure content",
+          "category": "Heading Structure"
+        }
+      ]
+    },
+    "images": {
+      "name": "Image Optimization",
+      "score": 5,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "CRITICAL",
+          "issue": "165/227 images missing alt text (73%)",
+          "fix": "Add descriptive alt text to every image",
+          "category": "Image Optimization"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No images use lazy loading",
+          "fix": "Add loading='lazy' to below-the-fold images",
+          "category": "Image Optimization"
+        }
+      ],
+      "stats": {
+        "total": 227,
+        "missing_alt": 165,
+        "lazy_loaded": 0
+      }
+    },
+    "content_depth": {
+      "name": "Content Depth",
+      "score": 10,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Average word count across 13 pages: 1421 words"
+        }
+      ],
+      "page_words": [
+        {
+          "url": "https://nookeventpods.us/",
+          "words": 1531
+        },
+        {
+          "url": "https://nookeventpods.us/who-we-serve-and-how/",
+          "words": 1432
+        },
+        {
+          "url": "https://nookeventpods.us/use-cases/",
+          "words": 2436
+        },
+        {
+          "url": "https://nookeventpods.us/partners/",
+          "words": 1860
+        },
+        {
+          "url": "https://nookeventpods.us/pricing/",
+          "words": 1154
+        },
+        {
+          "url": "https://nookeventpods.us/about/",
+          "words": 1526
+        },
+        {
+          "url": "https://nookeventpods.us/blog-2/",
+          "words": 1306
+        },
+        {
+          "url": "https://nookeventpods.us/book-now/",
+          "words": 1011
+        },
+        {
+          "url": "https://nookeventpods.us/author/dliddle/",
+          "words": 1210
+        },
+        {
+          "url": "https://nookeventpods.us/solution-details/",
+          "words": 1549
+        },
+        {
+          "url": "https://nookeventpods.us/why-nook-event-pods-are-perfect-for-loud-conferences/",
+          "words": 1101
+        },
+        {
+          "url": "https://nookeventpods.us/author/dan-donati/",
+          "words": 1250
+        },
+        {
+          "url": "https://nookeventpods.us/sponsorship-meets-comfort-at-ifa-annual-2026/",
+          "words": 1104
+        }
+      ]
+    },
+    "schema_markup": {
+      "name": "Schema / Structured Data",
+      "score": 6,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Schema types found: WebSite, BreadcrumbList, ProfilePage, WebPage, Person, VideoObject, Organization, Article, ImageObject"
+        },
+        {
+          "severity": "OK",
+          "issue": "\u2713 Organization schema present"
+        },
+        {
+          "severity": "OK",
+          "issue": "\u2713 BreadcrumbList schema present"
+        },
+        {
+          "severity": "OK",
+          "issue": "\u2713 WebSite schema present"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing LocalBusiness schema",
+          "fix": "Add LocalBusiness JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "Missing Product schema",
+          "fix": "Add Product JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Missing FAQPage schema",
+          "fix": "Add FAQPage JSON-LD structured data",
+          "category": "Schema / Structured Data"
+        }
+      ],
+      "types_found": [
+        "WebSite",
+        "BreadcrumbList",
+        "ProfilePage",
+        "WebPage",
+        "Person",
+        "VideoObject",
+        "Organization",
+        "Article",
+        "ImageObject"
+      ],
+      "recommended_missing": [
+        "LocalBusiness",
+        "Product",
+        "FAQPage"
+      ]
+    },
+    "internal_linking": {
+      "name": "Internal Linking",
+      "score": 10,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Average internal links per page: 20.1"
+        }
+      ]
+    },
+    "performance": {
+      "name": "Performance Indicators",
+      "score": 8,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Note: Run PageSpeed Insights for actual Core Web Vitals (LCP, CLS, INP) measurements."
+        }
+      ]
+    },
+    "aieo_geo": {
+      "name": "AIEO / GEO Readiness",
+      "score": 4.5,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "OK",
+          "issue": "Has structured data (helps AI comprehension)"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No FAQPage schema \u2014 major missed opportunity for AI citations",
+          "fix": "Create FAQ content with FAQPage JSON-LD markup",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "HIGH",
+          "issue": "No clear definitional content",
+          "fix": "Add clear 'what is' content: '[Company] is a [what] that [does what] for [whom]'",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "No specific quantitative proof points",
+          "fix": "Add stats: events served, pod count, cities covered, setup time, etc.",
+          "category": "AIEO / GEO Readiness"
+        },
+        {
+          "severity": "OK",
+          "issue": "Good content volume (18470 total words)"
+        },
+        {
+          "severity": "OK",
+          "issue": "AI crawlers not blocked"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Consider creating an llms.txt file \u2014 emerging standard for AI-optimized site summaries",
+          "fix": "Create /llms.txt with structured company info for AI systems",
+          "category": "AIEO / GEO Readiness"
+        }
+      ]
+    },
+    "wix_platform": {
+      "name": "Wix Platform Checks",
+      "score": 7,
+      "max_score": 10,
+      "findings": [
+        {
+          "severity": "INFO",
+          "issue": "Wix platform detected \u2014 applying platform-specific checks"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Wix auto-generates sitemap \u2014 verify all important pages are included",
+          "fix": "Check: yourdomain.com/sitemap.xml \u2014 ensure key pages appear. Use Page Settings \u2192 SEO \u2192 Advanced to control visibility.",
+          "category": "Wix Platform Checks"
+        },
+        {
+          "severity": "MEDIUM",
+          "issue": "Wix's JavaScript-heavy rendering can delay content visibility to crawlers",
+          "fix": "Use Google Search Console \u2192 URL Inspection \u2192 test each key page to confirm Googlebot sees full content.",
+          "category": "Wix Platform Checks"
+        },
+        {
+          "severity": "LOW",
+          "issue": "Consider Wix Velo for advanced SEO customization (dynamic schema, custom routes)",
+          "fix": "Wix Velo (Dev Mode) enables programmatic schema injection, custom routing for llms.txt, and dynamic meta tags.",
+          "category": "Wix Platform Checks"
+        }
+      ]
+    }
+  },
+  "overall_score": 56.5,
+  "overall_max": 120,
+  "overall_percentage": 47.1,
+  "overall_grade": "D"
+}

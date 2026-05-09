@@ -1,0 +1,28 @@
+Date,Task Name,Status,Category,Due Date,Needs Mayank,Mayank Input Needed,Priority
+2026-04-12,"Fix homepage H1 — change 250+ and 15+ from H1 to H2",Done,On-Page SEO,2026-04-06,No,,DONE
+2026-04-12,"Paste FAQPage schema on /faq page",Done,Schema Markup,2026-04-06,No,,DONE
+2026-04-12,"Add AI bot rules to robots.txt",Done,Technical SEO,2026-04-06,No,,DONE
+2026-04-12,"Paste meta descriptions on 9 pages",Done,On-Page SEO,2026-04-07,No,,DONE
+2026-04-12,"Paste Product schema on 6 pod pages",Done,Schema Markup,2026-04-07,No,,DONE
+2026-04-12,"Add H1 to /privacy-policy + /terms-conditions",Done,On-Page SEO,2026-04-08,No,,DONE
+2026-04-12,"Paste LocalBusiness schema in Wix Custom Code",Done,Schema Markup,2026-04-05,No,,DONE
+2026-04-12,"Paste Organization schema in Wix Custom Code",Done,Schema Markup,2026-04-05,No,,DONE
+2026-04-12,"Build SEO Agent Toolkit (4284 lines)",Done,AI Automation,2026-04-05,No,,DONE
+2026-04-12,"Build SEO Ecosystem scripts (2021 lines)",Done,AI Automation,2026-04-05,No,,DONE
+2026-04-12,"Crawl + audit ZenSpace (33 pages) vs Nook (13 pages)",Done,Technical SEO,2026-04-05,No,,DONE
+2026-04-12,"Deploy Cloudflare Worker middleware",Done,Technical SEO,2026-04-05,No,,DONE
+2026-04-12,"Run verification engine on live site",Done,Technical SEO,2026-04-05,No,,DONE
+2026-04-12,"Build Notion Command Center (8 databases)",Done,Infrastructure,2026-04-05,No,,DONE
+2026-04-12,"Run 16-fix deployment via middleware",Done,Technical SEO,2026-04-05,No,,DONE
+2026-04-12,"Review + edit pillar page draft (3200 words)",In Progress,Content Writing,2026-04-07,No,,ACTIVE
+2026-04-12,"Wix: Investigate homepage schema missing (5 min)",Not Started,Technical SEO,2026-04-08,No,,PIPELINE
+2026-04-12,"Re-run verification engine after manual fixes (change delay to 3s)",Not Started,Technical SEO,2026-04-08,No,,PIPELINE
+2026-04-12,"Day 2 (Apr 7) — Review + edit AIEO page in Notion",Not Started,Content Review,2026-04-07,No,,PIPELINE
+2026-04-12,"Day 2 (Apr 7) — Review + edit pillar page in Notion",Not Started,Content Review,2026-04-07,No,,PIPELINE
+2026-04-12,"Day 4 (Apr 9) — Review pricing page in Notion",Not Started,Content Review,2026-04-09,No,,PIPELINE
+2026-04-12,"Download SEO ecosystem package + install on local machine",Not Started,Infrastructure,2026-04-09,No,,PIPELINE
+2026-04-12,"Install crontab for automated daily/weekly monitoring",Not Started,Infrastructure,2026-04-10,No,,PIPELINE
+2026-04-12,"Publish pillar page to Wix at /event-pod-rental",Not Started,Content Publishing,2026-04-12,No,,PIPELINE
+2026-04-12,"Write + publish pricing page: Event Pod Rental Cost",Not Started,Content Writing,2026-04-19,Yes (AI flagged),"Pricing strategy and final price points should be approved by Mayank (CEO) before going live. Pricing pages directly impact revenue and brand positioning.",HIGH
+2026-04-12,"Image alt text — case studies + remaining (397 images)",Not Started,On-Page SEO,2026-04-20,No,,PIPELINE
+2026-04-12,"Write 2 city pages (Las Vegas + Chicago)",Not Started,Content Writing,2026-05-03,Yes (AI flagged),"City expansion content requires CEO input on target market priority and local business messaging. Las Vegas and Chicago need accurate ZenSpace service details that only Mayank can confirm.",MEDIUM
