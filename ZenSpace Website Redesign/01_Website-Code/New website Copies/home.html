@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZenSpace Event Solutions — Smart Meeting Pods for Trade Shows & Conferences</title>
+  <meta name="description" content="Smart, soundproof, UL-certified meeting pods for trade shows and conferences. Full-service delivery, setup, and support. 250+ events delivered since 2017." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  :root {
+    --navy:      #1c3f92;
+    --navy-dark: #0d1e45;
+    --navy-mid:  #183477;
+    --navy-deep: #133153;
+    --blue:      #4099f2;
+    --sky:       #a0cdf9;
+    --sky-mid:   #79b8f6;
+    --green:     #89c46e;
+    --green-mid: #a1d08b;
+    --mint:      #c8efb5;
+    --white:     #fbfcff;
+    --off:       #f4f8ff;
+    --gray:      #e6e6e6;
+    --gray-mid:  #c8cdd8;
+    --gray-dk:   #5a6070;
+    --r: 14px;
+    --t: 0.28s;
+    --ease: cubic-bezier(.4,0,.2,1);
+    --sh-sm: 0 2px 12px rgba(13,30,69,.07);
+    --sh-md: 0 8px 32px rgba(13,30,69,.11);
+    --sh-lg: 0 20px 60px rgba(13,30,69,.16);
+  }
+  body { font-family: 'Poppins', sans-serif; font-weight: 300; color: var(--navy-dark); background: var(--white); line-height: 1.7; overflow-x: hidden; }
+  img { display: block; max-width: 100%; }
+  a { text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+  /* Layout */
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 0 5%; }
+  .sec { padding: 112px 0; position: relative; }
+  .sec--sm { padding: 72px 0; position: relative; }
+
+  /* Type */
+  .eyebrow { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; color: var(--blue); display: block; margin-bottom: 20px; }
+  .eyebrow--light { color: var(--sky); }
+  h1 { font-size: clamp(52px, 6vw, 88px); font-weight: 700; letter-spacing: -2.5px; line-height: 1.03; }
+  h2 { font-size: clamp(36px, 4.5vw, 64px); font-weight: 700; letter-spacing: -1.5px; line-height: 1.1; }
+  h3 { font-size: clamp(20px, 2vw, 26px); font-weight: 600; line-height: 1.28; letter-spacing: -.4px; }
+  h4 { font-size: 16px; font-weight: 600; line-height: 1.4; }
+  .lead { font-size: clamp(17px, 1.4vw, 20px); line-height: 1.72; color: var(--gray-dk); }
+  .body-copy { font-size: clamp(15px, 1.1vw, 17px); line-height: 1.78; color: var(--gray-dk); }
+
+  /* Buttons */
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 26px; border-radius: 10px; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease), background var(--t) var(--ease), border-color var(--t) var(--ease); white-space: nowrap; border: 1.5px solid transparent; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-green { background: var(--green); color: var(--navy-dark); box-shadow: 0 4px 20px rgba(137,196,110,.3); }
+  .btn-green:hover { background: var(--green-mid); box-shadow: 0 8px 28px rgba(137,196,110,.4); }
+  .btn-navy { background: var(--navy); color: var(--white); }
+  .btn-navy:hover { background: var(--navy-mid); box-shadow: var(--sh-md); }
+  .btn-outline { background: transparent; border-color: rgba(255,255,255,.35); color: var(--white); }
+  .btn-outline:hover { border-color: rgba(255,255,255,.8); background: rgba(255,255,255,.07); }
+  .btn-ghost { background: transparent; border-color: var(--gray); color: var(--gray-dk); }
+  .btn-ghost:hover { border-color: var(--navy); color: var(--navy); }
+
+  /* Scroll reveal — opacity+transform only (GPU composited, no filter) */
+  .r { opacity: 0; transform: translateY(22px); transition: opacity .6s var(--ease), transform .6s var(--ease); will-change: transform, opacity; }
+  .r.in { opacity: 1; transform: none; }
+  .r1 { transition-delay: .08s; }
+  .r2 { transition-delay: .16s; }
+  .r3 { transition-delay: .24s; }
+  .r4 { transition-delay: .32s; }
+
+  /* Placeholder */
+  .ph { background: linear-gradient(135deg, #eef3fb 0%, #e8f1fa 100%); border: 1.5px dashed rgba(28,63,146,.18); border-radius: var(--r); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--blue); font-size: 12px; font-weight: 500; font-family: 'Poppins', sans-serif; text-align: center; }
+
+  /* ── NAV ── */
+  .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 900; transition: background var(--t) var(--ease), box-shadow var(--t) var(--ease); }
+  .nav.stuck { background: rgba(13,30,69,.96); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); box-shadow: 0 1px 0 rgba(255,255,255,.06), var(--sh-md); }
+  .nav__inner { display: flex; align-items: center; justify-content: space-between; max-width: 1440px; margin: 0 auto; padding: 0 5%; height: 100px; transition: height var(--t) var(--ease); }
+  .nav.stuck .nav__inner { height: 84px; }
+  .nav__logo { height: 60px; width: auto; max-width: 220px; object-fit: contain; }
+  .nav__logo-text { color: var(--white); font-weight: 700; font-size: 26px; letter-spacing: -.5px; }
+  .nav__links { display: flex; align-items: center; gap: 44px; list-style: none; }
+  .nav__links a { color: rgba(255,255,255,.65); font-size: 16px; font-weight: 500; transition: color var(--t) var(--ease); }
+  .nav__links a:hover { color: var(--white); }
+  .nav__cta { font-size: 15px !important; padding: 13px 28px !important; }
+
+  /* ── NAV MOBILE ── */
+  .nav__burger { display: none; flex-direction: column; gap: 6px; padding: 10px; background: none; border: none; cursor: pointer; }
+  .nav__burger__bar { width: 28px; height: 2.5px; background: var(--white); border-radius: 2px; transition: transform var(--t) var(--ease), opacity var(--t) var(--ease); }
+  .nav__burger.open .nav__burger__bar:nth-child(1) { transform: translateY(8.5px) rotate(45deg); }
+  .nav__burger.open .nav__burger__bar:nth-child(2) { opacity: 0; }
+  .nav__burger.open .nav__burger__bar:nth-child(3) { transform: translateY(-8.5px) rotate(-45deg); }
+  .nav__mobile { display: none; position: fixed; inset: 0; top: 84px; background: rgba(13,30,69,.97); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); z-index: 800; padding: 36px 5%; flex-direction: column; gap: 4px; }
+  .nav__mobile.open { display: flex; }
+  .nav__mobile a { color: rgba(255,255,255,.7); font-size: 20px; font-weight: 500; padding: 20px 0; border-bottom: 1px solid rgba(255,255,255,.06); transition: color var(--t) var(--ease); }
+  .nav__mobile a:hover { color: var(--white); }
+  .nav__mobile .btn-green { margin-top: 24px; justify-content: center; font-size: 17px; padding: 16px; }
+
+  /* ── HERO ── */
+  .hero { min-height: 100vh; background: var(--navy-dark); display: flex; align-items: center; padding-top: 100px; position: relative; overflow: hidden; }
+  .hero__bg { position: absolute; inset: 0; pointer-events: none; }
+  .hero__orb1 { position: absolute; width: 900px; height: 700px; top: -200px; right: -200px; background: radial-gradient(ellipse, rgba(28,63,146,.55) 0%, transparent 70%); border-radius: 50%; }
+  .hero__orb2 { position: absolute; width: 500px; height: 500px; bottom: -100px; left: -100px; background: radial-gradient(ellipse, rgba(137,196,110,.07) 0%, transparent 70%); border-radius: 50%; }
+  .hero__grid-bg { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.022) 1px, transparent 1px); background-size: 60px 60px; mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%); -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%); }
+  .hero__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; opacity: 0.22; }
+  @media (prefers-reduced-motion: reduce) { .hero__video { display: none; } .ticker__track { animation: none; } .r { transition: none; } }
+  .hero__inner { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; gap: 64px; align-items: center; width: 100%; }
+  .hero__content { color: var(--white); }
+  .hero__chip { display: inline-flex; align-items: center; gap: 10px; background: rgba(137,196,110,.12); border: 1px solid rgba(137,196,110,.25); border-radius: 100px; padding: 7px 16px 7px 10px; font-size: 12px; font-weight: 500; color: var(--green); margin-bottom: 28px; }
+  .hero__chip__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: blink 2.5s ease-in-out infinite; }
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+  .hero h1 { margin-bottom: 28px; }
+  .hero h1 em { font-style: normal; color: var(--green); display: block; }
+  .hero__sub { font-size: clamp(16px, 1.4vw, 20px); line-height: 1.72; color: rgba(255,255,255,.65); font-weight: 300; max-width: 560px; margin-bottom: 40px; }
+  .hero__sub strong { color: rgba(255,255,255,.9); font-weight: 500; }
+  .hero__actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-bottom: 56px; }
+  .hero__proof { display: flex; padding-top: 40px; border-top: 1px solid rgba(255,255,255,.08); }
+  .hero__proof__item { flex: 1; }
+  .hero__proof__item + .hero__proof__item { padding-left: 32px; border-left: 1px solid rgba(255,255,255,.08); }
+  .hero__proof__num { font-size: clamp(32px, 3vw, 44px); font-weight: 700; color: var(--white); letter-spacing: -1.5px; line-height: 1; margin-bottom: 6px; }
+  .hero__proof__num span { color: var(--green); }
+  .hero__proof__lbl { font-size: 12px; color: rgba(255,255,255,.4); font-weight: 400; }
+  .hero__visual { display: flex; flex-direction: column; gap: 16px; }
+  .hero__img { border-radius: 20px; overflow: hidden; aspect-ratio: 4/3.2; position: relative; }
+  .hero__split { display: grid; grid-template-columns: 1fr auto 1fr; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; overflow: hidden; }
+  .hero__split__side { padding: 20px; text-align: center; }
+  .hero__split__side--r { background: rgba(137,196,110,.06); border-left: 1px solid rgba(255,255,255,.08); }
+  .hero__split__lbl { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 8px; }
+  .hero__split__side--r .hero__split__lbl { color: rgba(137,196,110,.7); }
+  .hero__split__txt { font-size: 13px; line-height: 1.6; color: rgba(255,255,255,.45); }
+  .hero__split__side--r .hero__split__txt { color: rgba(255,255,255,.75); }
+  .hero__split__door { display: flex; align-items: center; justify-content: center; padding: 16px 20px; background: rgba(255,255,255,.03); border-left: 1px solid rgba(255,255,255,.08); border-right: 1px solid rgba(255,255,255,.08); }
+  .hero__split__door span { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.2); writing-mode: vertical-rl; }
+
+  /* ── TICKER ── */
+  .ticker { background: var(--navy); padding: 16px 0; overflow: hidden; }
+  .ticker__track { display: flex; width: max-content; animation: ticker 32s linear infinite; }
+  .ticker__item { font-family: 'Barlow Condensed', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.5); padding: 0 36px; white-space: nowrap; display: flex; align-items: center; gap: 36px; }
+  .ticker__item::after { content: ''; width: 4px; height: 4px; border-radius: 50%; background: var(--green); opacity: .7; flex-shrink: 0; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ── TRUST ── */
+  .trust { padding: 72px 0; }
+  .trust__rule { display: flex; align-items: center; gap: 32px; margin-bottom: 40px; }
+  .trust__rule-line { flex: 1; height: 1px; background: var(--gray); }
+  .trust__rule-label { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--gray-dk); white-space: nowrap; }
+  .trust__logos { display: flex; align-items: center; justify-content: center; gap: 52px; flex-wrap: wrap; margin-bottom: 40px; }
+  .trust__logo { font-family: 'Barlow Condensed', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gray-dk); transition: color var(--t) var(--ease); }
+  .trust__logo:hover { color: var(--navy); }
+  .trust__events { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; padding-top: 32px; border-top: 1px solid var(--gray); }
+  .trust__tag { background: var(--white); border: 1.5px solid var(--gray); border-radius: 100px; padding: 7px 18px; font-size: 13px; font-weight: 500; color: var(--navy-dark); transition: border-color var(--t) var(--ease), color var(--t) var(--ease), background var(--t) var(--ease); }
+  .trust__tag:hover { border-color: var(--navy); color: var(--navy); background: var(--off); }
+
+  /* ── OFFER ── */
+  .offer__head { max-width: 640px; margin-bottom: 56px; }
+  .offer__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .offer__card { border-radius: 24px; padding: 60px 52px; position: relative; overflow: hidden; }
+  .offer__card--dark { background: var(--navy-dark); }
+  .offer__card--light { background: var(--off); border: 1.5px solid var(--gray); }
+  .offer__badge { display: inline-flex; align-items: center; border-radius: 100px; padding: 5px 14px; font-size: 11px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 28px; }
+  .offer__badge--dark { background: rgba(137,196,110,.12); color: var(--green); border: 1px solid rgba(137,196,110,.25); }
+  .offer__badge--light { background: rgba(28,63,146,.08); color: var(--navy); border: 1px solid rgba(28,63,146,.14); }
+  .offer__card--dark h3 { color: var(--white); margin-bottom: 14px; }
+  .offer__card--light h3 { margin-bottom: 14px; }
+  .offer__features { list-style: none; margin: 24px 0 32px; }
+  .offer__feature { display: flex; align-items: flex-start; gap: 12px; padding: 11px 0; font-size: 14px; }
+  .offer__card--dark .offer__feature { color: rgba(255,255,255,.7); border-bottom: 1px solid rgba(255,255,255,.06); }
+  .offer__card--light .offer__feature { color: var(--gray-dk); border-bottom: 1px solid rgba(28,63,146,.07); }
+  .offer__feature:last-child { border-bottom: none !important; }
+  .offer__check { width: 19px; height: 19px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .offer__check--dark { background: rgba(137,196,110,.15); }
+  .offer__check--light { background: rgba(28,63,146,.1); }
+  .offer__img { margin-top: 32px; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; }
+  .offer__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* ── PERSONAS ── */
+  .personas__head { text-align: center; max-width: 600px; margin: 0 auto 56px; }
+  .personas__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .persona { background: var(--white); border: 1.5px solid var(--gray); border-radius: 22px; padding: 48px 40px; transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease), transform var(--t) var(--ease); }
+  .persona:hover { border-color: rgba(28,63,146,.35); box-shadow: var(--sh-md); transform: translateY(-5px); }
+  .persona__icon { width: 64px; height: 64px; background: var(--off); border: 1.5px solid var(--gray); border-radius: 18px; display: flex; align-items: center; justify-content: center; margin-bottom: 28px; transition: background var(--t) var(--ease), border-color var(--t) var(--ease); }
+  .persona__icon svg { width: 28px; height: 28px; }
+  .persona:hover .persona__icon { background: rgba(137,196,110,.1); border-color: rgba(137,196,110,.3); }
+  .persona__role { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: var(--blue); margin-bottom: 10px; display: block; }
+  .persona h3 { margin-bottom: 14px; }
+  .persona__need { padding-top: 20px; border-top: 1px solid var(--gray); font-size: 13px; color: var(--gray-dk); display: flex; gap: 10px; align-items: flex-start; line-height: 1.55; margin-top: 20px; }
+  .persona__need strong { color: var(--navy-dark); font-weight: 600; white-space: nowrap; }
+
+  /* ── PROCESS ── */
+  .process__head { text-align: center; max-width: 580px; margin: 0 auto 72px; }
+  .process__head h2 { color: var(--white); margin-bottom: 16px; }
+  .process__head p { color: rgba(255,255,255,.5); }
+  .process__grid { display: grid; grid-template-columns: 1fr 48px 1fr; align-items: flex-start; }
+  .process__col-lbl { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--sky); margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,.08); }
+  .process__step { display: flex; gap: 20px; padding: 24px 0; border-bottom: 1px solid rgba(255,255,255,.05); }
+  .process__step:last-child { border-bottom: none; }
+  .process__num { width: 38px; height: 38px; background: rgba(137,196,110,.1); border: 1px solid rgba(137,196,110,.25); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: var(--green); flex-shrink: 0; font-family: 'Barlow Condensed', sans-serif; }
+  .process__step h4 { color: var(--white); margin-bottom: 6px; }
+  .process__step p { font-size: 13px; color: rgba(255,255,255,.45); line-height: 1.65; }
+  .process__arrow { display: flex; align-items: center; justify-content: center; padding-top: 56px; color: rgba(255,255,255,.15); }
+  .process__cta { margin-top: 64px; text-align: center; padding-top: 48px; border-top: 1px solid rgba(255,255,255,.06); }
+  .process__cta p { color: rgba(255,255,255,.45); font-size: 14px; margin-bottom: 24px; }
+
+  /* ── STATS ── */
+  .stats__head { text-align: center; margin-bottom: 64px; }
+  .stats__head h2 { color: var(--white); margin-bottom: 14px; }
+  .stats__head p { color: rgba(255,255,255,.5); max-width: 480px; margin: 0 auto; }
+  .stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .stats__card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.07); border-radius: 22px; padding: 52px 32px; text-align: center; transition: background var(--t) var(--ease), border-color var(--t) var(--ease); }
+  .stats__card:hover { background: rgba(255,255,255,.09); border-color: rgba(137,196,110,.25); }
+  .stats__num { font-size: clamp(54px, 5vw, 80px); font-weight: 700; color: var(--white); letter-spacing: -2.5px; line-height: 1; margin-bottom: 10px; }
+  .stats__num .suf { color: var(--green); }
+  .stats__lbl { font-size: 15px; color: rgba(255,255,255,.45); line-height: 1.45; }
+
+  /* ── FEATURES ── */
+  .features__head { margin-bottom: 48px; }
+  .features__head h2 { margin-bottom: 16px; }
+  .feature { display: flex; gap: 20px; padding: 22px 20px; border-radius: 14px; border: 1.5px solid transparent; transition: border-color var(--t) var(--ease), background var(--t) var(--ease); cursor: default; }
+  .feature:hover { border-color: var(--gray); background: var(--off); }
+  .feature__ico { width: 46px; height: 46px; background: var(--off); border: 1.5px solid var(--gray); border-radius: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background var(--t) var(--ease), border-color var(--t) var(--ease); }
+  .feature:hover .feature__ico { background: rgba(137,196,110,.12); border-color: rgba(137,196,110,.3); }
+  .feature h4 { margin-bottom: 4px; }
+  .feature p { font-size: 13px; color: var(--gray-dk); line-height: 1.62; }
+  .features__demo { border-radius: 20px; overflow: hidden; position: relative; aspect-ratio: 21/9; border: 1.5px solid var(--gray); max-height: 420px; }
+  .features__demo__badge { position: absolute; top: 20px; left: 20px; background: rgba(13,30,69,.88); color: var(--white); padding: 8px 16px; border-radius: 100px; font-size: 12px; font-weight: 600; display: flex; align-items: center; gap: 9px; backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,.1); z-index: 1; }
+  .features__demo__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); animation: pulse 2.2s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.7); opacity: .5; } }
+  .features__cert { display: flex; align-items: center; gap: 12px; margin-top: 16px; padding: 14px 18px; background: var(--off); border: 1px solid var(--gray); border-radius: 12px; font-size: 13px; color: var(--gray-dk); }
+  .features__cert strong { color: var(--navy-dark); }
+
+  /* ── FEATURE TILES ── */
+  .feat-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 24px; }
+  .feat-tile { border-radius: 20px; padding: 44px 36px; display: flex; flex-direction: column; gap: 22px; }
+  .feat-tile--sky { background: var(--sky); }
+  .feat-tile--mint { background: var(--mint); }
+  .feat-tile--navy { background: var(--navy); }
+  .feat-tile--ink { background: var(--navy-dark); }
+  .feat-tile--off { background: var(--off); border: 1.5px solid var(--gray); }
+  .feat-tile--deep { background: var(--navy-deep); }
+  .feat-tile__icon { width: 60px; height: 60px; border-radius: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .feat-tile__icon svg { width: 30px; height: 30px; }
+  .feat-tile--sky .feat-tile__icon, .feat-tile--mint .feat-tile__icon, .feat-tile--off .feat-tile__icon { background: rgba(13,30,69,.1); }
+  .feat-tile--navy .feat-tile__icon, .feat-tile--ink .feat-tile__icon, .feat-tile--deep .feat-tile__icon { background: rgba(255,255,255,.12); }
+  .feat-tile__num { font-family: 'Barlow Condensed',sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; }
+  .feat-tile--sky .feat-tile__num, .feat-tile--mint .feat-tile__num, .feat-tile--off .feat-tile__num { color: rgba(13,30,69,.4); }
+  .feat-tile--navy .feat-tile__num, .feat-tile--ink .feat-tile__num, .feat-tile--deep .feat-tile__num { color: rgba(255,255,255,.45); }
+  .feat-tile h3 { font-size: clamp(18px, 1.6vw, 22px); font-weight: 700; letter-spacing: -.4px; line-height: 1.22; margin: 0; }
+  .feat-tile--sky h3, .feat-tile--mint h3, .feat-tile--off h3 { color: var(--navy-dark); }
+  .feat-tile--navy h3, .feat-tile--ink h3, .feat-tile--deep h3 { color: var(--white); }
+  .feat-tile p { font-size: 15px; line-height: 1.65; margin: 0; }
+  .feat-tile--sky p, .feat-tile--mint p, .feat-tile--off p { color: rgba(13,30,69,.62); }
+  .feat-tile--navy p, .feat-tile--ink p, .feat-tile--deep p { color: rgba(255,255,255,.65); }
+  @media (max-width: 768px) { .feat-tiles { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .feat-tiles { grid-template-columns: 1fr; } }
+
+  /* ── STATS PROOF STRIP ── */
+  .stats__proof { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-top: 40px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,.08); }
+  .stats__proof__item { text-align: center; }
+  .stats__proof__item strong { font-size: 26px; font-weight: 700; color: var(--green); display: block; margin-bottom: 8px; letter-spacing: -.5px; }
+  .stats__proof__item span { font-size: 13px; color: rgba(255,255,255,.4); line-height: 1.5; display: block; }
+  @media (max-width: 480px) { .stats__proof { grid-template-columns: 1fr; } }
+
+  /* ── POD LINEUP ── */
+  .pod-lineup { background: var(--off); }
+  .pod-lineup__head { text-align: center; max-width: 640px; margin: 0 auto 48px; }
+  .pod-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1.5px solid var(--gray); }
+  .pod-tab { background: var(--white); border: 1.5px solid var(--gray); border-radius: 100px; padding: 9px 22px; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; color: var(--gray-dk); cursor: pointer; transition: all var(--t) var(--ease); }
+  .pod-tab:hover { border-color: var(--navy); color: var(--navy); }
+  .pod-tab--active { background: var(--navy-dark); border-color: var(--navy-dark); color: var(--white); }
+  .pod-tab__star { color: var(--green); }
+  .pod-panel { display: none; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: center; }
+  .pod-panel--active { display: grid; }
+  .pod-chip { display: inline-flex; align-items: center; background: rgba(137,196,110,.1); border: 1px solid rgba(137,196,110,.2); border-radius: 100px; padding: 5px 14px; font-size: 12px; font-weight: 600; color: var(--green); margin-bottom: 20px; }
+  .pod-panel__info h3 { font-size: 30px; letter-spacing: -1px; margin-bottom: 14px; line-height: 1.2; }
+  .pod-panel__info > p { font-size: 14px; color: var(--gray-dk); line-height: 1.68; margin-bottom: 24px; }
+  .pod-specs { list-style: none; display: flex; flex-direction: column; margin-bottom: 32px; border: 1.5px solid var(--gray); border-radius: 14px; overflow: hidden; background: var(--white); }
+  .pod-specs li { display: flex; justify-content: space-between; padding: 14px 20px; font-size: 14.5px; border-bottom: 1px solid var(--gray); align-items: center; gap: 16px; }
+  .pod-specs li:last-child { border-bottom: none; }
+  .pod-specs li span { color: var(--gray-dk); }
+  .pod-specs li strong { color: var(--navy-dark); font-weight: 600; text-align: right; }
+  .pod-panel__img { border-radius: 20px; overflow: hidden; aspect-ratio: 4/3; background: var(--white); border: 1.5px solid var(--gray); }
+  .pod-panel__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  @media (max-width: 768px) { .pod-panel--active { grid-template-columns: 1fr; } .pod-panel__img { aspect-ratio: 16/9; } }
+
+  /* ── CTA BAND ── */
+  .cta-band { text-align: center; max-width: 760px; margin: 0 auto; }
+  .cta-band h2 { margin: 16px 0 20px; }
+  .cta-band p { color: var(--gray-dk); margin-bottom: 36px; max-width: 580px; margin-left: auto; margin-right: auto; }
+  .cta-band__btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+
+  /* ── RESULTS ── */
+  .results__head { text-align: center; margin-bottom: 56px; }
+  .results__head h2 { margin-bottom: 14px; }
+  .results__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .result { background: var(--white); border: 1.5px solid var(--gray); border-radius: 20px; padding: 40px 36px; transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease), transform var(--t) var(--ease); }
+  .result:hover { border-color: rgba(28,63,146,.3); box-shadow: var(--sh-md); transform: translateY(-4px); }
+  .result__event { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: var(--blue); margin-bottom: 16px; display: block; }
+  .result__stat { font-size: clamp(40px, 3.5vw, 56px); font-weight: 700; letter-spacing: -2px; color: var(--navy-dark); line-height: 1; margin-bottom: 6px; }
+  .result__unit { font-size: 16px; font-weight: 400; color: var(--gray-dk); letter-spacing: 0; }
+  .result__meta { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--gray); font-size: 12px; color: var(--gray-mid); display: flex; align-items: center; gap: 8px; }
+
+  /* ── BRANDING ── */
+  .branding__inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+  .branding__pts { list-style: none; display: flex; flex-direction: column; gap: 18px; margin-bottom: 44px; margin-top: 28px; }
+  .branding__pt { display: flex; align-items: flex-start; gap: 14px; font-size: 15px; color: rgba(255,255,255,.7); line-height: 1.6; }
+  .branding__pt__ico { width: 28px; height: 28px; background: rgba(137,196,110,.12); border: 1px solid rgba(137,196,110,.2); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .branding__imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .branding__imgs img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 14px; display: block; }
+
+  /* ── CONTACT ── */
+  .contact__layout { display: grid; grid-template-columns: 1fr 1.35fr; gap: 96px; align-items: flex-start; }
+  .contact__sidebar h2 { margin-bottom: 18px; }
+  .contact__reasons { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-top: 32px; }
+  .contact__reason { display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border: 1.5px solid var(--gray); border-radius: 12px; font-size: 14px; font-weight: 500; color: var(--navy-dark); cursor: pointer; transition: border-color var(--t) var(--ease), background var(--t) var(--ease); line-height: 1.45; }
+  .contact__reason:hover, .contact__reason.sel { border-color: var(--navy); background: var(--off); }
+  .contact__reason__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gray); flex-shrink: 0; margin-top: 4px; transition: background var(--t) var(--ease); }
+  .contact__reason:hover .contact__reason__dot, .contact__reason.sel .contact__reason__dot { background: var(--green); }
+  .contact__form { background: var(--white); border: 1.5px solid var(--gray); border-radius: 20px; padding: 48px; box-shadow: var(--sh-lg); }
+  .contact__form h3 { margin-bottom: 32px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .fg { margin-bottom: 18px; }
+  .fg label { display: block; font-size: 11px; font-weight: 600; color: var(--navy-dark); margin-bottom: 8px; letter-spacing: 2px; text-transform: uppercase; font-family: 'Barlow Condensed', sans-serif; }
+  .fg input, .fg select, .fg textarea { width: 100%; padding: 12px 16px; border-radius: 10px; border: 1.5px solid var(--gray); font-family: 'Poppins', sans-serif; font-size: 14px; color: var(--navy-dark); background: var(--white); outline: none; transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease); -webkit-appearance: none; }
+  .fg input:focus, .fg select:focus, .fg textarea:focus { border-color: var(--navy); box-shadow: 0 0 0 3px rgba(28,63,146,.08); }
+  .fg textarea { resize: vertical; min-height: 110px; }
+  .form-submit { width: 100%; padding: 15px; font-size: 15px; margin-top: 6px; justify-content: center; }
+  .form-note { text-align: center; margin-top: 14px; font-size: 12px; color: var(--gray-mid); }
+
+  /* ── FOOTER ── */
+  .footer { background: var(--navy-dark); padding: 72px 0 44px; }
+  .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 72px; margin-bottom: 56px; }
+  .footer__logo { height: 40px; width: auto; margin-bottom: 22px; display: block; }
+  .footer__tagline { font-size: 15px; color: rgba(255,255,255,.35); margin-bottom: 24px; }
+  .footer__contact a, .footer__contact span { display: block; color: rgba(255,255,255,.55); font-size: 15px; margin-bottom: 6px; }
+  .footer__contact a { transition: color var(--t) var(--ease); }
+  .footer__contact a:hover { color: var(--green); }
+  .footer__col-title { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; color: rgba(255,255,255,.3); margin-bottom: 20px; }
+  .footer__links { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .footer__links a { color: rgba(255,255,255,.5); font-size: 14px; transition: color var(--t) var(--ease); }
+  .footer__links a:hover { color: var(--white); }
+  .footer__bottom { padding-top: 32px; border-top: 1px solid rgba(255,255,255,.06); display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+  .footer__copy { font-size: 12px; color: rgba(255,255,255,.25); }
+  .footer__assoc { display: flex; gap: 20px; flex-wrap: wrap; }
+  .footer__assoc span { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.2); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 1024px) {
+    .hero__inner { grid-template-columns: 1fr; }
+    .hero__visual { display: none; }
+    .offer__grid { grid-template-columns: 1fr; }
+    .personas__grid { grid-template-columns: 1fr 1fr; }
+    .stats__grid { grid-template-columns: 1fr 1fr; }
+    .results__grid { grid-template-columns: 1fr 1fr; }
+    .branding__inner { grid-template-columns: 1fr; gap: 48px; }
+    .contact__layout { grid-template-columns: 1fr; gap: 48px; }
+    .footer__grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+  }
+  @media (max-width: 768px) {
+    .sec { padding: 72px 0; }
+    .nav__links { display: none; }
+    .nav__burger { display: flex; }
+    .personas__grid { grid-template-columns: 1fr; }
+    .results__grid { grid-template-columns: 1fr; }
+    .process__grid { grid-template-columns: 1fr; }
+    .process__arrow { display: none; }
+    .form-row { grid-template-columns: 1fr; }
+    .offer__card { padding: 32px 28px; }
+    .contact__form { padding: 32px; }
+    .footer__grid { grid-template-columns: 1fr; gap: 32px; }
+    .footer__bottom { flex-direction: column; align-items: flex-start; }
+    .trust__logos { gap: 28px; }
+  }
+  @media (max-width: 480px) {
+    .stats__grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .stats__num { font-size: 36px; }
+    .hero__proof { flex-direction: column; gap: 24px; }
+    .hero__proof__item + .hero__proof__item { padding-left: 0; border-left: none; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.08); }
+  }
+
+  /* ═══════════════════════════════════════
+     PREMIUM INTERACTION LAYER
+  ═══════════════════════════════════════ */
+
+  /* ── Custom cursor ── */
+  .cursor-dot, .cursor-ring {
+    position: fixed; top: 0; left: 0;
+    pointer-events: none; z-index: 10000;
+    border-radius: 50%; will-change: transform;
+    transform: translate(-50%,-50%);
+  }
+  .cursor-dot { width: 8px; height: 8px; background: var(--green); transition: width .2s, height .2s, opacity .2s; }
+  .cursor-ring { width: 40px; height: 40px; border: 2px solid rgba(137,196,110,.45); transition: width .38s ease, height .38s ease, border-color .38s ease, background .38s ease; }
+  body.cur-link .cursor-ring { width: 56px; height: 56px; border-color: rgba(137,196,110,.85); }
+  body.cur-btn .cursor-dot { opacity: 0; width: 0; height: 0; }
+  body.cur-btn .cursor-ring { width: 70px; height: 70px; border-color: var(--green); background: rgba(137,196,110,.1); }
+  @media (hover: none) { .cursor-dot, .cursor-ring { display: none !important; } }
+
+  /* ── Scroll progress bar (static gradient — no paint-per-frame animation) ── */
+  .scroll-bar { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--green) 0%, var(--blue) 100%); z-index: 10001; transform-origin: left center; transform: scaleX(0); }
+
+  /* ── Floating hero pod ── */
+  @keyframes pod-float { 0%,100% { transform: translateY(0) rotate(0deg); } 40% { transform: translateY(-14px) rotate(.5deg); } 70% { transform: translateY(-6px) rotate(-.3deg); } }
+  .hero__img { animation: pod-float 7s ease-in-out infinite; will-change: transform; }
+
+  /* ── Hero cursor-tracking orb ── */
+  .hero__cursor-orb { position: absolute; width: 700px; height: 700px; border-radius: 50%; background: radial-gradient(circle, rgba(64,153,242,.09) 0%, transparent 65%); pointer-events: none; transform: translate(-50%,-50%); transition: left .8s cubic-bezier(.16,1,.3,1), top .8s cubic-bezier(.16,1,.3,1); z-index: 0; }
+
+  /* ── Film grain overlay ── */
+  .hero__grain { position: absolute; inset: 0; opacity: .22; pointer-events: none; z-index: 1; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='.09'/%3E%3C/svg%3E"); background-size: 300px; }
+
+  /* ── Shimmer + glow on CTA ── */
+  .btn-green { overflow: hidden; position: relative; }
+  .btn-green::before { content: ''; position: absolute; top: 0; left: -120%; width: 55%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.32), transparent); transform: skewX(-18deg); pointer-events: none; }
+  .btn-green:hover::before { animation: btn-shimmer .7s ease forwards; }
+  @keyframes btn-shimmer { to { left: 180%; } }
+  /* ── Disable default hover transform — magnetic JS handles it ── */
+  .btn:hover { transform: none; }
+
+  /* ── 3D tilt card shine overlay ── */
+  .tilt-card { transform-style: preserve-3d; }
+  .tilt-shine { position: absolute; inset: 0; border-radius: inherit; background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(255,255,255,.14) 0%, transparent 55%); pointer-events: none; opacity: 0; transition: opacity .4s ease; z-index: 2; }
+  .tilt-card:hover .tilt-shine { opacity: 1; }
+
+  /* ── Gradient border glow on dark offer card ── */
+  .offer__card--dark { background: linear-gradient(var(--navy-dark), var(--navy-dark)) padding-box, linear-gradient(135deg, rgba(137,196,110,.4) 0%, transparent 45%, rgba(64,153,242,.3) 100%) border-box; border: 2px solid transparent; }
+
+  /* ── Smart E-Glass interactive demo ── */
+  .eglass-stage { position: relative; border-radius: 20px; overflow: hidden; aspect-ratio: 16/9.5; background: var(--navy-dark); border: 1.5px solid var(--gray); cursor: pointer; }
+  .eglass-stage img { width: 100%; height: 100%; object-fit: cover; display: block; transition: filter 1.4s ease; }
+  .eglass-overlay { position: absolute; inset: 0; background: rgba(160,205,249,0); backdrop-filter: blur(0px); transition: background 1.3s ease, backdrop-filter 1.5s ease; pointer-events: none; }
+  .eglass-stage.opaque img { filter: brightness(.48) saturate(.7); }
+  .eglass-stage.opaque .eglass-overlay { background: rgba(160,205,249,.24); backdrop-filter: blur(12px); }
+  .eglass-controls { position: absolute; bottom: 0; left: 0; right: 0; padding: 20px 24px; background: linear-gradient(transparent, rgba(13,30,69,.82)); display: flex; align-items: center; justify-content: space-between; z-index: 3; }
+  .eglass-badge { display: flex; align-items: center; gap: 9px; background: rgba(13,30,69,.85); color: var(--white); padding: 8px 16px; border-radius: 100px; font-size: 12px; font-weight: 600; backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,.12); }
+  .eglass-badge-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); animation: pulse 2.2s ease-in-out infinite; flex-shrink: 0; transition: background .4s ease; }
+  .eglass-stage.opaque .eglass-badge-dot { background: var(--sky-mid); animation: none; }
+  .eglass-btn { display: flex; align-items: center; gap: 9px; background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.25); border-radius: 100px; padding: 9px 20px; cursor: pointer; color: var(--white); font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; transition: all var(--t) var(--ease); backdrop-filter: blur(8px); }
+  .eglass-btn:hover { background: rgba(137,196,110,.2); border-color: var(--green); }
+  .eglass-btn-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--green); transition: background .4s ease; flex-shrink: 0; }
+  .eglass-stage.opaque .eglass-btn-dot { background: var(--sky); }
+  .eglass-hint { position: absolute; top: 20px; right: 20px; background: rgba(13,30,69,.75); color: rgba(255,255,255,.5); font-size: 11px; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 2px; text-transform: uppercase; padding: 5px 12px; border-radius: 6px; backdrop-filter: blur(8px); transition: opacity .6s ease; z-index: 3; }
+  .eglass-stage.opaque .eglass-hint { opacity: 0; }
+
+  /* ── Nav active underline ── */
+  .nav__links a { position: relative; }
+  .nav__links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--green); border-radius: 2px; transition: width var(--t) var(--ease); }
+  .nav__links a:hover::after, .nav__links a.active::after { width: 100%; }
+
+  /* overflow: hidden needed for sweep line removed — kept for layout */
+  .sec { overflow: hidden; }
+
+  /* ── Results E-Glass image pre-scale for parallax ── */
+  #eglassStage img { will-change: transform; }
+  </style>
+</head>
+<body>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="scroll-bar" id="scrollBar"></div>
+
+<!-- ════ NAV ════ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top">
+      <img class="nav__logo" src="Assets/horizontal white, without subheading.png" alt="ZenSpace Event Solutions"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+      <span class="nav__logo-text" style="display:none">ZenSpace</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#offer">Pods</a></li>
+      <li><a href="#offer">Software</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-green nav__cta">Get a Quote</a>
+    <button class="nav__burger" id="nav-burger" aria-label="Open menu">
+      <span class="nav__burger__bar"></span>
+      <span class="nav__burger__bar"></span>
+      <span class="nav__burger__bar"></span>
+    </button>
+  </div>
+</nav>
+<div class="nav__mobile" id="nav-mobile">
+  <a href="#offer">Pods</a>
+  <a href="#offer">Software</a>
+  <a href="#process">Process</a>
+  <a href="#results">Results</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-green">Get a Quote</a>
+</div>
+
+<main>
+
+<!-- ════ HERO ════ -->
+<section id="top" class="hero">
+  <video class="hero__video" autoplay muted loop playsinline preload="none">
+    <source src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/AI%20Videos/Hero%20Background%20v3.mp4" type="video/mp4">
+  </video>
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__orb1"></div>
+    <div class="hero__orb2"></div>
+    <div class="hero__grid-bg"></div>
+    <div class="hero__cursor-orb" id="heroOrb"></div>
+    <div class="hero__grain"></div>
+  </div>
+  <div class="wrap">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="hero__chip">
+          <div class="hero__chip__dot"></div>
+          250+ events delivered since 2017
+        </div>
+        <h1>The meeting pod<br><em>for the show floor.</em></h1>
+        <p class="hero__sub">
+          Smart, soundproof, <strong>UL-certified</strong> 4-seater pods for trade shows, conferences, and corporate events.
+          Full-service from delivery to data report. Your only requirement: <strong>a 5 Amp outlet per pod.</strong>
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn-green">Get a Quote</a>
+          <a href="#features" class="btn btn-outline">See the Pod
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="hero__proof">
+          <div class="hero__proof__item">
+            <div class="hero__proof__num">250<span>+</span></div>
+            <div class="hero__proof__lbl">Events Delivered</div>
+          </div>
+          <div class="hero__proof__item">
+            <div class="hero__proof__num">93<span>%</span></div>
+            <div class="hero__proof__lbl">Peak Utilization</div>
+          </div>
+          <div class="hero__proof__item">
+            <div class="hero__proof__num">8<span>+</span></div>
+            <div class="hero__proof__lbl">Years in Operation</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__img">
+          <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/4-seater%20vizualizations/front.png" alt="ZenSpace 4-seater meeting pod" style="width:100%;height:100%;object-fit:cover" loading="eager" fetchpriority="high" />
+        </div>
+        <div class="hero__split">
+          <div class="hero__split__side">
+            <div class="hero__split__lbl">Outside</div>
+            <div class="hero__split__txt">Crowded floors.<br>Constant noise.<br>Conversations that<br>never quite land.</div>
+          </div>
+          <div class="hero__split__door"><span>The Door</span></div>
+          <div class="hero__split__side hero__split__side--r">
+            <div class="hero__split__lbl">Inside</div>
+            <div class="hero__split__txt">Soundproof rooms.<br>Real conversations.<br>Qualified leads —<br>captured automatically.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ TICKER ════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span class="ticker__item">IMEX America 2025 · Las Vegas</span><span class="ticker__item">CES · Las Vegas</span><span class="ticker__item">IAEE Expo! Expo!</span><span class="ticker__item">Bitcoin 2024</span><span class="ticker__item">EA Sports FC · NYC</span><span class="ticker__item">WSWA Access Live</span><span class="ticker__item">IBM × Money 2020</span><span class="ticker__item">SISO 2026</span><span class="ticker__item">Toy Fair · Javits</span><span class="ticker__item">The Hospitality Show</span><span class="ticker__item">ILHA Inspire</span><span class="ticker__item">IAVM VenueConnect</span><span class="ticker__item">PCMA Convening Leaders</span><span class="ticker__item">MPI WEC</span><span class="ticker__item">IMEX America 2025 · Las Vegas</span><span class="ticker__item">CES · Las Vegas</span><span class="ticker__item">IAEE Expo! Expo!</span><span class="ticker__item">Bitcoin 2024</span><span class="ticker__item">EA Sports FC · NYC</span><span class="ticker__item">WSWA Access Live</span><span class="ticker__item">IBM × Money 2020</span><span class="ticker__item">SISO 2026</span><span class="ticker__item">Toy Fair · Javits</span><span class="ticker__item">The Hospitality Show</span><span class="ticker__item">ILHA Inspire</span><span class="ticker__item">IAVM VenueConnect</span><span class="ticker__item">PCMA Convening Leaders</span><span class="ticker__item">MPI WEC</span>
+  </div>
+</div>
+
+<!-- ════ TRUST ════ -->
+<section class="trust r">
+  <div class="wrap">
+    <div class="trust__rule">
+      <div class="trust__rule-line"></div>
+      <span class="trust__rule-label">Industry Associations</span>
+      <div class="trust__rule-line"></div>
+    </div>
+    <div class="trust__logos">
+      <span class="trust__logo">IAEE</span>
+      <span class="trust__logo">IMEX Group</span>
+      <span class="trust__logo">MPI</span>
+      <span class="trust__logo">SISO</span>
+      <span class="trust__logo">IAVM</span>
+      <span class="trust__logo">Questex</span>
+    </div>
+    <div class="trust__events">
+      <span class="trust__tag">IMEX America</span>
+      <span class="trust__tag">The Hospitality Show</span>
+      <span class="trust__tag">ILHA Inspire</span>
+      <span class="trust__tag">IAVM VenueConnect</span>
+      <span class="trust__tag">Expo! Expo!</span>
+      <span class="trust__tag">InfoComm</span>
+      <span class="trust__tag">CES</span>
+      <span class="trust__tag">MPI WEC</span>
+      <span class="trust__tag">PCMA Convening Leaders</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════ OFFER ════ -->
+<section id="offer" class="sec" style="background:var(--white)">
+  <div class="wrap">
+    <div class="offer__head r">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Two products.<br>One complete experience.</h2>
+    </div>
+    <div class="offer__grid">
+
+      <div class="offer__card offer__card--dark tilt-card r r1">
+        <div class="tilt-shine"></div>
+        <span class="offer__badge offer__badge--dark">Core Product</span>
+        <h3>Smart Meeting Pods</h3>
+        <p class="body-copy" style="color:rgba(255,255,255,.6)">Fully enclosed, soundproof, UL-certified 4-seater pods built for the trade show floor. Deploy one unit or a fleet of 30+.</p>
+        <ul class="offer__features">
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Smart E-Glass — transparent to opaque in 1 second</li>
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>AI Remote Monitoring with occupancy and safety alerts</li>
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Dedicated WiFi + Airtame screen sharing + USB-C hub</li>
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Soundproof acoustic walls and industry-grade floor system</li>
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Full branding surfaces — wraps + dynamic digital screens</li>
+          <li class="offer__feature"><span class="offer__check offer__check--dark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Only requirement: one 5 Amp outlet per pod</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Request Pricing</a>
+        <div class="offer__img">
+          <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/4-seater%20vizualizations/A%20large%204-person%20meeting%20pod%20boo%20758825%20VfF.png" alt="ZenSpace 4-person meeting pod at a trade show" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="offer__card offer__card--light tilt-card r r2">
+        <div class="tilt-shine"></div>
+        <span class="offer__badge offer__badge--light">Add-on</span>
+        <h3>Booking Software</h3>
+        <p class="body-copy">Standalone or paired with pods. Intelligent scheduling that works for organizers, exhibitors, and sponsors.</p>
+        <ul class="offer__features">
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>QR self-serve check-in — no attendant needed</li>
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>10" on-site display per pod with live availability</li>
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Hourly slots — free or paid for sponsor monetization</li>
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Real-time utilization dashboard for organizers</li>
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Post-event lead reports with full meeting data</li>
+          <li class="offer__feature"><span class="offer__check offer__check--light"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#1c3f92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Admin controls and live event management panel</li>
+        </ul>
+        <a href="#contact" class="btn btn-navy">Explore the Software</a>
+        <div class="offer__img">
+          <img src="Assets/booking-software.avif" alt="ZenSpace booking software on tablet and mobile — showing pod availability, QR check-in, and live scheduling" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;border-radius:10px;background:#0d1e45" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════ POD LINEUP ════ -->
+<section class="sec pod-lineup" id="pods">
+  <div class="wrap">
+    <div class="pod-lineup__head r">
+      <span class="eyebrow">Our Pods</span>
+      <h2>A pod for every<br>event configuration.</h2>
+      <p class="body-copy" style="margin-top:16px">From flagship 4-seater SmartPods to ADA-compliant and premium Aura Gather formats — the right pod for every floor layout and event size.</p>
+    </div>
+    <div class="pod-tabs">
+      <button class="pod-tab pod-tab--active" onclick="switchPod('4s', this)">4-Seater <span class="pod-tab__star">★</span> Flagship</button>
+      <button class="pod-tab" onclick="switchPod('6s', this)">6-Seater Conference</button>
+      <button class="pod-tab" onclick="switchPod('ada', this)">ADA Element</button>
+      <button class="pod-tab" onclick="switchPod('aura', this)">Aura Gather</button>
+    </div>
+
+    <!-- 4-Seater SmartPod -->
+    <div id="pod-4s" class="pod-panel pod-panel--active">
+      <div class="pod-panel__info">
+        <div class="pod-chip">4 People · Flagship</div>
+        <h3>4-Seater SmartPod</h3>
+        <p>The flagship. 15+ smart features including Smart E-Glass, AI occupancy monitoring, Airtame wireless sharing, and self-serve QR booking. UL-certified and ready for any floor.</p>
+        <ul class="pod-specs">
+          <li><span>Capacity</span><strong>4 people</strong></li>
+          <li><span>Soundproofing</span><strong>−29 dB</strong></li>
+          <li><span>Smart E-Glass</span><strong>Transparent → opaque in &lt;1s</strong></li>
+          <li><span>Booking</span><strong>QR self-serve + 10" on-site display</strong></li>
+          <li><span>Connectivity</span><strong>Dedicated WiFi + Airtame</strong></li>
+          <li><span>Power required</span><strong>1 × 5 Amp outlet</strong></li>
+        </ul>
+        <a href="#contact" class="btn btn-green">Get a Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="pod-panel__img">
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/4-seater%20vizualizations/front.png" alt="ZenSpace 4-Seater SmartPod — flagship" loading="lazy">
+      </div>
+    </div>
+
+    <!-- 6-Seater Conference Pod -->
+    <div id="pod-6s" class="pod-panel">
+      <div class="pod-panel__info">
+        <div class="pod-chip">6 People</div>
+        <h3>6-Seater Conference Pod</h3>
+        <p>Turns event space into a private room for sponsor briefings, press interviews, VIP conversations, and team strategy sessions.</p>
+        <ul class="pod-specs">
+          <li><span>Capacity</span><strong>6 people</strong></li>
+          <li><span>Dimensions</span><strong>85"W × 84.5"D × 87.5"H</strong></li>
+          <li><span>Weight</span><strong>2,000 lbs</strong></li>
+          <li><span>Display</span><strong>32" monitor, USB-C / HDMI</strong></li>
+          <li><span>Furniture</span><strong>Table, 2 benches</strong></li>
+          <li><span>Setup</span><strong>Plug & play, fully assembled</strong></li>
+        </ul>
+        <a href="#contact" class="btn btn-navy">Get a Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="pod-panel__img">
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/Examples%20in%20conv%20centers/Artboard%201.png" alt="ZenSpace 6-Seater Conference Pod on event floor" loading="lazy">
+      </div>
+    </div>
+
+    <!-- ADA Element Pod -->
+    <div id="pod-ada" class="pod-panel">
+      <div class="pod-panel__info">
+        <div class="pod-chip">4 People · ADA Compliant</div>
+        <h3>ADA Element Pod</h3>
+        <p>Fully accessible and soundproof — built to welcome every attendee regardless of mobility needs. 37" motorized door, 70% openable roof, UL-certified.</p>
+        <ul class="pod-specs">
+          <li><span>Capacity</span><strong>4 people</strong></li>
+          <li><span>Dimensions</span><strong>88"W × 64"D × 83"H</strong></li>
+          <li><span>Door</span><strong>37" wide, motorized</strong></li>
+          <li><span>Roof</span><strong>70% openable</strong></li>
+          <li><span>Weight</span><strong>750 lbs</strong></li>
+          <li><span>Certified</span><strong>ADA / ADAAG + UL</strong></li>
+        </ul>
+        <a href="#contact" class="btn btn-navy">Get a Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="pod-panel__img">
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/IMEX%202025/13-skyline-imex-2025-1480.jpg" alt="ZenSpace ADA Element Pod — accessible meeting space" loading="lazy">
+      </div>
+    </div>
+
+    <!-- Aura Gather Pod -->
+    <div id="pod-aura" class="pod-panel">
+      <div class="pod-panel__info">
+        <div class="pod-chip">Up to 6 People · Premium</div>
+        <h3>Aura Gather Pod</h3>
+        <p>A design-forward gathering space for high-stakes sponsor meetings, executive roundtables, and VIP activations. Nearly 73 sq ft of acoustic privacy.</p>
+        <ul class="pod-specs">
+          <li><span>Capacity</span><strong>Up to 6 people</strong></li>
+          <li><span>Interior space</span><strong>Nearly 73 sq ft</strong></li>
+          <li><span>Dimensions</span><strong>102.6"W × 102.4"D × 91.6"H</strong></li>
+          <li><span>Soundproofing</span><strong>29 dB reduction</strong></li>
+          <li><span>Lighting</span><strong>OSRAM 3000K–6000K adjustable</strong></li>
+          <li><span>Weight</span><strong>1,728 lbs</strong></li>
+        </ul>
+        <a href="#contact" class="btn btn-navy">Get a Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="pod-panel__img">
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/4-seater%20vizualizations/A%20large%204-person%20meeting%20pod%20boo%20758825%20VfF.png" alt="ZenSpace Aura Gather Pod — premium large-format meeting space" loading="lazy">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════ PERSONAS ════ -->
+<section id="who" class="sec" style="background:var(--off)">
+  <div class="wrap">
+    <div class="personas__head r">
+      <span class="eyebrow">Built For</span>
+      <h2>Three kinds of people need ZenSpace.</h2>
+    </div>
+    <div class="personas__grid">
+      <div class="persona r r1">
+        <div class="persona__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.6" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <span class="persona__role">Organizers &amp; Planners</span>
+        <h3>Event Runners</h3>
+        <p class="body-copy">You control the event itself. You need private meeting space at scale — without adding headcount or operational complexity.</p>
+        <div class="persona__need"><strong>Need:</strong> Private meeting space for hundreds of attendees without adding headcount.</div>
+      </div>
+      <div class="persona r r2">
+        <div class="persona__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.6" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="persona__role">Exhibitors &amp; Sponsors</span>
+        <h3>Floor Participants</h3>
+        <p class="body-copy">You compete for attention on the floor. You need a space that converts foot traffic into qualified, private meetings — and stands out doing it.</p>
+        <div class="persona__need"><strong>Need:</strong> Stand out and convert floor traffic into private, qualified meetings.</div>
+      </div>
+      <div class="persona r r3">
+        <div class="persona__icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.6" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        </div>
+        <span class="persona__role">GSCs, Designers &amp; Agencies</span>
+        <h3>Industry Partners</h3>
+        <p class="body-copy">You spec and procure for clients. You need a reliable, turnkey pod you can confidently include in proposals — with full support behind it.</p>
+        <div class="persona__need"><strong>Need:</strong> A pod reliable enough to spec and recommend to clients without hesitation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ PROCESS ════ -->
+<section id="process" class="sec" style="background:var(--navy-dark)">
+  <div class="wrap">
+    <div class="process__head r">
+      <span class="eyebrow eyebrow--light">Our Process</span>
+      <h2>Full-service, start to finish.</h2>
+      <p>You provide power. We handle everything else.</p>
+    </div>
+    <div class="process__grid r">
+      <div>
+        <div class="process__col-lbl">Before the Event</div>
+        <div class="process__step">
+          <div class="process__num">01</div>
+          <div><h4>Event Alignment &amp; Onboarding</h4><p>We learn your event, goals, floorplan, and timeline before anything else.</p></div>
+        </div>
+        <div class="process__step">
+          <div class="process__num">02</div>
+          <div><h4>Design &amp; Booking Setup Approval</h4><p>Pod wraps, digital screens, and booking flow — all approved by you before arrival.</p></div>
+        </div>
+        <div class="process__step">
+          <div class="process__num">03</div>
+          <div><h4>Logistics &amp; On-Site Installation</h4><p>We deliver, assemble, and test. Show-ready before doors open.</p></div>
+        </div>
+      </div>
+      <div class="process__arrow" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+      <div>
+        <div class="process__col-lbl">During &amp; After</div>
+        <div class="process__step">
+          <div class="process__num">04</div>
+          <div><h4>Live Support + Real-Time Dashboard</h4><p>On-site team and live monitoring throughout. You stay in control.</p></div>
+        </div>
+        <div class="process__step">
+          <div class="process__num">05</div>
+          <div><h4>Removal + Full Utilization Report</h4><p>We handle post-event removal and deliver a complete data report.</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="process__cta r">
+      <p>Ready to talk through your event? We respond within 2 business hours.</p>
+      <a href="#contact" class="btn btn-green">Start the Conversation
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CTA BAND ════ -->
+<section class="sec--sm" style="background:var(--off)">
+  <div class="wrap">
+    <div class="cta-band r">
+      <span class="eyebrow">Refined by experience</span>
+      <h2>Pods that quietly do the work<br>while you run the show.</h2>
+      <p>Real conversations, not just brochures. Real numbers, not vague claims. Real pods, delivered on time — at 250+ events and counting.</p>
+      <div class="cta-band__btns">
+        <a href="#contact" class="btn btn-green">Get a Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#results" class="btn btn-ghost">See the Numbers</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ STATS ════ -->
+<section class="sec" style="background:var(--navy)">
+  <div class="wrap">
+    <div class="stats__head r">
+      <span class="eyebrow eyebrow--light">Why ZenSpace</span>
+      <h2>Refined by experience.</h2>
+      <p>Eight years on the floor. Every number is real.</p>
+    </div>
+    <div class="stats__grid">
+      <div class="stats__card r r1" data-target="250">
+        <div class="stats__num"><span class="count">0</span><span class="suf">+</span></div>
+        <div class="stats__lbl">Events Delivered</div>
+      </div>
+      <div class="stats__card r r2" data-target="93">
+        <div class="stats__num"><span class="count">0</span><span class="suf">%</span></div>
+        <div class="stats__lbl">Peak Utilization at IMEX</div>
+      </div>
+      <div class="stats__card r r3" data-target="600">
+        <div class="stats__num"><span class="count">0</span><span class="suf">+</span></div>
+        <div class="stats__lbl">Registered Users at Single Event</div>
+      </div>
+      <div class="stats__card r r4" data-target="5">
+        <div class="stats__num"><span class="count">0</span><span class="suf">A</span></div>
+        <div class="stats__lbl">Only Power Requirement</div>
+      </div>
+    </div>
+    <div class="stats__proof">
+      <div class="stats__proof__item r r1">
+        <strong>$40K+</strong>
+        <span>Organizer revenue from 5 pods over 3 days</span>
+      </div>
+      <div class="stats__proof__item r r2">
+        <strong>Up to 12×</strong>
+        <span>Sponsor impact vs. standard booth space</span>
+      </div>
+      <div class="stats__proof__item r r3">
+        <strong>49%</strong>
+        <span>Attendees who need a quiet meeting space</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FEATURES ════ -->
+<section id="features" class="sec" style="background:var(--white)">
+  <div class="wrap">
+    <div class="features__head r" style="text-align:center; max-width:680px; margin:0 auto 56px">
+      <span class="eyebrow">Smart Pod Features</span>
+      <h2>15+ features.<br>One 5 Amp outlet.</h2>
+      <p class="body-copy" style="margin-top:16px">Every ZenSpace pod is a fully equipped, UL-certified smart workspace. Plug it in. That's your only job.</p>
+    </div>
+    <div class="feat-tiles">
+      <div class="feat-tile feat-tile--navy r r1">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="1.5" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 01</div>
+          <h3>Smart E-Glass</h3>
+          <p>Electrochromic glass goes from transparent to opaque in under 1 second. Privacy on demand.</p>
+        </div>
+      </div>
+      <div class="feat-tile feat-tile--sky r r2">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy-dark)" stroke-width="1.5" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 02</div>
+          <h3>AI Remote Monitoring</h3>
+          <p>Real-time alerts for occupancy, open doors, loitering, and lost items. Always-on visibility.</p>
+        </div>
+      </div>
+      <div class="feat-tile feat-tile--mint r r3">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy-dark)" stroke-width="1.5" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 03</div>
+          <h3>Dedicated Connectivity</h3>
+          <p>Dedicated WiFi per pod, Airtame wireless screen sharing, and USB-C hub. Every meeting, fully equipped.</p>
+        </div>
+      </div>
+      <div class="feat-tile feat-tile--off r r1">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 04</div>
+          <h3>Soundproof Acoustic Walls</h3>
+          <p>Industry-grade acoustic panels and floor system. Genuinely private on a live show floor.</p>
+        </div>
+      </div>
+      <div class="feat-tile feat-tile--deep r r2">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 05</div>
+          <h3>Booking Software</h3>
+          <p>QR self-serve, 10" displays, hourly slots, live dashboards, and post-event lead reports. Built in.</p>
+        </div>
+      </div>
+      <div class="feat-tile feat-tile--ink r r3">
+        <div class="feat-tile__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg></div>
+        <div>
+          <div class="feat-tile__num">Feature 06</div>
+          <h3>Full Branding Surfaces</h3>
+          <p>Exterior wraps plus dynamic digital screens — updateable mid-event. Your brand, front and center.</p>
+        </div>
+      </div>
+    </div>
+    <div class="features__cert r" style="margin-top:8px">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <span><strong>UL-Certified</strong> · Industry-grade safety and compliance on every pod</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════ RESULTS ════ -->
+<section id="results" class="sec" style="background:var(--off)">
+  <div class="wrap">
+    <div class="results__head r">
+      <span class="eyebrow">Real Events. Real Results.</span>
+      <h2>The numbers speak for themselves.</h2>
+      <p class="body-copy">Every metric is from a live deployment. No projections. No estimates.</p>
+    </div>
+    <div class="eglass-stage r" id="eglassStage" style="margin-bottom:56px; aspect-ratio:16/7; border-radius:20px;">
+      <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/IMEX%202025/13-skyline-imex-2025-1480.jpg" alt="ZenSpace pod at IMEX 2025 — Smart E-Glass demonstration" loading="lazy" style="object-position: center 30%;" />
+      <div class="eglass-overlay"></div>
+      <div class="eglass-hint">CLICK TO DEMO</div>
+      <div class="eglass-controls">
+        <div class="eglass-badge" id="eglasBadge">
+          <div class="eglass-badge-dot"></div>
+          <span>E-Glass — Active</span>
+        </div>
+        <button class="eglass-btn" id="eglassBtn" type="button">
+          <div class="eglass-btn-dot"></div>
+          <span>Make Opaque</span>
+        </button>
+      </div>
+    </div>
+    <div class="results__grid">
+      <div class="result r r1">
+        <span class="result__event">IMEX</span>
+        <div class="result__stat">600+ <span class="result__unit">Registered Users</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>93% peak utilization</div>
+      </div>
+      <div class="result r r2">
+        <span class="result__event">The Hospitality Show</span>
+        <div class="result__stat">120+ <span class="result__unit">Meetings Booked</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>In 1.5 days</div>
+      </div>
+      <div class="result r r3">
+        <span class="result__event">IAVM VenueConnect</span>
+        <div class="result__stat">200+ <span class="result__unit">Users</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>92% utilization · 6 pods</div>
+      </div>
+      <div class="result r r1">
+        <span class="result__event">Expo! Expo!</span>
+        <div class="result__stat">110+ <span class="result__unit">Meetings Booked</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Full event run</div>
+      </div>
+      <div class="result r r2">
+        <span class="result__event">ILHA Inspire</span>
+        <div class="result__stat">55+ <span class="result__unit">Meetings Booked</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>1.5-day boutique event</div>
+      </div>
+      <div class="result r r3">
+        <span class="result__event">250+ Events</span>
+        <div class="result__stat">8+ <span class="result__unit">Years of Data</span></div>
+        <div class="result__meta"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>Refined by experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ BRANDING ════ -->
+<section class="sec" style="background:var(--navy-dark)">
+  <div class="wrap">
+    <div class="branding__inner">
+      <div class="r">
+        <span class="eyebrow eyebrow--light">Branding as Value</span>
+        <h2 style="color:var(--white)">Your brand on the most-visited space on the floor.</h2>
+        <p style="color:rgba(255,255,255,.55);font-size:16px;line-height:1.75;margin-top:16px">
+          ZenSpace pods aren't just private meeting spaces — they're premium branded assets. Turn the pod into a sponsorship vehicle with exterior wraps, dynamic digital screens, and real-time content control.
+        </p>
+        <ul class="branding__pts">
+          <li class="branding__pt"><div class="branding__pt__ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Full exterior wraps with high-resolution print production</li>
+          <li class="branding__pt"><div class="branding__pt__ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Dynamic digital screens updateable mid-event</li>
+          <li class="branding__pt"><div class="branding__pt__ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>QR codes link attendees directly to your content</li>
+          <li class="branding__pt"><div class="branding__pt__ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#89c46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Lead capture data delivered in your post-event report</li>
+        </ul>
+        <a href="#contact" class="btn btn-green">Explore Sponsorship Options
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="branding__imgs r r2">
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/Pods%20%2B%20brand%20placeholder/4%20seater%20event%20side%20wall.png" alt="ZenSpace 4-seater pod with full exterior branding wrap"  loading="lazy" />
+        <img src="https://c0byxk4ww7nzjn7j.public.blob.vercel-storage.com/zenspace-assets/Gallery/Pods%20%2B%20brand%20placeholder/side%20wall%20%2B%20stickers.png" alt="ZenSpace pod exterior with sponsor stickers and QR code"  loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CONTACT ════ -->
+<section id="contact" class="sec" style="background:var(--white)">
+  <div class="wrap">
+    <div class="contact__layout">
+      <div class="contact__sidebar r">
+        <span class="eyebrow">Get in Touch</span>
+        <h2>Real conversations, not just brochures.</h2>
+        <p class="body-copy">Tell us about your event and we'll respond within 2 business hours.</p>
+        <ul class="contact__reasons">
+          <li class="contact__reason" data-value="I have an upcoming event I could use pods for"><div class="contact__reason__dot"></div>I have an upcoming event I could use pods for</li>
+          <li class="contact__reason" data-value="I want to explore this as a sponsorship asset"><div class="contact__reason__dot"></div>I want to explore this as a sponsorship asset</li>
+          <li class="contact__reason" data-value="I'd like to discuss pricing or a custom proposal"><div class="contact__reason__dot"></div>I'd like to discuss pricing or a custom proposal</li>
+          <li class="contact__reason" data-value="I have a unique activation idea to discuss"><div class="contact__reason__dot"></div>I have a unique activation idea to discuss</li>
+          <li class="contact__reason" data-value="I'm a GSC / exhibit designer exploring options"><div class="contact__reason__dot"></div>I'm a GSC / exhibit designer exploring options</li>
+          <li class="contact__reason" data-value="Just exploring — keep me in the loop"><div class="contact__reason__dot"></div>Just exploring — keep me in the loop</li>
+        </ul>
+      </div>
+      <div class="r r1">
+        <div class="contact__form">
+          <h3>Tell us about your event</h3>
+          <form action="mailto:hello@zenspaceevents.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="fg"><label for="first-name">First Name</label><input id="first-name" type="text" placeholder="Jane" /></div>
+            <div class="fg"><label for="last-name">Last Name</label><input id="last-name" type="text" placeholder="Smith" /></div>
+          </div>
+          <div class="fg"><label for="email">Work Email</label><input id="email" type="email" placeholder="jane@company.com" /></div>
+          <div class="fg"><label for="company">Company / Organization</label><input id="company" type="text" placeholder="Your organization" /></div>
+          <div class="fg">
+            <label for="reason-select">I'm reaching out because...</label>
+            <select id="reason-select">
+              <option value="">Select a reason</option>
+              <option value="I have an upcoming event I could use pods for">I have an upcoming event I could use pods for</option>
+              <option value="I want to explore this as a sponsorship asset">I want to explore this as a sponsorship asset</option>
+              <option value="I'd like to discuss pricing or a custom proposal">I'd like to discuss pricing or a custom proposal</option>
+              <option value="I have a unique activation idea to discuss">I have a unique activation idea to discuss</option>
+              <option value="I'm a GSC / exhibit designer exploring options">I'm a GSC / exhibit designer exploring options</option>
+              <option value="Just exploring — keep me in the loop">Just exploring — keep me in the loop</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" placeholder="Event name, dates, venue, number of pods you have in mind..."></textarea>
+          </div>
+          <button class="btn btn-green form-submit" type="submit">Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <p class="form-note">We respond within 2 business hours · hello@zenspaceevents.com</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ════ FOOTER ════ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <img class="footer__logo" src="Assets/horizontal white, without subheading.png" alt="ZenSpace Event Solutions"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+        <span style="display:none;color:var(--white);font-weight:700;font-size:18px;margin-bottom:18px">ZenSpace</span>
+        <p class="footer__tagline">On-Demand Workspace. Anytime. Anyplace.</p>
+        <div class="footer__contact">
+          <a href="mailto:hello@zenspaceevents.com">hello@zenspaceevents.com</a>
+          <span>Response within 2 business hours</span>
+        </div>
+      </div>
+      <div>
+        <div class="footer__col-title">Product</div>
+        <ul class="footer__links">
+          <li><a href="#offer">Meeting Pods</a></li>
+          <li><a href="#offer">Booking Software</a></li>
+          <li><a href="#features">Smart Features</a></li>
+          <li><a href="#results">Results</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Company</div>
+        <ul class="footer__links">
+          <li><a href="#who">Who We Serve</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#contact">Get a Quote</a></li>
+          <li><a href="mailto:hello@zenspaceevents.com">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 ZenSpace Event Solutions. All rights reserved.</p>
+      <div class="footer__assoc">
+        <span>IAEE</span><span>IMEX</span><span>MPI</span><span>SISO</span><span>IAVM</span><span>Questex</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ── Scroll reveal ── */
+const revealObs = new IntersectionObserver(
+  entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }),
+  { threshold: 0.1, rootMargin: '0px 0px -48px 0px' }
+);
+document.querySelectorAll('.r').forEach(el => revealObs.observe(el));
+
+/* ── Nav ref (scroll handled in consolidated listener below) ── */
+const nav = document.getElementById('nav');
+
+/* ── Mobile nav ── */
+const burger = document.getElementById('nav-burger');
+const mobileNav = document.getElementById('nav-mobile');
+burger.addEventListener('click', () => {
+  const open = burger.classList.toggle('open');
+  mobileNav.classList.toggle('open', open);
+  burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+});
+document.querySelectorAll('#nav-mobile a').forEach(a => {
+  a.addEventListener('click', () => {
+    burger.classList.remove('open');
+    mobileNav.classList.remove('open');
+    burger.setAttribute('aria-label', 'Open menu');
+  });
+});
+
+/* ── Animated counters ── */
+function animateCounter(card) {
+  const target = parseInt(card.dataset.target, 10);
+  const countEl = card.querySelector('.count');
+  let fired = false;
+  const obs = new IntersectionObserver(([entry]) => {
+    if (!entry.isIntersecting || fired) return;
+    fired = true;
+    obs.disconnect();
+    const start = performance.now();
+    const duration = 1600;
+    function tick(now) {
+      const p = Math.min((now - start) / duration, 1);
+      countEl.textContent = Math.round((1 - Math.pow(1 - p, 3)) * target);
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }, { threshold: 0.5 });
+  obs.observe(card);
+}
+document.querySelectorAll('.stats__card[data-target]').forEach(animateCounter);
+
+/* ── Pod lineup switcher ── */
+function switchPod(id, tabEl) {
+  document.querySelectorAll('.pod-panel').forEach(p => p.classList.remove('pod-panel--active'));
+  document.querySelectorAll('.pod-tab').forEach(t => t.classList.remove('pod-tab--active'));
+  document.getElementById('pod-' + id).classList.add('pod-panel--active');
+  tabEl.classList.add('pod-tab--active');
+}
+
+/* ── Contact reason sync ── */
+const reasons = document.querySelectorAll('.contact__reason');
+const reasonSelect = document.getElementById('reason-select');
+reasons.forEach(r => {
+  r.addEventListener('click', () => {
+    reasons.forEach(x => x.classList.remove('sel'));
+    r.classList.add('sel');
+    reasonSelect.value = r.dataset.value;
+  });
+});
+reasonSelect.addEventListener('change', () => {
+  const val = reasonSelect.value;
+  reasons.forEach(r => r.classList.toggle('sel', r.dataset.value === val));
+});
+
+/* ═══════════════════════════════════════
+   PREMIUM INTERACTION LAYER
+═══════════════════════════════════════ */
+
+/* ── Custom cursor ── */
+(function(){
+  const dot = document.getElementById('cursorDot');
+  const ring = document.getElementById('cursorRing');
+  if (!dot || !ring || window.matchMedia('(hover:none)').matches) return;
+  let mx=0, my=0, rx=0, ry=0;
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.transform = `translate(calc(${mx}px - 50%), calc(${my}px - 50%))`;
+  });
+  (function tick(){
+    rx += (mx-rx)*0.12; ry += (my-ry)*0.12;
+    ring.style.transform = `translate(calc(${rx}px - 50%), calc(${ry}px - 50%))`;
+    requestAnimationFrame(tick);
+  })();
+  document.querySelectorAll('a:not(.btn), .pod-tab, .contact__reason, .trust__tag, .trust__logo, .eglass-stage').forEach(el => {
+    el.addEventListener('mouseenter', () => document.body.classList.add('cur-link'));
+    el.addEventListener('mouseleave', () => document.body.classList.remove('cur-link'));
+  });
+  document.querySelectorAll('.btn').forEach(el => {
+    el.addEventListener('mouseenter', () => { document.body.classList.remove('cur-link'); document.body.classList.add('cur-btn'); });
+    el.addEventListener('mouseleave', () => document.body.classList.remove('cur-btn'));
+  });
+})();
+
+/* ── Consolidated rAF-throttled scroll handler ── */
+(function(){
+  const bar      = document.getElementById('scrollBar');
+  const track    = document.querySelector('.ticker__track');
+  const eStage   = document.getElementById('eglassStage');
+  const eImg     = eStage ? eStage.querySelector('img') : null;
+  let ticking    = false;
+  let lastScrollY = 0;
+
+  function onScroll() {
+    const sy = window.scrollY;
+    // Nav stuck
+    nav.classList.toggle('stuck', sy > 30);
+    // Progress bar
+    if (bar) {
+      const total = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.transform = `scaleX(${total > 0 ? sy / total : 0})`;
+    }
+    // Ticker speed
+    if (track) {
+      const spd = Math.abs(sy - lastScrollY);
+      track.style.animationDuration = Math.max(10, 32 - spd * 0.5) + 's';
+    }
+    // E-Glass parallax
+    if (eImg) {
+      const r     = eStage.getBoundingClientRect();
+      const shift = Math.max(-16, Math.min(16, (r.top + r.height / 2 - window.innerHeight / 2) * 0.09));
+      eImg.style.transform = `scale(1.06) translateY(${shift}px)`;
+    }
+    lastScrollY = sy;
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(onScroll); ticking = true; }
+  }, { passive: true });
+})();
+
+/* ── Hero cursor-tracking orb ── */
+(function(){
+  const hero = document.getElementById('top');
+  const orb  = document.getElementById('heroOrb');
+  if (!hero || !orb) return;
+  hero.addEventListener('mousemove', e => {
+    const r = hero.getBoundingClientRect();
+    orb.style.left = (e.clientX - r.left) + 'px';
+    orb.style.top  = (e.clientY - r.top)  + 'px';
+  });
+})();
+
+/* ── 3D tilt cards ── */
+(function(){
+  document.querySelectorAll('.tilt-card').forEach(card => {
+    const shine = card.querySelector('.tilt-shine');
+    card.addEventListener('mousemove', e => {
+      const r  = card.getBoundingClientRect();
+      const dx = (e.clientX - r.left - r.width/2)  / (r.width/2);
+      const dy = (e.clientY - r.top  - r.height/2) / (r.height/2);
+      card.style.transition = 'transform .08s linear';
+      card.style.transform  = `perspective(1000px) rotateY(${dx*7}deg) rotateX(${-dy*7}deg) scale3d(1.025,1.025,1.025)`;
+      if (shine) {
+        shine.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+        shine.style.setProperty('--my', ((e.clientY - r.top)  / r.height* 100).toFixed(1) + '%');
+      }
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transition = 'transform .55s var(--ease)';
+      card.style.transform  = '';
+    });
+  });
+})();
+
+/* ── Magnetic buttons ── */
+(function(){
+  if (window.matchMedia('(hover:none)').matches) return;
+  document.querySelectorAll('.btn').forEach(btn => {
+    btn.addEventListener('mousemove', e => {
+      const r  = btn.getBoundingClientRect();
+      const dx = e.clientX - (r.left + r.width/2);
+      const dy = e.clientY - (r.top  + r.height/2);
+      btn.style.transition = 'transform .08s linear, box-shadow var(--t) var(--ease)';
+      btn.style.transform  = `translate(${dx*.28}px,${dy*.28}px)`;
+    });
+    btn.addEventListener('mouseleave', () => {
+      btn.style.transition = 'transform .55s var(--ease), box-shadow var(--t) var(--ease)';
+      btn.style.transform  = '';
+    });
+  });
+})();
+
+/* ── Nav active section highlight ── */
+(function(){
+  const links   = document.querySelectorAll('.nav__links a');
+  const linkMap = {};
+  links.forEach(l => { const h = l.getAttribute('href'); if (h) linkMap[h.replace('#','')] = l; });
+  const sectionFallback = { pods: 'offer', who: 'offer' };
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      links.forEach(l => l.classList.remove('active'));
+      const id   = e.target.id;
+      const key  = sectionFallback[id] || id;
+      if (linkMap[key]) linkMap[key].classList.add('active');
+    });
+  }, { threshold: 0.45 });
+  ['top','offer','pods','who','process','features','results','contact'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+})();
+
+
+/* ── Smart E-Glass interactive demo ── */
+(function(){
+  const stage = document.getElementById('eglassStage');
+  const btn   = document.getElementById('eglassBtn');
+  const badge = document.getElementById('eglasBadge');
+  if (!stage) return;
+  let opaque = false;
+  function toggle() {
+    opaque = !opaque;
+    stage.classList.toggle('opaque', opaque);
+    if (btn)   btn.querySelector('span:last-child').textContent   = opaque ? 'Make Transparent' : 'Make Opaque';
+    if (badge) badge.querySelector('span:last-child').textContent = opaque ? 'E-Glass — Opaque'  : 'E-Glass — Active';
+  }
+  stage.addEventListener('click', toggle);
+  if (btn) btn.addEventListener('click', e => { e.stopPropagation(); toggle(); });
+  /* Auto-demo when section scrolls into view */
+  let autoDone = false;
+  const autoObs = new IntersectionObserver(([e]) => {
+    if (e.isIntersecting && !autoDone) {
+      autoDone = true;
+      setTimeout(() => { if (!opaque) toggle(); }, 2400);
+      setTimeout(() => { if  (opaque) toggle(); }, 5200);
+      autoObs.disconnect();
+    }
+  }, { threshold: 0.5 });
+  autoObs.observe(stage);
+})();
+
+</script>
+
+</body>
+</html>
